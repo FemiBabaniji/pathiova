@@ -1,180 +1,193 @@
-"use client";
+'use client'
 
-import React, { useState, useMemo, useCallback, useEffect } from "react";
-import axios from "axios";
-import { ChevronLeft, ChevronRight, X, CheckCircle, RefreshCw, Loader2, Zap } from "lucide-react";
-import Link from "next/link";
-import { useScore } from "@/app/context/ScoreContext"; // Use score context
+import React, { useState, useMemo, useCallback, useEffect } from "react"
+import axios from "axios"
+import { CheckCircle, RefreshCw, Loader2 } from "lucide-react"
+import { useScore } from "@/app/context/ScoreContext"
+import { v4 as uuidv4 } from 'uuid'
 
-import Feedback from "@/components/Feedback";
-import TextArea from "@/components/TextArea";
-import TestResults from "@/components/test-results";
-import LoadingSpinner from "@/components/LoadingSpinner";
+import Feedback from "@/components/Feedback"
+import TextArea from "@/components/TextArea"
+import TestResults from "@/components/test-results"
+import LoadingSpinner from "@/components/LoadingSpinner"
+import IELTSWritingTestIntro from "@/components/IELTS-writing-test-intro"
+import QuizNavigation from "@/components/QuizNavigation"
 
-// Extract testId from params in the dynamic route
 export default function MCQWritingTaskUN({ params }: { params: { testId: string } }) {
-  const { testId } = params; // Extract testId from params
-  const { updateScore, getScore } = useScore(); // Use score context
+  const { testId } = params
+  const { updateScore, getScore } = useScore()
 
-  const [questions, setQuestions] = useState([]);
-  const [questionIndex, setQuestionIndex] = useState(0);
-  const [answer, setAnswer] = useState("");
-  const [answers, setAnswers] = useState<string[]>([]);
-  const [feedbacks, setFeedbacks] = useState<any[]>([]);
-  const [retryModes, setRetryModes] = useState<boolean[]>([]);
-  const [loading, setLoading] = useState(false);
-  const [feedbackLoading, setFeedbackLoading] = useState(false);
-  const [feedbackData, setFeedbackData] = useState(null);
-  const [showFeedback, setShowFeedback] = useState(false);
-  const [isRetryMode, setIsRetryMode] = useState(false);
-  const [showResults, setShowResults] = useState(false);
-  const [questionsLoading, setQuestionsLoading] = useState(true);
+  const [showIntro, setShowIntro] = useState(true)
+  const [questions, setQuestions] = useState([])
+  const [questionIndex, setQuestionIndex] = useState(0)
+  const [answer, setAnswer] = useState("")
+  const [answers, setAnswers] = useState<string[]>([])
+  const [feedbacks, setFeedbacks] = useState<any[]>([])
+  const [retryModes, setRetryModes] = useState<boolean[]>([])
+  const [loading, setLoading] = useState(false)
+  const [feedbackLoading, setFeedbackLoading] = useState(false)
+  const [feedbackData, setFeedbackData] = useState(null)
+  const [showFeedback, setShowFeedback] = useState(false)
+  const [isRetryMode, setIsRetryMode] = useState(false)
+  const [showResults, setShowResults] = useState(false)
+  const [questionsLoading, setQuestionsLoading] = useState(true)
+  const [attemptId, setAttemptId] = useState(uuidv4())
 
-  // Debugging: Log testId to ensure it's captured correctly
-  console.log("TestId in MCQWritingTaskUN:", testId);
-
-  // Function to handle receiving the average score
   const handleReceiveTestResults = (averageScore: number) => {
-    console.log(`Average Score received: ${averageScore}`);
+    console.log(`Average Score received: ${averageScore}`)
     if (testId) {
-      updateScore(testId.toString(), averageScore); // Update the score in context using testId
-      console.log(`Test ID ${testId} score updated:`, averageScore);
+      updateScore(testId.toString(), averageScore)
+      console.log(`Test ID ${testId} score updated:`, averageScore)
     } else {
-      console.error("testId is undefined!");
+      console.error("testId is undefined!")
     }
-  };
+  }
 
-  // Fetch the questions for this test
   useEffect(() => {
     const fetchQuestions = async () => {
       if (!testId) {
-        console.error("testId is undefined, cannot fetch questions.");
-        return;
+        console.error("testId is undefined, cannot fetch questions.")
+        return
       }
 
       try {
-        setQuestionsLoading(true);
-        const { data } = await axios.get(`/api/tests/${testId}`);
-        console.log("Questions fetched:", data);
-        setQuestions(data);
+        setQuestionsLoading(true)
+        const { data } = await axios.get(`/api/tests/${testId}`)
+        console.log("Questions fetched:", data)
+        setQuestions(data)
       } catch (error) {
-        console.error("Error fetching test questions:", error);
+        console.error("Error fetching test questions:", error)
       } finally {
-        setQuestionsLoading(false);
+        setQuestionsLoading(false)
       }
-    };
-    fetchQuestions();
-  }, [testId]);
+    }
+    fetchQuestions()
+  }, [testId])
 
   const currentQuestion = useMemo(() => {
-    console.log("Current question index:", questionIndex);
-    return questions[questionIndex];
-  }, [questionIndex, questions]);
+    console.log("Current question index:", questionIndex)
+    return questions[questionIndex]
+  }, [questionIndex, questions])
 
   const getScoreColor = useCallback((score: number) => {
-    if (score < 5) return "bg-red-500";
-    if (score >= 5 && score <= 6.5) return "bg-yellow-500";
-    return "bg-green-500";
-  }, []);
+    if (score < 5) return "bg-red-500"
+    if (score >= 5 && score <= 6.5) return "bg-yellow-500"
+    return "bg-green-500"
+  }, [])
 
   const saveProgressToLocalStorage = useCallback(() => {
-    const progress = { questionIndex, answers, feedbacks, retryModes };
-    console.log("Saving progress to localStorage:", progress);
-    localStorage.setItem("quizProgress", JSON.stringify(progress));
-  }, [questionIndex, answers, feedbacks, retryModes]);
+    const progress = { questionIndex, answers, feedbacks, retryModes }
+    console.log("Saving progress to localStorage:", progress)
+    localStorage.setItem("quizProgress", JSON.stringify(progress))
+  }, [questionIndex, answers, feedbacks, retryModes])
+
+  const handleStartQuiz = () => {
+    setShowIntro(false)
+    setAttemptId(uuidv4())
+  }
 
   const handleNext = useCallback(() => {
-    const updatedAnswers = [...answers];
-    updatedAnswers[questionIndex] = answer;
-    setAnswers(updatedAnswers);
+    const updatedAnswers = [...answers]
+    updatedAnswers[questionIndex] = answer
+    setAnswers(updatedAnswers)
 
     if (questionIndex < questions.length - 1) {
-      setQuestionIndex((prevIndex) => prevIndex + 1);
-      setAnswer(updatedAnswers[questionIndex + 1] || "");
-      setFeedbackData(feedbacks[questionIndex + 1] || null);
-      setShowFeedback(!!feedbacks[questionIndex + 1]);
-      setIsRetryMode(retryModes[questionIndex + 1] || false);
+      setQuestionIndex((prevIndex) => prevIndex + 1)
+      setAnswer(updatedAnswers[questionIndex + 1] || "")
+      setFeedbackData(feedbacks[questionIndex + 1] || null)
+      setShowFeedback(!!feedbacks[questionIndex + 1])
+      setIsRetryMode(retryModes[questionIndex + 1] || false)
     } else {
-      setShowResults(true);
+      setShowResults(true)
     }
 
-    saveProgressToLocalStorage();
-  }, [answer, questionIndex, answers, feedbacks, retryModes, saveProgressToLocalStorage, questions.length]);
+    saveProgressToLocalStorage()
+  }, [answer, questionIndex, answers, feedbacks, retryModes, saveProgressToLocalStorage, questions.length])
 
   const handleBack = useCallback(() => {
     if (questionIndex > 0) {
-      setQuestionIndex((prevIndex) => prevIndex - 1);
-      setAnswer(answers[questionIndex - 1] || "");
-      setFeedbackData(feedbacks[questionIndex - 1] || null);
-      setShowFeedback(!!feedbacks[questionIndex - 1]);
-      setIsRetryMode(retryModes[questionIndex - 1] || false);
+      setQuestionIndex((prevIndex) => prevIndex - 1)
+      setAnswer(answers[questionIndex - 1] || "")
+      setFeedbackData(feedbacks[questionIndex - 1] || null)
+      setShowFeedback(!!feedbacks[questionIndex - 1])
+      setIsRetryMode(retryModes[questionIndex - 1] || false)
     }
-    saveProgressToLocalStorage();
-  }, [questionIndex, answers, feedbacks, retryModes, saveProgressToLocalStorage]);
+    saveProgressToLocalStorage()
+  }, [questionIndex, answers, feedbacks, retryModes, saveProgressToLocalStorage])
 
   const handleMarkAnswer = useCallback(async () => {
     if (answer.trim() !== "" && currentQuestion) {
-      setFeedbackLoading(true);
+      setFeedbackLoading(true)
       try {
         const { data } = await axios.post(
           "/api/evaluate-answer",
           { answer, questionId: currentQuestion.id },
           { headers: { "Content-Type": "application/json" } }
-        );
-        console.log("Feedback received:", data);
+        )
+        console.log("Feedback received:", data)
         const feedback = {
           answer,
           feedback: data.feedback,
           score: data.score,
           highlights: data.highlights || [],
-        };
-        setFeedbackData(feedback);
-        setShowFeedback(true);
-        const updatedRetryModes = [...retryModes];
-        updatedRetryModes[questionIndex] = true;
-        setRetryModes(updatedRetryModes);
-        setIsRetryMode(true);
-        const updatedFeedbacks = [...feedbacks];
-        updatedFeedbacks[questionIndex] = feedback;
-        setFeedbacks(updatedFeedbacks);
-        saveProgressToLocalStorage();
+        }
+        setFeedbackData(feedback)
+        setShowFeedback(true)
+        const updatedRetryModes = [...retryModes]
+        updatedRetryModes[questionIndex] = true
+        setRetryModes(updatedRetryModes)
+        setIsRetryMode(true)
+        const updatedFeedbacks = [...feedbacks]
+        updatedFeedbacks[questionIndex] = feedback
+        setFeedbacks(updatedFeedbacks)
+        saveProgressToLocalStorage()
       } catch (error) {
-        console.error("Error evaluating answer:", error);
-        alert("An error occurred while evaluating your answer. Please try again.");
+        console.error("Error evaluating answer:", error)
+        alert("An error occurred while evaluating your answer. Please try again.")
       } finally {
-        setFeedbackLoading(false);
+        setFeedbackLoading(false)
       }
     }
-  }, [answer, currentQuestion, questionIndex, feedbacks, retryModes, saveProgressToLocalStorage]);
+  }, [answer, currentQuestion, questionIndex, feedbacks, retryModes, saveProgressToLocalStorage])
 
   const handleRetry = useCallback(() => {
-    setAnswer("");
-    setFeedbackData(null);
-    setShowFeedback(false);
-    setIsRetryMode(false);
-  }, []);
+    setAnswer("")
+    setFeedbackData(null)
+    setShowFeedback(false)
+    setIsRetryMode(false)
+    setAttemptId(uuidv4())
+  }, [])
 
   useEffect(() => {
-    const savedProgress = JSON.parse(localStorage.getItem("quizProgress"));
-    console.log("Restoring saved progress:", savedProgress);
+    const savedProgress = JSON.parse(localStorage.getItem("quizProgress"))
+    console.log("Restoring saved progress:", savedProgress)
     if (savedProgress) {
-      setQuestionIndex(savedProgress.questionIndex || 0);
-      setAnswers(savedProgress.answers || []);
-      setFeedbacks(savedProgress.feedbacks || []);
-      setRetryModes(savedProgress.retryModes || []);
-      const currentRetryMode = savedProgress.retryModes ? savedProgress.retryModes[savedProgress.questionIndex] : false;
-      setIsRetryMode(currentRetryMode || false);
-      setAnswer(savedProgress.answers[savedProgress.questionIndex] || "");
-      setFeedbackData(savedProgress.feedbacks[savedProgress.questionIndex] || null);
-      setShowFeedback(!!savedProgress.feedbacks[savedProgress.questionIndex]);
+      setQuestionIndex(savedProgress.questionIndex || 0)
+      setAnswers(savedProgress.answers || [])
+      setFeedbacks(savedProgress.feedbacks || [])
+      setRetryModes(savedProgress.retryModes || [])
+      const currentRetryMode = savedProgress.retryModes ? savedProgress.retryModes[savedProgress.questionIndex] : false
+      setIsRetryMode(currentRetryMode || false)
+      setAnswer(savedProgress.answers[savedProgress.questionIndex] || "")
+      setFeedbackData(savedProgress.feedbacks[savedProgress.questionIndex] || null)
+      setShowFeedback(!!savedProgress.feedbacks[savedProgress.questionIndex])
     }
-  }, []);
+  }, [])
 
   const handleFinishTest = useCallback(() => {
-    console.log("Finishing the test.");
-    setShowResults(true);
-    localStorage.removeItem("quizProgress");
-  }, []);
+    console.log("Finishing the test.")
+    setShowResults(true)
+    localStorage.removeItem("quizProgress")
+  }, [])
+
+  if (showIntro) {
+    return (
+      <IELTSWritingTestIntro
+        section="Writing"
+        onContinue={handleStartQuiz}
+      />
+    )
+  }
 
   if (showResults) {
     return (
@@ -182,82 +195,52 @@ export default function MCQWritingTaskUN({ params }: { params: { testId: string 
         feedbacks={feedbacks}
         totalQuestions={questions.length}
         onReset={() => {
-          setShowResults(false);
-          setQuestionIndex(0);
-          setAnswers([]);
-          setFeedbacks([]);
-          setRetryModes([]);
-          setAnswer("");
-          setFeedbackData(null);
-          setShowFeedback(false);
-          setIsRetryMode(false);
-          localStorage.removeItem("quizProgress");
+          setShowResults(false)
+          setQuestionIndex(0)
+          setAnswers([])
+          setFeedbacks([])
+          setRetryModes([])
+          setAnswer("")
+          setFeedbackData(null)
+          setShowFeedback(false)
+          setIsRetryMode(false)
+          localStorage.removeItem("quizProgress")
+          setAttemptId(uuidv4())
         }}
-        sendAverageScore={handleReceiveTestResults} // Pass the average score handler
-        testId={testId} // Pass the dynamic testId prop
+        sendAverageScore={handleReceiveTestResults}
+        testId={testId}
       />
-    );
+    )
   }
 
   if (questionsLoading) {
-    return <LoadingSpinner />;
+    return <LoadingSpinner />
   }
 
   return (
-    <div className="flex flex-col min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
-      <header className="fixed top-0 left-0 right-0 bg-white shadow-md z-10">
-        <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-          <Link href="/learning/reading-mastery" className="text-gray-800 hover:text-gray-600">
-            <X className="w-8 h-8" />
-          </Link>
+    <div className="flex flex-col min-h-screen bg-white" style={{ fontFamily: 'circe, sans-serif' }}>
+      <QuizNavigation
+        questionIndex={questionIndex}
+        totalQuestions={questions.length}
+        onBack={handleBack}
+        onNext={questionIndex === questions.length - 1 ? handleFinishTest : handleNext}
+        onFinish={handleFinishTest}
+      />
 
-          <div className="flex-1 mx-8">
-            <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
-              <div
-                className="h-full bg-green-500 transition-all duration-300 ease-in-out"
-                style={{
-                  width: `${((questionIndex + 1) / questions.length) * 100}%`,
-                }}
-              />
-            </div>
-          </div>
-
-          <div className="flex items-center space-x-4">
-            <button
-              className="text-gray-400 hover:text-gray-600"
-              onClick={handleBack}
-              disabled={questionIndex === 0}
-            >
-              <ChevronLeft className="w-6 h-6" />
-            </button>
-            <span className="text-xl font-semibold">
-              {questionIndex + 1} / {questions.length}
-            </span>
-            <Zap className="w-6 h-6 text-yellow-400" />
-            <button
-              className="text-gray-400 hover:text-gray-600"
-              onClick={questionIndex === questions.length - 1 ? handleFinishTest : handleNext}
-            >
-              <ChevronRight className="w-6 h-6" />
-            </button>
-          </div>
-        </div>
-      </header>
-
-      <main className="flex-1 container mx-auto px-4 py-8 mt-24">
-        <div className="bg-white shadow-md rounded-2xl overflow-hidden">
+      <main className="flex-1 container mx-auto px-4 py-8 mt-40">
+        <div className="bg-gray-100 bg-opacity-40 rounded-2xl overflow-hidden">
           <div className="flex">
             <div className="w-2/3 p-6 border-r border-gray-200">
               <TextArea answer={answer} setAnswer={setAnswer} loading={feedbackLoading} />
             </div>
             <div className="w-1/3 p-6">
-              <h2 className="text-lg font-semibold mb-4">Question</h2>
-              <p className="text-sm text-gray-600 mb-4">
+              <h2 className="text-2xl font-semibold mb-4">Question</h2>
+              <p className="text-lg leading-relaxed mb-6">
                 {currentQuestion?.question}
               </p>
               <hr className="w-full border-t border-gray-300 mb-4" />
               <button
-                className="flex items-center justify-center w-full px-4 py-2 bg-white border border-gray-300 rounded-md text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-50"
+                className="flex items-center justify-center w-full px-4 py-2 bg-transparent border border-gray-300 rounded-md text-lg font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-50"
                 onClick={isRetryMode ? handleRetry : handleMarkAnswer}
                 disabled={feedbackLoading}
               >
@@ -272,7 +255,12 @@ export default function MCQWritingTaskUN({ params }: { params: { testId: string 
               </button>
               {showFeedback && feedbackData && (
                 <div className="mt-4">
-                  <Feedback feedbackData={feedbackData} getScoreColor={getScoreColor} />
+                  <Feedback 
+                    feedbackData={feedbackData} 
+                    getScoreColor={getScoreColor} 
+                    questionId={currentQuestion.id}
+                    attemptId={attemptId}
+                  />
                 </div>
               )}
             </div>
@@ -280,5 +268,5 @@ export default function MCQWritingTaskUN({ params }: { params: { testId: string 
         </div>
       </main>
     </div>
-  );
+  )
 }

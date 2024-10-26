@@ -1,20 +1,22 @@
 'use client'
 
-import React, { useEffect } from "react"
-import { motion } from "framer-motion"
-import { Star } from "lucide-react"
+import React, { useEffect } from "react";
+import { motion } from "framer-motion";
+import { Star } from "lucide-react";
 
 interface AchievementStarProps {
-  size: "small" | "large"
+  size: "small" | "large";
+  score: number;
 }
 
-const fontUrl = "https://use.typekit.net/gcd4kuc.css"
+// Font URL from Adobe Typekit
+const fontUrl = "https://use.typekit.net/gcd4kuc.css";
 
-function AchievementStar({ size }: AchievementStarProps) {
-  const iconSize = size === "small" ? "w-8 h-8" : "w-40 h-40"
-  const containerSize = size === "small" ? "w-24 h-24" : "w-64 h-64"
-  const innerSize = size === "small" ? "w-20 h-20" : "w-60 h-60"
-  const textSize = size === "small" ? "text-sm" : "text-xl"
+function AchievementStar({ size, score }: AchievementStarProps) {
+  const iconSize = size === "small" ? "w-8 h-8" : "w-40 h-40";
+  const containerSize = size === "small" ? "w-24 h-24" : "w-64 h-64";
+  const innerSize = size === "small" ? "w-20 h-20" : "w-60 h-60";
+  const textSize = size === "small" ? "text-sm" : "text-xl";
 
   const containerVariants = {
     hidden: { scale: 0, rotate: 0 },
@@ -47,7 +49,7 @@ function AchievementStar({ size }: AchievementStarProps) {
         },
       },
     },
-  }
+  };
 
   const starVariants = {
     hidden: { scale: 0 },
@@ -71,7 +73,7 @@ function AchievementStar({ size }: AchievementStarProps) {
         },
       },
     },
-  }
+  };
 
   const textVariants = {
     hidden: { opacity: 0, y: 20 },
@@ -84,18 +86,7 @@ function AchievementStar({ size }: AchievementStarProps) {
         ease: "easeOut",
       },
     },
-  }
-
-  useEffect(() => {
-    const link = document.createElement("link")
-    link.href = fontUrl
-    link.rel = "stylesheet"
-    document.head.appendChild(link)
-
-    return () => {
-      document.head.removeChild(link)
-    }
-  }, [])
+  };
 
   return (
     <div className="flex flex-col items-center" style={{ fontFamily: 'circe, sans-serif' }}>
@@ -121,14 +112,32 @@ function AchievementStar({ size }: AchievementStarProps) {
       >
         <h2 className="text-4xl font-bold text-white mb-4">Congratulations!</h2>
         <p className={`${textSize} font-bold text-white mb-2`}>
-          You've achieved an IELTS band score over 7!
+          You've achieved an IELTS band score of {score.toFixed(1)}!
         </p>
         <p className={`${textSize} text-white`}>
-          Your language skills are exceptional!
+          Your language skills are soaring to new heights!
         </p>
       </motion.div>
     </div>
-  )
+  );
 }
 
-export default AchievementStar
+export default function AchievementStarShowcase() {
+  // Load font
+  useEffect(() => {
+    const link = document.createElement("link");
+    link.href = fontUrl;
+    link.rel = "stylesheet";
+    document.head.appendChild(link);
+
+    return () => {
+      document.head.removeChild(link);
+    };
+  }, []);
+
+  return (
+    <div className="flex flex-col items-center justify-center gap-16 min-h-screen bg-transparent p-4 -mt-20">
+      <AchievementStar size="large" score={8.0} />
+    </div>
+  );
+}

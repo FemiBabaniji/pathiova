@@ -1,11 +1,29 @@
-"use client";
+"use client"
 
-import React, { useState, useEffect, useMemo, useRef } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { Button } from "@/components/ui/button";
-import { ChevronRight, RefreshCw, PenLine } from "lucide-react";
-import Link from "next/link";
-import { useScore } from "@/app/context/ScoreContext";
+import React, { useState, useEffect, useMemo, useRef } from "react"
+import { motion, AnimatePresence } from "framer-motion"
+import { Button } from "@/components/ui/button"
+import { ChevronRight, RefreshCw, BookOpen } from "lucide-react"
+import Link from "next/link"
+import { useScore } from "@/app/context/ScoreContext"
+import { Progress } from '@/components/ui/progress'
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { useRouter } from 'next/navigation'
+import QuizNavigation from '@/components/QuizNavigation'
+import AchievementStar from '@/components/AchievementStar'
+
+interface Feedback {
+  score: number
+  isCorrect: boolean
+}
+
+interface TestResultsProps {
+  feedbacks: Feedback[]
+  totalQuestions: number
+  onReset: () => void
+  sendAverageScore: (score: number) => void
+  testId: string
+}
 
 export default function TestResults({
   feedbacks = [],
@@ -13,181 +31,150 @@ export default function TestResults({
   onReset,
   sendAverageScore,
   testId,
-}) {
-  const [animatedScore, setAnimatedScore] = useState(0); // For animating the score
-  const [isVisible, setIsVisible] = useState(false); // For showing the score
-  const { updateScore } = useScore(); // Context function to update score
-  const scoreUpdatedRef = useRef(false); // Ref to track if score has already been updated
+}: TestResultsProps) {
+  const [score, setScore] = useState(0)
+  const [isVisible, setIsVisible] = useState(false)
+  const [showAchievementStar, setShowAchievementStar] = useState(false)
+  const [showResults, setShowResults] = useState(false)
+  const { updateScore, updateStars } = useScore()
+  const scoreUpdatedRef = useRef(false)
+  const starsUpdatedRef = useRef(false)
+  const router = useRouter()
 
-  console.log("TestResults component rendered. TestId:", testId);
-
-  // Calculate the average score
   const averageScore = useMemo(() => {
-    if (!feedbacks || feedbacks.length === 0) return 0;
-    const totalScore = feedbacks.reduce(
-      (sum, feedback) => sum + (feedback?.score || 0),
-      0
-    );
-    return totalScore / feedbacks.length;
-  }, [feedbacks]);
+    if (!feedbacks || feedbacks.length === 0) return 0
+    const totalScore = feedbacks.reduce((sum, feedback) => sum + (feedback?.score || 0), 0)
+    return totalScore / feedbacks.length
+  }, [feedbacks])
 
-  // Trigger the score update only once when averageScore or testId changes
+  const getBandScore = (score: number): number => {
+    if (score >= 9) return 9
+    if (score >= 8) return 8
+    if (score >= 7) return 7
+    if (score >= 6) return 6
+    if (score >= 5) return 5
+    if (score >= 4) return 4
+    if (score >= 3) return 3
+    if (score >= 2) return 2
+    return 1
+  }
+
+  const bandScore = useMemo(() => getBandScore(averageScore), [averageScore])
+
   useEffect(() => {
     if (averageScore > 0 && testId && !scoreUpdatedRef.current) {
-      console.log(
-        "Updating score for testId:",
-        testId,
-        "with averageScore:",
-        averageScore
-      );
-      updateScore(testId, averageScore); // Update the score in context
-      sendAverageScore(averageScore); // Send the average score
-      scoreUpdatedRef.current = true; // Set the flag to true to prevent future updates
+      updateScore(testId, averageScore)
+      sendAverageScore(averageScore)
+      scoreUpdatedRef.current = true
     }
-  }, [averageScore, testId, updateScore, sendAverageScore]);
+  }, [averageScore, testId, updateScore, sendAverageScore])
 
-  // Animate the score display
   useEffect(() => {
     const timer = setTimeout(() => {
-      setAnimatedScore(averageScore);
-      setIsVisible(true); // Make score visible
-    }, 500);
-    return () => clearTimeout(timer); // Cleanup
-  }, [averageScore]);
+      setScore(averageScore)
+      if (bandScore > 7) {
+        setShowAchievementStar(true)
+        setTimeout(() => {
+          setShowAchievementStar(false)
+          setShowResults(true)
+        }, 4000) // Show AchievementStar for 4 seconds
+      } else {
+        setShowResults(true)
+      }
+      setIsVisible(true)
+    }, 500)
+    return () => clearTimeout(timer)
+  }, [averageScore, bandScore])
 
-  // Helper functions for displaying feedback based on score
-  const getScoreInterpretation = (score) => {
-    if (score >= 8) return "Expert";
-    if (score >= 7) return "Very Good";
-    if (score >= 6) return "Competent";
-    if (score >= 5) return "Modest";
-    if (score >= 4) return "Limited";
-    return "Developing";
-  };
-
-  const getFeedbackMessage = (score) => {
-    if (score >= 8)
-      return "Excellent work! Your writing skills are at a very advanced level. Keep refining your expertise.";
-    if (score >= 7)
-      return "Great job! You have good command of English writing. Focus on nuanced improvements to reach the highest level.";
-    if (score >= 6)
-      return "You're doing well! Your writing is effective. Work on more complex structures and vocabulary to improve further.";
-    if (score >= 5)
-      return "You're on the right track. Focus on improving your grammar accuracy and expanding your vocabulary.";
-    if (score >= 4)
-      return "You're making progress. Concentrate on basic grammar rules and sentence structures to build a stronger foundation.";
-    return "Keep practicing! Focus on basic English writing skills and grammar. Regular practice will help you improve.";
-  };
+  useEffect(() => {
+    if (score > 0 && bandScore > 7 && !starsUpdatedRef.current) {
+      updateStars(prevStars => prevStars + 1)
+      starsUpdatedRef.current = true
+    }
+  }, [score, bandScore, updateStars])
 
   return (
-    <div className="flex flex-col justify-start items-center min-h-screen bg-white pt-24">
-      <div className="w-full max-w-md px-4">
-        <AnimatePresence>
-          {isVisible && (
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -20 }}
-              transition={{ duration: 0.5 }}
-              className="w-full"
-            >
+    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
+      <QuizNavigation
+        questionIndex={totalQuestions - 1}
+        totalQuestions={totalQuestions}
+        onBack={() => {}}
+        onNext={() => {}}
+        onFinish={() => {}}
+      />
+      <div className="py-20 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-3xl mx-auto">
+          <AnimatePresence>
+            {showAchievementStar && (
               <motion.div
-                className="flex justify-center mb-8"
-                initial={{ opacity: 0, scale: 0.5 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ delay: 0.1, duration: 0.5 }}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.3 }}
+                className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50"
               >
-                <div className="bg-purple-100 p-3 rounded-full">
-                  <PenLine className="w-8 h-8 text-purple-600" />
-                </div>
-              </motion.div>
-              <motion.h2
-                className="text-3xl font-bold mb-4 text-center text-gray-800"
-                initial={{ opacity: 0, y: -20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.2, duration: 0.5 }}
-              >
-                Your IELTS Writing Score
-              </motion.h2>
-              <div className="relative h-16 bg-gray-200 rounded-full overflow-hidden mb-8 shadow-inner">
                 <motion.div
-                  className="absolute top-0 left-0 h-full bg-purple-600 rounded-full"
-                  initial={{ width: 0 }}
-                  animate={{ width: `${animatedScore * 11.11}%` }}
-                  transition={{ duration: 1, ease: "easeOut" }}
-                  style={{
-                    boxShadow:
-                      "0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08)",
-                    transform: "translateZ(0)",
-                  }}
-                />
-                <motion.div
-                  className="absolute top-0 left-0 h-full w-full flex items-center justify-center text-white font-bold text-2xl"
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ delay: 0.5, duration: 0.5 }}
-                  style={{ textShadow: "0 2px 4px rgba(0, 0, 0, 0.1)" }}
+                  initial={{ scale: 0.5 }}
+                  animate={{ scale: 1 }}
+                  exit={{ scale: 0.5 }}
+                  transition={{ duration: 0.5 }}
                 >
-                  {animatedScore.toFixed(1)}
+                  <AchievementStar size="large" bandScore={bandScore} />
                 </motion.div>
-              </div>
-              <motion.p
-                className="text-center mb-4 text-lg"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.7, duration: 0.5 }}
-              >
-                Questions Answered:{" "}
-                <span className="font-semibold">
-                  {feedbacks?.length}/{totalQuestions}
-                </span>
-              </motion.p>
-              <motion.p
-                className="text-center font-bold mb-4 text-xl text-gray-600"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.9, duration: 0.5 }}
-              >
-                Band: {getScoreInterpretation(averageScore)}
-              </motion.p>
-              <motion.p
-                className="text-sm text-gray-600 mb-12 text-center"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 1.1, duration: 0.5 }}
-              >
-                {getFeedbackMessage(averageScore)}
-              </motion.p>
-              <motion.div
-                className="flex flex-col gap-4"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 1.3, duration: 0.5 }}
-              >
-                <Button
-                  variant="outline"
-                  className="w-full hover:bg-gray-100 rounded-full text-sm py-1.5 px-3 h-auto flex items-center justify-center"
-                  onClick={() => {
-                    console.log("Try Another Test button clicked");
-                    onReset();
-                    scoreUpdatedRef.current = false; // Reset the flag when starting a new test
-                  }}
-                >
-                  <RefreshCw className="mr-2 h-4 w-4" /> Try Another Test
-                </Button>
-                <Button
-                  className="w-full bg-gray-500 hover:bg-gray-600 text-white rounded-full text-sm py-1.5 px-3 h-auto flex items-center justify-center"
-                  asChild
-                >
-                  <Link href="/learning/writing-task-masterclass">
-                    My Dashboard <ChevronRight className="ml-2 h-4 w-4" />
-                  </Link>
-                </Button>
               </motion.div>
-            </motion.div>
+            )}
+          </AnimatePresence>
+
+          {showResults && (
+            <Card className="mb-8 mt-60">
+              <CardHeader>
+                <CardTitle className="text-2xl font-bold text-center">Your IELTS Writing Test Results</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="text-center mb-6">
+                  <motion.div
+                    initial={{ scale: 0 }}
+                    animate={{ scale: isVisible ? 1 : 0 }}
+                    transition={{ duration: 0.5 }}
+                    className="inline-flex items-center justify-center w-24 h-24 bg-purple-100 text-purple-500 rounded-full"
+                  >
+                    <span className="text-4xl font-bold">{score.toFixed(1)}</span>
+                  </motion.div>
+                  <p className="mt-2 text-xl font-semibold text-gray-700">Band Score: {bandScore}</p>
+                  <Progress value={(score / 9) * 100} className="mt-4" />
+                </div>
+                <div className="grid grid-cols-2 gap-4 text-center mb-6">
+                  <div>
+                    <p className="text-sm text-muted-foreground">Total Questions</p>
+                    <p className="text-xl font-semibold text-gray-700">{totalQuestions}</p>
+                  </div>
+                  <div>
+                    <p className="text-sm text-muted-foreground">Correct Answers</p>
+                    <p className="text-xl font-semibold">{feedbacks.filter(f => f.isCorrect).length}</p>
+                  </div>
+                </div>
+                <div className="flex justify-center space-x-4">
+                  <Button onClick={onReset} className="px-6 py-2 rounded-full bg-transparent border border-gray-300 hover:bg-transparent hover:border-gray-500 text-gray-900 transition duration-300 ease-in-out">
+                    <RefreshCw className="w-4 h-4 mr-2" />
+                    Retry Test
+                  </Button>
+                  <Button
+                    variant="outline"
+                    className="px-6 py-2 rounded-full bg-transparent border border-gray-300 hover:bg-transparent hover:border-gray-500 text-gray-900 transition duration-300 ease-in-out"
+                    onClick={() => {
+                      localStorage.removeItem(`quiz-${testId}-progress`)
+                      router.push('/learning/writing-task-masterclass')
+                    }}
+                  >
+                    <BookOpen className="w-4 h-4 mr-2" />
+                    Back to Writing Dashboard
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
           )}
-        </AnimatePresence>
+        </div>
       </div>
     </div>
-  );
+  )
 }
