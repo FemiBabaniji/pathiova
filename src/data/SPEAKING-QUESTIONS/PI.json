@@ -1,0 +1,16 @@
+{
+  "testId": "PI-1",
+  "title": "IELTS Speaking Practice - Personal Information",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Describe a place you like to visit in your free time. You should say:\n- Where it is\n- How often you go there\n- What you do there\n- And explain why you like visiting this place.",
+      "part": 2
+    },
+    {
+      "id": 2,
+      "text": "What are some popular outdoor activities in your country?",
+      "part": 1
+    }
+  ]
+}

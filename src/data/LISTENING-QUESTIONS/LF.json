@@ -1,0 +1,36 @@
+{
+  "audios": [
+    {
+      "title": "This is info about community",
+      "audioUrl": "/audio/LF.mp3",
+      "questions": [
+        {
+          "id": 1,
+          "type": "multiple choice",
+          "sentence": "What is the library not open on?",
+          "options": ["Monday", "Friday", "Sunday", "Saturday"],
+          "correctAnswer": "Sunday"
+        },
+        {
+          "id": 2,
+          "type": "true/false/not given",
+          "statement": "The community library offers yoga classes.",
+          "correctAnswer": "Not Given"
+        },
+        {
+          "id": 3,
+          "type": "yes/no/not given",
+          "statement": "The swimming pool offers aqua aerobics classes.",
+          "correctAnswer": "Yes"
+        },
+        {
+          "id": 4,
+          "type": "sentence completion",
+          "sentence": "The sports complex includes tennis courts and a _____.",
+          "options": ["swimming pool", "gym", "café", "library"],
+          "correctAnswer": "gym"
+        }
+      ]
+    }
+  ]
+}

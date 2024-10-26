@@ -1,0 +1,541 @@
+{
+    "passages": [
+      {
+        "title": "The Evolution of Solar Energy",
+        "passage": "Solar energy has come a long way since the early experiments with photovoltaic cells. Over the decades, improvements in solar panel efficiency and production costs have made it one of the most promising sources of renewable energy. Today, solar power is used for a wide range of applications, from residential heating to large-scale power plants. Moreover, solar energy has played a key role in reducing reliance on fossil fuels, helping nations meet their carbon reduction goals.\n\nDespite its advantages, solar energy faces several challenges. Solar panels require large areas of land, making them unsuitable for densely populated areas. Furthermore, solar power generation is dependent on weather conditions, and energy storage remains an issue. As a result, ongoing research aims to improve energy storage solutions and enhance the efficiency of solar panels under different environmental conditions.",
+        "questions": [
+          {
+            "id": 1,
+            "type": "multiple choice",
+            "sentence": "What is one challenge mentioned about solar energy?",
+            "options": [
+              "It is too expensive to produce",
+              "It requires large areas of land",
+              "It generates too much power",
+              "It causes environmental damage"
+            ],
+            "correctAnswer": "It requires large areas of land"
+          },
+          {
+            "id": 2,
+            "type": "true/false/not given",
+            "statement": "Solar energy is not used for large-scale power plants.",
+            "correctAnswer": "False"
+          },
+          {
+            "id": 3,
+            "type": "sentence completion",
+            "sentence": "One benefit of solar energy is the reduction of reliance on _____.",
+            "options": ["hydroelectric power", "natural gas", "fossil fuels", "nuclear energy"],
+            "correctAnswer": "fossil fuels"
+          },
+          {
+            "id": 4,
+            "type": "heading matching",
+            "items": [
+              {
+                "id": "item1",
+                "content": "Challenges of Solar Energy"
+              },
+              {
+                "id": "item2",
+                "content": "Environmental Benefits of Solar Energy"
+              },
+              {
+                "id": "item3",
+                "content": "Advances in Solar Energy Technology"
+              }
+            ],
+            "headings": ["Challenges of Solar Energy", "Environmental Benefits", "Technological Advances"],
+            "correctPairs": {
+              "item1": "Challenges of Solar Energy",
+              "item2": "Environmental Benefits of Solar Energy",
+              "item3": "Advances in Solar Energy Technology"
+            }
+          }
+        ]
+      },
+      {
+        "title": "The Rise of Digital Nomads",
+        "passage": "In the past decade, the digital nomad lifestyle has gained immense popularity. Enabled by advancements in technology, digital nomads are individuals who leverage the power of the internet to work remotely while traveling the world. This lifestyle offers unparalleled freedom, allowing people to work from anywhere with a stable internet connection. As a result, more companies are adopting flexible work policies to accommodate this growing trend.\n\nHowever, there are challenges associated with being a digital nomad. Issues like isolation, lack of a stable routine, and difficulty maintaining work-life balance are commonly reported. Additionally, managing finances across different countries and dealing with varying tax regulations can be complicated. Despite these challenges, the number of digital nomads is expected to continue rising, as more individuals seek a flexible and location-independent lifestyle.",
+        "questions": [
+          {
+            "id": 5,
+            "type": "matching information",
+            "items": [
+              {
+                "id": "item1",
+                "content": "The rise of flexible work policies."
+              },
+              {
+                "id": "item2",
+                "content": "Challenges faced by digital nomads."
+              },
+              {
+                "id": "item3",
+                "content": "Advantages of the digital nomad lifestyle."
+              }
+            ],
+            "information": ["Freedom to work from any location", "Companies adopting new policies", "Struggles with isolation and routine"],
+            "correctPairs": {
+              "item1": "Companies adopting new policies",
+              "item2": "Struggles with isolation and routine",
+              "item3": "Freedom to work from any location"
+            }
+          },
+          {
+            "id": 6,
+            "type": "multiple choice",
+            "sentence": "What has contributed to the rise of digital nomads?",
+            "options": [
+              "Increasing job security",
+              "Advancements in technology",
+              "Lack of internet access",
+              "Longer working hours"
+            ],
+            "correctAnswer": "Advancements in technology"
+          },
+          {
+            "id": 7,
+            "type": "yes/no/not given",
+            "statement": "The number of digital nomads is expected to decrease in the coming years.",
+            "correctAnswer": "No"
+          },
+          {
+            "id": 8,
+            "type": "sentence completion",
+            "sentence": "One challenge for digital nomads is dealing with different _____ regulations.",
+            "options": ["legal", "tax", "employment", "communication"],
+            "correctAnswer": "tax"
+          }
+        ]
+      },
+      {
+        "title": "Biodiversity in the Amazon Rainforest",
+        "passage": "The Amazon rainforest is one of the most biodiverse regions on Earth, home to millions of species of plants, animals, and insects. Its dense canopy and unique ecosystems provide a habitat for many species that cannot be found anywhere else. However, deforestation poses a significant threat to this delicate balance. The clearing of land for agriculture, logging, and mining has resulted in the loss of vast areas of forest, endangering countless species.\n\nEfforts to protect the Amazon include conservation programs, reforestation initiatives, and sustainable development practices. However, these efforts are often hampered by political and economic pressures. Without stronger international cooperation, the destruction of the Amazon will have irreversible consequences not only for its biodiversity but also for global climate patterns, as the rainforest plays a crucial role in absorbing carbon dioxide.",
+        "questions": [
+          {
+            "id": 9,
+            "type": "true/false/not given",
+            "statement": "The Amazon rainforest is home to species found nowhere else on Earth.",
+            "correctAnswer": "True"
+          },
+          {
+            "id": 10,
+            "type": "heading matching",
+            "items": [
+              {
+                "id": "item1",
+                "content": "Deforestation in the Amazon"
+              },
+              {
+                "id": "item2",
+                "content": "Unique Ecosystems of the Amazon"
+              },
+              {
+                "id": "item3",
+                "content": "Conservation Efforts in the Amazon"
+              }
+            ],
+            "headings": ["Deforestation Threats", "Conservation and Protection", "Biodiversity in the Amazon"],
+            "correctPairs": {
+              "item1": "Deforestation in the Amazon",
+              "item2": "Unique Ecosystems of the Amazon",
+              "item3": "Conservation Efforts in the Amazon"
+            }
+          },
+          {
+            "id": 11,
+            "type": "multiple choice",
+            "sentence": "What is one major threat to the Amazon rainforest?",
+            "options": [
+              "Climate change",
+              "Logging and agriculture",
+              "Overpopulation",
+              "Invasive species"
+            ],
+            "correctAnswer": "Logging and agriculture"
+          },
+          {
+            "id": 12,
+            "type": "matching features",
+            "items": [
+              {
+                "id": "item1",
+                "content": "Programs aimed at planting trees."
+              },
+              {
+                "id": "item2",
+                "content": "Programs aimed at protecting wildlife."
+              },
+              {
+                "id": "item3",
+                "content": "International cooperation to reduce deforestation."
+              }
+            ],
+            "features": ["Reforestation", "Biodiversity", "Conservation"],
+            "correctPairs": {
+              "item1": "Reforestation",
+              "item2": "Biodiversity",
+              "item3": "Conservation"
+            }
+          },
+          {
+            "id": 13,
+            "type": "yes/no/not given",
+            "statement": "Economic pressures are hindering conservation efforts in the Amazon.",
+            "correctAnswer": "Yes"
+          }
+        ]
+      },
+      {
+        "title": "The Impact of Social Media on Communication",
+        "passage": "Social media platforms have revolutionized the way people communicate, allowing individuals to connect and share information instantly, regardless of location. From personal relationships to business interactions, social media has created new opportunities for engagement and collaboration. However, there are concerns about the impact of these platforms on face-to-face communication skills. Many argue that social media encourages superficial interactions and reduces the quality of meaningful relationships.\n\nMoreover, the rise of social media has contributed to the spread of misinformation and the creation of echo chambers, where individuals are exposed only to opinions that align with their own. This has profound implications for political discourse and the polarization of society. Despite these challenges, social media continues to grow in influence, shaping communication in the digital age.",
+        "questions": [
+          {
+            "id": 14,
+            "type": "multiple choice",
+            "sentence": "What is one concern mentioned about social media?",
+            "options": [
+              "It improves face-to-face communication",
+              "It encourages meaningful relationships",
+              "It reduces the quality of interactions",
+              "It helps prevent misinformation"
+            ],
+            "correctAnswer": "It reduces the quality of interactions"
+          },
+          {
+            "id": 15,
+            "type": "true/false/not given",
+            "statement": "Social media has no impact on political discourse.",
+            "correctAnswer": "False"
+          },
+          {
+            "id": 16,
+            "type": "heading matching",
+            "items": [
+              {
+                "id": "item1",
+                "content": "Superficial Interactions on Social Media"
+              },
+              {
+                "id": "item2",
+                "content": "The Growth of Social Media"
+              },
+              {
+                "id": "item3",
+                "content": "Misinformation on Social Media"
+              }
+            ],
+            "headings": ["Social Media Challenges", "Expansion of Social Media", "Information and Communication"],
+            "correctPairs": {
+              "item1": "Superficial Interactions on Social Media",
+              "item2": "The Growth of Social Media",
+              "item3": "Misinformation on Social Media"
+            }
+          },
+          {
+            "id": 17,
+            "type": "yes/no/not given",
+            "statement": "Social media platforms have created echo chambers.",
+            "correctAnswer": "Yes"
+          },
+          {
+            "id": 18,
+            "type": "sentence completion",
+            "sentence": "One impact of social media is the spread of _____.",
+            "options": ["false information", "accurate data", "good news", "innovation"],
+            "correctAnswer": "false information"
+          }
+        ]
+      },
+      {
+        "title": "The Science of Sleep",
+        "passage": "Sleep is essential for maintaining physical and mental health. During sleep, the body undergoes various restorative processes, including tissue repair, muscle growth, and memory consolidation. Research has shown that a lack of sleep can lead to a range of health issues, such as weakened immunity, obesity, and cognitive impairment.\n\nThere are several stages of sleep, each serving a different purpose. REM (rapid eye movement) sleep is associated with dreaming and plays a crucial role in memory and learning. Non-REM sleep consists of several deeper stages, which are important for physical restoration. Sleep disorders, such as insomnia and sleep apnea, can disrupt these stages and prevent individuals from getting adequate rest. Addressing these issues often requires lifestyle changes, behavioral therapy, and, in some cases, medication.",
+        "questions": [
+          {
+            "id": 19,
+            "type": "heading matching",
+            "items": [
+              {
+                "id": "item1",
+                "content": "Physical Health and Sleep"
+              },
+              {
+                "id": "item2",
+                "content": "Stages of Sleep"
+              },
+              {
+                "id": "item3",
+                "content": "Sleep Disorders and Treatment"
+              }
+            ],
+            "headings": ["Health Consequences of Poor Sleep", "Importance of Sleep Stages", "Sleep Issues and Remedies"],
+            "correctPairs": {
+              "item1": "Physical Health and Sleep",
+              "item2": "Stages of Sleep",
+              "item3": "Sleep Disorders and Treatment"
+            }
+          },
+          {
+            "id": 20,
+            "type": "multiple choice",
+            "sentence": "What is one benefit of REM sleep?",
+            "options": [
+              "It aids in muscle growth",
+              "It helps with memory consolidation",
+              "It weakens immunity",
+              "It reduces cognitive function"
+            ],
+            "correctAnswer": "It helps with memory consolidation"
+          },
+          {
+            "id": 21,
+            "type": "yes/no/not given",
+            "statement": "Lack of sleep can lead to cognitive impairment.",
+            "correctAnswer": "Yes"
+          },
+          {
+            "id": 22,
+            "type": "sentence completion",
+            "sentence": "One stage of sleep associated with dreaming is _____.",
+            "options": ["non-REM", "REM", "light sleep", "deep sleep"],
+            "correctAnswer": "REM"
+          }
+        ]
+      },
+      {
+        "title": "The Economics of Renewable Energy",
+        "passage": "As the world transitions to a more sustainable future, the economics of renewable energy are playing an increasingly important role. Wind, solar, and hydroelectric power have become cost-competitive with fossil fuels, especially as technology improves and production scales up. However, the initial costs of setting up renewable energy infrastructure can be high, which presents challenges for widespread adoption in developing countries.\n\nTo incentivize the shift to renewables, many governments have introduced subsidies and tax breaks for companies and individuals who invest in green energy. These policies, combined with public awareness of climate change, have driven significant growth in the renewable energy sector. As production methods become more efficient, renewable energy is expected to dominate the global energy market, reducing dependence on coal, oil, and natural gas.",
+        "questions": [
+          {
+            "id": 23,
+            "type": "multiple choice",
+            "sentence": "What is one challenge of adopting renewable energy in developing countries?",
+            "options": [
+              "Lack of public interest",
+              "High initial setup costs",
+              "Lack of technology",
+              "Excessive pollution"
+            ],
+            "correctAnswer": "High initial setup costs"
+          },
+          {
+            "id": 24,
+            "type": "true/false/not given",
+            "statement": "Wind energy is not cost-competitive with fossil fuels.",
+            "correctAnswer": "False"
+          },
+          {
+            "id": 25,
+            "type": "heading matching",
+            "items": [
+              {
+                "id": "item1",
+                "content": "Government Incentives for Renewable Energy"
+              },
+              {
+                "id": "item2",
+                "content": "Challenges of Transitioning to Renewable Energy"
+              },
+              {
+                "id": "item3",
+                "content": "Cost-Effectiveness of Renewable Energy"
+              }
+            ],
+            "headings": ["Renewable Energy Growth", "Transition Challenges", "Economic Incentives"],
+            "correctPairs": {
+              "item1": "Government Incentives for Renewable Energy",
+              "item2": "Challenges of Transitioning to Renewable Energy",
+              "item3": "Cost-Effectiveness of Renewable Energy"
+            }
+          },
+          {
+            "id": 26,
+            "type": "sentence completion",
+            "sentence": "One government policy to encourage renewable energy is offering _____.",
+            "options": ["subsidies", "penalties", "tariffs", "export bans"],
+            "correctAnswer": "subsidies"
+          }
+        ]
+      },
+      {
+        "title": "The Psychology of Color",
+        "passage": "Color plays an important role in how we perceive the world around us. Psychological studies have shown that different colors can evoke various emotions and influence behavior. For instance, red is often associated with feelings of excitement or urgency, while blue tends to promote calmness and trust. Businesses use this knowledge in marketing and branding, selecting colors that resonate with their target audience and convey specific messages.\n\nHowever, cultural differences play a significant role in how colors are interpreted. While white symbolizes purity in some cultures, it may represent mourning in others. This cultural context is crucial for international businesses looking to appeal to global markets. By understanding the psychology of color, companies can better tailor their marketing strategies to different regions and cultures.",
+        "questions": [
+          {
+            "id": 27,
+            "type": "multiple choice",
+            "sentence": "What is one effect of the color blue, according to psychological studies?",
+            "options": [
+              "It evokes feelings of excitement",
+              "It promotes calmness and trust",
+              "It conveys urgency",
+              "It symbolizes purity"
+            ],
+            "correctAnswer": "It promotes calmness and trust"
+          },
+          {
+            "id": 28,
+            "type": "yes/no/not given",
+            "statement": "Cultural context affects how colors are interpreted.",
+            "correctAnswer": "Yes"
+          },
+          {
+            "id": 29,
+            "type": "heading matching",
+            "items": [
+              {
+                "id": "item1",
+                "content": "The Emotional Impact of Colors"
+              },
+              {
+                "id": "item2",
+                "content": "Cultural Differences in Color Interpretation"
+              },
+              {
+                "id": "item3",
+                "content": "The Role of Colors in Marketing"
+              }
+            ],
+            "headings": ["Psychology of Color", "Cultural Context", "Business and Branding"],
+            "correctPairs": {
+              "item1": "The Emotional Impact of Colors",
+              "item2": "Cultural Differences in Color Interpretation",
+              "item3": "The Role of Colors in Marketing"
+            }
+          },
+          {
+            "id": 30,
+            "type": "true/false/not given",
+            "statement": "White represents mourning in all cultures.",
+            "correctAnswer": "False"
+          },
+          {
+            "id": 31,
+            "type": "sentence completion",
+            "sentence": "Businesses use color to convey specific _____.",
+            "options": ["emotions", "messages", "cultural practices", "laws"],
+            "correctAnswer": "messages"
+          }
+        ]
+      },
+      {
+        "title": "Artificial Intelligence and the Future of Work",
+        "passage": "Artificial intelligence (AI) is transforming industries and the nature of work. From automating routine tasks to analyzing vast amounts of data, AI systems are becoming an integral part of many businesses. While AI offers opportunities to increase efficiency and productivity, it also raises concerns about job displacement. Certain roles, particularly in manufacturing and customer service, are at risk of being automated.\n\nHowever, AI is also creating new job opportunities in fields like AI development, robotics, and data science. The challenge for workers and industries alike is to adapt to this new landscape by investing in education and retraining programs. As AI technology continues to evolve, it will reshape the job market, requiring a workforce that is skilled in areas that complement AI systems rather than compete with them.",
+        "questions": [
+          {
+            "id": 32,
+            "type": "multiple choice",
+            "sentence": "What is one concern mentioned about AI in the workplace?",
+            "options": [
+              "It decreases productivity",
+              "It reduces efficiency",
+              "It may lead to job displacement",
+              "It creates more routine tasks"
+            ],
+            "correctAnswer": "It may lead to job displacement"
+          },
+          {
+            "id": 33,
+            "type": "yes/no/not given",
+            "statement": "AI systems can increase efficiency in businesses.",
+            "correctAnswer": "Yes"
+          },
+          {
+            "id": 34,
+            "type": "heading matching",
+            "items": [
+              {
+                "id": "item1",
+                "content": "Job Displacement and AI"
+              },
+              {
+                "id": "item2",
+                "content": "The Role of AI in Enhancing Productivity"
+              },
+              {
+                "id": "item3",
+                "content": "New Opportunities Created by AI"
+              }
+            ],
+            "headings": ["AI Challenges", "AI Benefits", "AI and the Workforce"],
+            "correctPairs": {
+              "item1": "Job Displacement and AI",
+              "item2": "The Role of AI in Enhancing Productivity",
+              "item3": "New Opportunities Created by AI"
+            }
+          },
+          {
+            "id": 35,
+            "type": "true/false/not given",
+            "statement": "AI will completely eliminate all jobs in manufacturing.",
+            "correctAnswer": "False"
+          },
+          {
+            "id": 36,
+            "type": "sentence completion",
+            "sentence": "AI is creating new job opportunities in fields such as _____.",
+            "options": ["manufacturing", "data science", "retail", "construction"],
+            "correctAnswer": "data science"
+          }
+        ]
+      },
+      {
+        "title": "The History of Vaccines",
+        "passage": "Vaccines have played a critical role in public health, preventing the spread of infectious diseases and saving millions of lives. The development of vaccines can be traced back to the late 18th century when Edward Jenner discovered that inoculation with cowpox could protect against smallpox. Since then, vaccines have been developed for a wide range of diseases, including polio, measles, and influenza.\n\nDespite their effectiveness, vaccines have been the subject of controversy, particularly in recent years. Concerns about vaccine safety, misinformation, and distrust of medical authorities have led to a rise in vaccine hesitancy. This hesitancy has contributed to outbreaks of preventable diseases, as individuals who are not vaccinated put themselves and others at risk. Public health campaigns are working to address these concerns by promoting the safety and efficacy of vaccines through education and outreach.",
+        "questions": [
+          {
+            "id": 37,
+            "type": "multiple choice",
+            "sentence": "What was Edward Jenner's contribution to vaccine development?",
+            "options": [
+              "He discovered the polio vaccine",
+              "He developed the smallpox vaccine",
+              "He promoted the use of antibiotics",
+              "He created the influenza vaccine"
+            ],
+            "correctAnswer": "He developed the smallpox vaccine"
+          },
+          {
+            "id": 38,
+            "type": "true/false/not given",
+            "statement": "Vaccines have only been developed in the last 100 years.",
+            "correctAnswer": "False"
+          },
+          {
+            "id": 39,
+            "type": "heading matching",
+            "items": [
+              {
+                "id": "item1",
+                "content": "Controversies Surrounding Vaccines"
+              },
+              {
+                "id": "item2",
+                "content": "The History of Vaccine Development"
+              },
+              {
+                "id": "item3",
+                "content": "The Impact of Vaccines on Public Health"
+              }
+            ],
+            "headings": ["Vaccine Controversies", "Vaccine History", "Vaccines and Society"],
+            "correctPairs": {
+              "item1": "Controversies Surrounding Vaccines",
+              "item2": "The History of Vaccine Development",
+              "item3": "The Impact of Vaccines on Public Health"
+            }
+          },
+          {
+            "id": 40,
+            "type": "sentence completion",
+            "sentence": "One reason for vaccine hesitancy is the spread of _____.",
+            "options": ["education", "misinformation", "scientific research", "medical advancements"],
+            "correctAnswer": "misinformation"
+          }
+        ]
+      }
+    ]
+  }
+  

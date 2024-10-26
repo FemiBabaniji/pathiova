@@ -1,0 +1,184 @@
+{
+    "passages": [
+      {
+        "title": "The Impact of Artificial Intelligence on Employment",
+        "passage": "Artificial Intelligence (AI) is increasingly being integrated into various industries, raising both optimism and concern. Proponents argue that AI has the potential to revolutionize sectors such as healthcare, finance, and manufacturing, enhancing productivity and efficiency. AI can take over repetitive tasks, allowing workers to focus on more strategic and creative endeavors. However, critics argue that AI could lead to widespread job displacement, particularly in fields that rely on routine work such as data entry, customer service, and manual labor.\n\nWhile AI does automate some roles, it also creates new jobs, especially in fields like AI development, data analysis, and cybersecurity. Workers with advanced skills will likely benefit, while those in low-skill positions may face unemployment. Therefore, education and reskilling programs are essential to help the workforce adapt to the changing job landscape. Governments and corporations will need to collaborate to ensure that AI's economic benefits are equitably distributed.",
+        "questions": [
+          {
+            "id": 1,
+            "type": "multiple choice",
+            "sentence": "What is one criticism of AI's impact on employment?",
+            "options": ["It increases low-skill jobs", "It may cause job displacement", "It creates excessive job training programs", "It decreases overall productivity"],
+            "correctAnswer": "It may cause job displacement"
+          },
+          {
+            "id": 2,
+            "type": "true/false/not given",
+            "statement": "AI will only affect low-skill jobs.",
+            "correctAnswer": "False"
+          },
+          {
+            "id": 3,
+            "type": "sentence completion",
+            "sentence": "AI creates opportunities in areas such as _____ and cybersecurity.",
+            "options": ["data entry", "manual labor", "AI development", "customer service"],
+            "correctAnswer": "AI development"
+          },
+          {
+            "id": 4,
+            "type": "matching pairs",
+            "pairs": [
+              {
+                "id": "item1",
+                "text": "Job displacement"
+              },
+              {
+                "id": "item2",
+                "text": "Reskilling"
+              },
+              {
+                "id": "item3",
+                "text": "Advanced skills"
+              }
+            ],
+            "matchingOptions": [
+              "Training workers to adapt to new roles",
+              "Potential consequence of AI integration",
+              "Beneficial for workers in a rapidly evolving job market"
+            ],
+            "correctPairs": {
+              "item1": "Potential consequence of AI integration",
+              "item2": "Training workers to adapt to new roles",
+              "item3": "Beneficial for workers in a rapidly evolving job market"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Corporate Governance in the 21st Century",
+        "passage": "Corporate governance refers to the system by which companies are directed and controlled. In recent years, there has been an increasing focus on improving corporate governance, with many organizations adopting stricter rules and regulations to ensure transparency, accountability, and fairness. Key aspects of corporate governance include the role of the board of directors, the rights of shareholders, and the responsibilities of executive management.\n\nPoor corporate governance can lead to various issues, such as financial mismanagement, fraud, and unethical business practices. In contrast, strong governance practices can increase investor confidence, attract more capital, and enhance a company’s reputation. Additionally, with the rise of environmental, social, and governance (ESG) criteria, stakeholders are demanding that companies not only focus on profitability but also on the broader social impact of their operations.",
+        "questions": [
+          {
+            "id": 5,
+            "type": "multiple choice",
+            "sentence": "What is one benefit of strong corporate governance?",
+            "options": ["Increased financial mismanagement", "Enhanced company reputation", "Decreased investor confidence", "Reduced shareholder rights"],
+            "correctAnswer": "Enhanced company reputation"
+          },
+          {
+            "id": 6,
+            "type": "yes/no/not given",
+            "statement": "Poor corporate governance can lead to fraud and unethical practices.",
+            "correctAnswer": "Yes"
+          },
+          {
+            "id": 7,
+            "type": "summary completion",
+            "sentence": "Strong corporate governance can _____ investor confidence and attract capital.",
+            "options": ["reduce", "weaken", "increase", "decrease"],
+            "correctAnswer": "increase"
+          }
+        ]
+      },
+      {
+        "title": "Workplace Diversity and Inclusion",
+        "passage": "Diversity and inclusion (D&I) have become integral aspects of workplace culture, as companies realize the benefits of having a diverse workforce. Studies have shown that organizations with diverse teams are more innovative and perform better financially. Inclusion efforts ensure that all employees, regardless of their background, feel valued and respected within the organization.\n\nHowever, achieving true diversity and inclusion requires more than just hiring people from different backgrounds. Companies must create policies and a culture that actively promotes equality and addresses systemic biases. This includes implementing training programs, revising recruitment strategies, and ensuring equal opportunities for advancement. Failure to embrace D&I initiatives can lead to low employee morale, high turnover, and a negative brand image.",
+        "questions": [
+          {
+            "id": 8,
+            "type": "multiple choice",
+            "sentence": "What is one reason companies focus on diversity and inclusion?",
+            "options": ["It increases costs", "It boosts innovation and financial performance", "It decreases employee engagement", "It complicates recruitment"],
+            "correctAnswer": "It boosts innovation and financial performance"
+          },
+          {
+            "id": 9,
+            "type": "true/false/not given",
+            "statement": "Diversity and inclusion focus solely on hiring practices.",
+            "correctAnswer": "False"
+          },
+          {
+            "id": 10,
+            "type": "sentence completion",
+            "sentence": "Achieving true diversity requires addressing systemic _____ and revising recruitment strategies.",
+            "options": ["diversity", "biases", "innovation", "morale"],
+            "correctAnswer": "biases"
+          }
+        ]
+      },
+      {
+        "title": "Ethical Leadership in Business",
+        "passage": "Ethical leadership involves guiding a company or organization based on ethical principles and moral values. Leaders who adopt this approach prioritize fairness, integrity, and accountability, ensuring that their decisions align with both the law and societal expectations. Ethical leadership not only fosters trust within the organization but also strengthens the company’s relationship with external stakeholders, such as customers and investors.\n\nHowever, leading ethically is not always easy. Leaders often face dilemmas that require balancing the interests of various stakeholders. In some cases, this may involve choosing between short-term profits and long-term sustainability or making decisions that may not be immediately popular but are ethically sound. In today's business environment, where social responsibility is becoming increasingly important, ethical leadership is seen as a competitive advantage.",
+        "questions": [
+          {
+            "id": 11,
+            "type": "multiple choice",
+            "sentence": "What is one challenge of ethical leadership?",
+            "options": ["Ignoring stakeholders", "Balancing stakeholder interests", "Prioritizing profits above all", "Compromising on ethical standards"],
+            "correctAnswer": "Balancing stakeholder interests"
+          },
+          {
+            "id": 12,
+            "type": "yes/no/not given",
+            "statement": "Ethical leadership fosters trust within the organization and among external stakeholders.",
+            "correctAnswer": "Yes"
+          },
+          {
+            "id": 13,
+            "type": "matching pairs",
+            "pairs": [
+              {
+                "id": "item1",
+                "text": "Fairness"
+              },
+              {
+                "id": "item2",
+                "text": "Accountability"
+              },
+              {
+                "id": "item3",
+                "text": "Ethical dilemma"
+              }
+            ],
+            "matchingOptions": [
+              "Taking responsibility for one’s actions",
+              "Ensuring just and equitable decisions",
+              "A situation requiring difficult ethical decisions"
+            ],
+            "correctPairs": {
+              "item1": "Ensuring just and equitable decisions",
+              "item2": "Taking responsibility for one’s actions",
+              "item3": "A situation requiring difficult ethical decisions"
+            }
+          }
+        ]
+      },
+      {
+        "title": "The Gig Economy and Worker Protections",
+        "passage": "The gig economy, characterized by short-term contracts or freelance work, offers workers flexibility but often lacks traditional worker protections. Gig workers, who are typically classified as independent contractors, do not receive benefits such as healthcare, retirement plans, or paid leave. This has sparked debates over whether gig workers should be granted similar protections as full-time employees.\n\nSupporters of the gig economy argue that it provides workers with more autonomy, allowing them to choose their own schedules and work for multiple employers. However, critics argue that without proper protections, gig workers are vulnerable to exploitation, unstable income, and a lack of career development opportunities. Governments are now considering legislation to extend basic worker rights to gig workers, though the debate over classification and regulation continues.",
+        "questions": [
+          {
+            "id": 14,
+            "type": "multiple choice",
+            "sentence": "What is one criticism of the gig economy?",
+            "options": ["It offers too many benefits", "It lacks worker protections", "It decreases worker autonomy", "It provides unstable income security"],
+            "correctAnswer": "It lacks worker protections"
+          },
+          {
+            "id": 15,
+            "type": "true/false/not given",
+            "statement": "Gig workers typically receive healthcare and retirement benefits.",
+            "correctAnswer": "False"
+          },
+          {
+            "id": 16,
+            "type": "sentence completion",
+            "sentence": "One advantage of the gig economy is the flexibility for workers to _____ their schedules.",
+            "options": ["reduce", "control", "ignore", "increase"],
+            "correctAnswer": "control"
+          }
+        ]
+      }
+    ]
+  }
+  

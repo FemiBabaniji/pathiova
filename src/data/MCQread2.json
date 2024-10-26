@@ -1,0 +1,129 @@
+{
+    "passages": [
+      {
+        "title": "The History of Paper",
+        "content": "The invention of paper is one of humanity's most important contributions to communication and learning. It originated in China around 105 AD by a man named Cai Lun. Before the invention of paper, people used materials such as silk, wood, and even stone to write on, but these were either too expensive or too impractical for widespread use. Cai Lun's method involved breaking down plant fibers, such as bamboo, into pulp and then spreading it out to dry into sheets.\n\nPapermaking spread across Asia and into Europe by the 11th century, where the introduction of the printing press in the 15th century revolutionized the spread of information. Paper became the most efficient way to record knowledge and ideas, contributing significantly to the spread of education and literacy.\n\nToday, paper remains an integral part of our daily lives, even in the digital age. It is used for everything from books and newspapers to packaging and hygiene products. While digital technologies have reduced some of our reliance on paper, it is unlikely that paper will disappear entirely due to its versatility and importance in many industries.",
+        "questions": [
+          {
+            "question": "What material did people use for writing before the invention of paper?",
+            "options": ["A. Stone and silk", "B. Cloth and clay", "C. Bamboo and wood", "D. Metal and leaves"],
+            "correct_answer": "A"
+          },
+          {
+            "question": "Who is credited with the invention of paper?",
+            "options": ["A. A European inventor", "B. A Chinese emperor", "C. Cai Lun", "D. A group of monks"],
+            "correct_answer": "C"
+          },
+          {
+            "question": "Why was the invention of paper significant in Europe in the 15th century?",
+            "options": ["A. It was used for packaging goods", "B. It improved the way books were printed", "C. It replaced stone tablets in schools", "D. It made communication more expensive"],
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is one reason why paper remains important in modern times?",
+            "options": ["A. It is used exclusively for printing books", "B. Paper is essential in packaging and hygiene products", "C. The digital age has eliminated the need for paper", "D. Paper is no longer produced in large quantities"],
+            "correct_answer": "B"
+          },
+          {
+            "question": "What impact did the printing press have on the spread of information?",
+            "options": ["A. It limited access to information", "B. It made printing more expensive", "C. It revolutionized the spread of information", "D. It reduced the need for education"],
+            "correct_answer": "C"
+          }
+        ]
+      },
+      {
+        "title": "The Rise of Electric Cars",
+        "content": "In recent years, electric cars have become an increasingly popular alternative to traditional petrol and diesel vehicles. Governments around the world are promoting the adoption of electric cars as a solution to reduce carbon emissions and combat climate change. Electric vehicles (EVs) produce zero emissions while driving and are generally more efficient than their fossil fuel counterparts.\n\nOne of the major reasons for the shift towards electric cars is the advancement in battery technology. Modern batteries can now store more energy, allowing cars to travel longer distances on a single charge. Additionally, the growing network of charging stations is making it easier for people to own and operate electric vehicles.\n\nHowever, there are still challenges to widespread EV adoption. The initial cost of purchasing an electric car is higher than that of a traditional car, and the charging infrastructure is not yet as widespread in rural areas. Despite these challenges, sales of electric cars are expected to continue rising as technology improves and production costs decrease.",
+        "questions": [
+          {
+            "question": "Why are governments promoting electric cars?",
+            "options": ["A. To reduce traffic congestion", "B. To encourage technological development", "C. To reduce carbon emissions", "D. To increase fuel consumption"],
+            "correct_answer": "C"
+          },
+          {
+            "question": "What is one benefit of electric cars mentioned in the passage?",
+            "options": ["A. They are less expensive to buy than traditional cars", "B. They produce zero emissions while driving", "C. They are powered by solar energy", "D. They require no maintenance"],
+            "correct_answer": "B"
+          },
+          {
+            "question": "What recent advancement has helped increase the popularity of electric cars?",
+            "options": ["A. Lower fuel prices", "B. More efficient petrol engines", "C. Improved battery technology", "D. Government subsidies"],
+            "correct_answer": "C"
+          },
+          {
+            "question": "What is a current challenge for electric vehicle adoption in rural areas?",
+            "options": ["A. Lack of demand for electric cars", "B. Higher fuel prices for EV owners", "C. Lack of charging infrastructure", "D. Difficulty in maintaining EV batteries"],
+            "correct_answer": "C"
+          },
+          {
+            "question": "What is expected to happen as technology continues to improve?",
+            "options": ["A. Electric car sales will increase", "B. Electric cars will become less popular", "C. Governments will ban electric cars", "D. Petrol cars will become more efficient"],
+            "correct_answer": "A"
+          }
+        ]
+      },
+      {
+        "title": "The Benefits of Bilingualism",
+        "content": "Being bilingual has numerous cognitive, social, and economic benefits. Studies have shown that individuals who can speak more than one language tend to have better problem-solving skills, improved memory, and greater multitasking abilities compared to monolinguals. This is because switching between languages exercises the brain and keeps it more flexible.\n\nSocially, bilingual individuals can connect with a wider range of people and cultures, making them more empathetic and culturally aware. They can also enjoy books, films, and media in multiple languages, enriching their lives with diverse perspectives.\n\nEconomically, bilingualism opens up more job opportunities. Many companies, especially in international business and communication sectors, seek employees who can communicate in different languages. In a globalized world, being bilingual can provide a competitive edge in the job market, leading to higher salaries and career advancement.",
+        "questions": [
+          {
+            "question": "What is one cognitive benefit of being bilingual?",
+            "options": ["A. Improved physical coordination", "B. Better multitasking skills", "C. Faster reading speed", "D. Stronger muscles"],
+            "correct_answer": "B"
+          },
+          {
+            "question": "How does bilingualism impact social connections?",
+            "options": ["A. It limits interactions to one culture", "B. It creates communication barriers", "C. It allows people to connect with diverse cultures", "D. It discourages the learning of other languages"],
+            "correct_answer": "C"
+          },
+          {
+            "question": "Why is bilingualism advantageous in the job market?",
+            "options": ["A. It guarantees promotions in every job", "B. It opens up more job opportunities in international sectors", "C. It makes it easier to work in rural areas", "D. It replaces the need for other job skills"],
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is a reason why bilingual individuals may be more empathetic?",
+            "options": ["A. They have better problem-solving skills", "B. They are exposed to different languages and cultures", "C. They have improved memory", "D. They work longer hours"],
+            "correct_answer": "B"
+          },
+          {
+            "question": "How does being bilingual affect memory according to the passage?",
+            "options": ["A. It weakens memory by confusing languages", "B. It has no effect on memory", "C. It improves memory through language switching", "D. It makes it harder to learn new information"],
+            "correct_answer": "C"
+          }
+        ]
+      },
+      {
+        "title": "The Importance of Sleep",
+        "content": "Sleep is an essential part of maintaining good health. Research has shown that adults need between 7 to 9 hours of sleep per night to function optimally. During sleep, the body repairs tissues, strengthens the immune system, and consolidates memories. Lack of sufficient sleep can lead to various health problems such as weakened immunity, weight gain, and even cognitive decline.\n\nSleep is also crucial for mental health. Individuals who regularly get inadequate sleep are at a higher risk of developing anxiety, depression, and mood disorders. Sleep helps regulate the release of chemicals in the brain that control emotions and cognitive function.\n\nIn recent years, the rise of technology and busy lifestyles has led to an increase in sleep deprivation. Many people spend late hours on their devices, which emit blue light, disrupting the body's natural sleep-wake cycle. Experts recommend creating a relaxing bedtime routine and avoiding screens before bed to improve sleep quality.",
+        "questions": [
+          {
+            "question": "What is one primary function of sleep according to the passage?",
+            "options": ["A. Reducing blood pressure", "B. Consolidating memories", "C. Increasing appetite", "D. Enhancing physical strength"],
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is one potential consequence of chronic sleep deprivation?",
+            "options": ["A. Improved concentration", "B. Weight gain", "C. Reduced immune function", "D. Higher energy levels"],
+            "correct_answer": "B"
+          },
+          {
+            "question": "How does insufficient sleep affect mental health?",
+            "options": ["A. It helps regulate mood disorders", "B. It reduces the risk of anxiety", "C. It increases the likelihood of depression", "D. It has no impact on mental health"],
+            "correct_answer": "C"
+          },
+          {
+            "question": "What is one reason technology contributes to sleep deprivation?",
+            "options": ["A. It emits blue light that disrupts the sleep cycle", "B. It reduces the need for physical activity", "C. It makes people sleep earlier than usual", "D. It enhances the quality of sleep"],
+            "correct_answer": "A"
+          },
+          {
+            "question": "What do experts suggest to improve sleep quality?",
+            "options": ["A. Eating a large meal before bed", "B. Increasing daily screen time", "C. Avoiding screens before bedtime", "D. Exercising right before sleep"],
+            "correct_answer": "C"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,555 @@
+{
+    "passages": [
+      {
+        "title": "The Evolution of Renewable Energy",
+        "passage": "Renewable energy technologies have undergone significant advancements over the past few decades. Wind, solar, hydroelectric, and geothermal power have emerged as viable alternatives to fossil fuels, with numerous benefits including reduced greenhouse gas emissions and less environmental degradation. However, the transition to renewable energy has not been without its challenges. One of the major obstacles is the intermittency of renewable energy sources, as solar and wind power depend heavily on weather conditions. This necessitates the development of energy storage technologies to ensure a stable energy supply.\n\nMoreover, the initial costs of setting up renewable energy infrastructure can be prohibitively high, particularly for developing countries. However, the long-term benefits, both in terms of energy security and environmental sustainability, are driving global investment. Governments across the world are offering incentives for renewable energy adoption, which is expected to play a key role in the transition to a low-carbon economy.",
+        "questions": [
+          {
+            "id": 1,
+            "type": "multiple choice",
+            "sentence": "What is one challenge of renewable energy mentioned in the passage?",
+            "options": [
+              "High greenhouse gas emissions",
+              "Intermittency of energy supply",
+              "Lack of government incentives",
+              "Overreliance on fossil fuels"
+            ],
+            "correctAnswer": "Intermittency of energy supply"
+          },
+          {
+            "id": 2,
+            "type": "true/false/not given",
+            "statement": "The long-term benefits of renewable energy outweigh the initial costs.",
+            "correctAnswer": "True"
+          },
+          {
+            "id": 3,
+            "type": "sentence completion",
+            "sentence": "Governments are offering incentives to encourage the adoption of _____.",
+            "options": ["fossil fuels", "renewable energy", "nuclear power", "biofuels"],
+            "correctAnswer": "renewable energy"
+          },
+          {
+            "id": 4,
+            "type": "heading matching",
+            "items": [
+              {
+                "id": "item1",
+                "content": "The Environmental Benefits of Renewable Energy"
+              },
+              {
+                "id": "item2",
+                "content": "Challenges in Implementing Renewable Energy"
+              },
+              {
+                "id": "item3",
+                "content": "The Role of Governments in Renewable Energy Adoption"
+              }
+            ],
+            "headings": ["Challenges", "Government Role", "Environmental Benefits"],
+            "correctPairs": {
+              "item1": "The Environmental Benefits of Renewable Energy",
+              "item2": "Challenges in Implementing Renewable Energy",
+              "item3": "The Role of Governments in Renewable Energy Adoption"
+            }
+          }
+        ]
+      },
+      {
+        "title": "The Philosophy of Happiness",
+        "passage": "The concept of happiness has been a central focus in philosophical discourse for millennia. Ancient philosophers, such as Aristotle, believed that happiness was the ultimate goal of human life, but they had differing views on how it could be achieved. Aristotle argued that true happiness, or 'eudaimonia,' was not a fleeting emotion but a state of living in accordance with virtue. In contrast, the Epicureans suggested that happiness was the result of pleasure, particularly the absence of pain and distress.\n\nModern philosophers, however, have expanded the debate to include psychological and sociological factors that influence happiness. While some maintain that personal fulfillment comes from within, others argue that external conditions, such as social relationships and economic stability, play a crucial role in achieving happiness. The study of happiness has since evolved into an interdisciplinary field, with psychology contributing research on how positive emotions, well-being, and life satisfaction contribute to overall happiness.",
+        "questions": [
+          {
+            "id": 5,
+            "type": "multiple choice",
+            "sentence": "According to Aristotle, happiness is best achieved through _____.",
+            "options": [
+              "pleasure",
+              "accumulating wealth",
+              "living virtuously",
+              "avoiding pain"
+            ],
+            "correctAnswer": "living virtuously"
+          },
+          {
+            "id": 6,
+            "type": "true/false/not given",
+            "statement": "Modern philosophers only focus on internal factors when discussing happiness.",
+            "correctAnswer": "False"
+          },
+          {
+            "id": 7,
+            "type": "sentence completion",
+            "sentence": "The Epicureans believed that happiness was achieved through the absence of _____.",
+            "options": ["wealth", "pain", "pleasure", "virtue"],
+            "correctAnswer": "pain"
+          },
+          {
+            "id": 8,
+            "type": "matching information",
+            "items": [
+              {
+                "id": "item1",
+                "content": "Aristotle's view of happiness"
+              },
+              {
+                "id": "item2",
+                "content": "The role of modern psychology in studying happiness"
+              },
+              {
+                "id": "item3",
+                "content": "The Epicurean approach to happiness"
+              }
+            ],
+            "information": ["Virtue is key to happiness", "Absence of pain leads to happiness", "Research on well-being and life satisfaction"],
+            "correctPairs": {
+              "item1": "Virtue is key to happiness",
+              "item2": "Research on well-being and life satisfaction",
+              "item3": "Absence of pain leads to happiness"
+            }
+          }
+        ]
+      },
+      {
+        "title": "The Complexity of Language Acquisition",
+        "passage": "The process of language acquisition has fascinated linguists and psychologists alike for decades. Children typically acquire language effortlessly by being exposed to the speech around them, gradually developing the ability to understand and produce complex sentences. Noam Chomsky's theory of Universal Grammar suggests that humans are born with an innate ability to learn language, equipped with a set of grammatical rules that apply to all languages.\n\nHowever, other researchers argue that language acquisition is largely influenced by social and environmental factors. They emphasize the importance of interaction, imitation, and feedback in helping children learn the rules of language. Studies on bilingualism have also provided insights into how language learning can vary across different contexts. Bilingual children often acquire languages differently than monolingual children, and their ability to switch between languages suggests a high level of cognitive flexibility.",
+        "questions": [
+          {
+            "id": 9,
+            "type": "multiple choice",
+            "sentence": "What does Chomsky's theory of Universal Grammar propose?",
+            "options": [
+              "Language is acquired through imitation",
+              "Humans are born with the ability to learn language",
+              "Grammar rules differ across languages",
+              "Language learning requires conscious effort"
+            ],
+            "correctAnswer": "Humans are born with the ability to learn language"
+          },
+          {
+            "id": 10,
+            "type": "true/false/not given",
+            "statement": "Bilingual children acquire languages in the same way as monolingual children.",
+            "correctAnswer": "False"
+          },
+          {
+            "id": 11,
+            "type": "sentence completion",
+            "sentence": "Researchers who disagree with Chomsky argue that language learning is influenced by _____.",
+            "options": ["innate grammar", "social and environmental factors", "genetics", "cognitive ability"],
+            "correctAnswer": "social and environmental factors"
+          },
+          {
+            "id": 12,
+            "type": "heading matching",
+            "items": [
+              {
+                "id": "item1",
+                "content": "The Role of Social Interaction in Language Acquisition"
+              },
+              {
+                "id": "item2",
+                "content": "Chomsky’s Universal Grammar"
+              },
+              {
+                "id": "item3",
+                "content": "Language Learning in Bilingual Children"
+              }
+            ],
+            "headings": ["Innate Abilities", "Social and Environmental Influences", "Bilingualism and Cognitive Flexibility"],
+            "correctPairs": {
+              "item1": "The Role of Social Interaction in Language Acquisition",
+              "item2": "Chomsky’s Universal Grammar",
+              "item3": "Language Learning in Bilingual Children"
+            }
+          }
+        ]
+      },
+      {
+        "title": "The Challenges of Urbanization",
+        "passage": "Urbanization is a global phenomenon that has transformed both developed and developing nations. As more people move to cities in search of economic opportunities, urban areas are expanding at an unprecedented rate. While cities provide jobs, education, and access to services, rapid urbanization also brings significant challenges. In many parts of the world, urban sprawl has led to overcrowded living conditions, inadequate infrastructure, and increased pollution.\n\nOne of the most pressing issues is the strain on public services. Health systems, sanitation, and transportation often struggle to keep up with the demands of growing populations. Additionally, urbanization can exacerbate social inequalities, as marginalized communities may not have access to the same resources as wealthier citizens. Sustainable urban development is crucial to addressing these issues, with solutions ranging from affordable housing to improved public transit systems.",
+        "questions": [
+          {
+            "id": 13,
+            "type": "multiple choice",
+            "sentence": "What is one of the challenges of urbanization mentioned in the passage?",
+            "options": [
+              "Increased job opportunities",
+              "Overcrowded living conditions",
+              "Declining birth rates",
+              "Improved healthcare"
+            ],
+            "correctAnswer": "Overcrowded living conditions"
+          },
+          {
+            "id": 14,
+            "type": "true/false/not given",
+            "statement": "Marginalized communities may face greater difficulties in accessing urban resources.",
+            "correctAnswer": "True"
+          },
+          {
+            "id": 15,
+            "type": "sentence completion",
+            "sentence": "One solution to the challenges of urbanization is sustainable _____.",
+            "options": ["farming", "urban development", "construction", "population control"],
+            "correctAnswer": "urban development"
+          },
+          {
+            "id": 16,
+            "type": "heading matching",
+            "items": [
+              {
+                "id": "item1",
+                "content": "The Role of Urbanization in Economic Growth"
+              },
+              {
+                "id": "item2",
+                "content": "Challenges of Urbanization"
+              },
+              {
+                "id": "item3",
+                "content": "Sustainable Solutions to Urban Problems"
+              }
+            ],
+            "headings": ["Economic Opportunities", "Urbanization Challenges", "Solutions for Sustainability"],
+            "correctPairs": {
+              "item1": "The Role of Urbanization in Economic Growth",
+              "item2": "Challenges of Urbanization",
+              "item3": "Sustainable Solutions to Urban Problems"
+            }
+          }
+        ]
+      },
+      {
+        "title": "The Ethics of Artificial Intelligence",
+        "passage": "Artificial intelligence (AI) has the potential to revolutionize industries such as healthcare, finance, and transportation. However, the rise of AI also raises important ethical questions. One of the most debated issues is the potential for bias in AI algorithms. Since AI systems often rely on data that reflects historical biases, they can inadvertently perpetuate discrimination in areas like hiring, lending, and law enforcement.\n\nAnother ethical concern is the use of AI in surveillance. AI systems can be used to monitor individuals' movements and behaviors, raising concerns about privacy and civil liberties. Moreover, the development of autonomous weapons powered by AI poses serious risks, as such systems could make decisions without human oversight. Addressing these ethical challenges will require a combination of regulation, transparency, and international cooperation.",
+        "questions": [
+          {
+            "id": 17,
+            "type": "multiple choice",
+            "sentence": "What is one ethical concern related to AI mentioned in the passage?",
+            "options": [
+              "It decreases efficiency",
+              "It perpetuates historical biases",
+              "It eliminates all jobs",
+              "It reduces surveillance"
+            ],
+            "correctAnswer": "It perpetuates historical biases"
+          },
+          {
+            "id": 18,
+            "type": "yes/no/not given",
+            "statement": "AI could potentially lead to discrimination in hiring and lending.",
+            "correctAnswer": "Yes"
+          },
+          {
+            "id": 19,
+            "type": "sentence completion",
+            "sentence": "One major ethical concern about AI is the development of autonomous _____.",
+            "options": ["vehicles", "robots", "weapons", "computers"],
+            "correctAnswer": "weapons"
+          },
+          {
+            "id": 20,
+            "type": "heading matching",
+            "items": [
+              {
+                "id": "item1",
+                "content": "The Risks of Bias in AI Algorithms"
+              },
+              {
+                "id": "item2",
+                "content": "AI and Privacy Concerns"
+              },
+              {
+                "id": "item3",
+                "content": "International Cooperation on AI Regulation"
+              }
+            ],
+            "headings": ["Bias and Discrimination", "Privacy and Surveillance", "Global Ethical Standards"],
+            "correctPairs": {
+              "item1": "The Risks of Bias in AI Algorithms",
+              "item2": "AI and Privacy Concerns",
+              "item3": "International Cooperation on AI Regulation"
+            }
+          }
+        ]
+      },
+      {
+        "title": "The Impact of Global Tourism",
+        "passage": "Tourism is one of the largest and fastest-growing industries in the world, contributing to economic development, job creation, and cultural exchange. However, the rapid expansion of global tourism also poses significant challenges, particularly in terms of environmental sustainability. Popular tourist destinations often struggle with overcrowding, pollution, and the degradation of natural and cultural heritage sites.\n\nIn response to these issues, many countries are adopting measures to promote sustainable tourism. This includes limiting the number of visitors to sensitive areas, encouraging eco-friendly travel options, and involving local communities in tourism development. While sustainable tourism can mitigate some of the negative impacts of the industry, it requires long-term commitment from governments, businesses, and travelers alike.",
+        "questions": [
+          {
+            "id": 21,
+            "type": "multiple choice",
+            "sentence": "What is one negative impact of global tourism mentioned in the passage?",
+            "options": [
+              "Cultural exchange",
+              "Job creation",
+              "Environmental degradation",
+              "Economic development"
+            ],
+            "correctAnswer": "Environmental degradation"
+          },
+          {
+            "id": 22,
+            "type": "true/false/not given",
+            "statement": "Sustainable tourism can help address the negative impacts of global tourism.",
+            "correctAnswer": "True"
+          },
+          {
+            "id": 23,
+            "type": "sentence completion",
+            "sentence": "One strategy for promoting sustainable tourism is involving local _____.",
+            "options": ["businesses", "communities", "governments", "tourists"],
+            "correctAnswer": "communities"
+          },
+          {
+            "id": 24,
+            "type": "matching information",
+            "items": [
+              {
+                "id": "item1",
+                "content": "The environmental challenges of tourism"
+              },
+              {
+                "id": "item2",
+                "content": "Sustainable tourism practices"
+              },
+              {
+                "id": "item3",
+                "content": "The economic benefits of tourism"
+              }
+            ],
+            "information": ["Job creation and cultural exchange", "Eco-friendly travel and limiting visitors", "Pollution and overcrowding"],
+            "correctPairs": {
+              "item1": "Pollution and overcrowding",
+              "item2": "Eco-friendly travel and limiting visitors",
+              "item3": "Job creation and cultural exchange"
+            }
+          }
+        ]
+      },
+      {
+        "title": "The Future of Work: Remote and Hybrid Models",
+        "passage": "The COVID-19 pandemic has accelerated the shift towards remote and hybrid work models, where employees divide their time between working from home and being in the office. While these models offer increased flexibility and work-life balance for many, they also present challenges for businesses. Managing remote teams, maintaining productivity, and ensuring effective communication are some of the key concerns for employers.\n\nDespite these challenges, studies suggest that remote and hybrid work models are likely to become a permanent feature of the workplace. Many employees have reported higher job satisfaction and improved work-life balance, while companies have found that remote work can reduce overhead costs. As businesses adapt to these new models, the focus will be on leveraging technology to facilitate collaboration and maintaining a strong company culture.",
+        "questions": [
+          {
+            "id": 25,
+            "type": "multiple choice",
+            "sentence": "What is one challenge of remote work mentioned in the passage?",
+            "options": [
+              "Higher job satisfaction",
+              "Maintaining productivity",
+              "Increased overhead costs",
+              "Improved communication"
+            ],
+            "correctAnswer": "Maintaining productivity"
+          },
+          {
+            "id": 26,
+            "type": "yes/no/not given",
+            "statement": "Remote work can reduce overhead costs for companies.",
+            "correctAnswer": "Yes"
+          },
+          {
+            "id": 27,
+            "type": "sentence completion",
+            "sentence": "One benefit of remote work models is improved work-life _____.",
+            "options": ["balance", "interaction", "distance", "satisfaction"],
+            "correctAnswer": "balance"
+          },
+          {
+            "id": 28,
+            "type": "heading matching",
+            "items": [
+              {
+                "id": "item1",
+                "content": "The Advantages of Remote Work"
+              },
+              {
+                "id": "item2",
+                "content": "The Challenges of Remote and Hybrid Work"
+              },
+              {
+                "id": "item3",
+                "content": "The Future of Work after the Pandemic"
+              }
+            ],
+            "headings": ["Productivity and Satisfaction", "Technological and Management Challenges", "Post-Pandemic Workplace Trends"],
+            "correctPairs": {
+              "item1": "The Advantages of Remote Work",
+              "item2": "The Challenges of Remote and Hybrid Work",
+              "item3": "The Future of Work after the Pandemic"
+            }
+          }
+        ]
+      },
+      {
+        "title": "The Psychology of Consumer Behavior",
+        "passage": "Consumer behavior is influenced by a complex array of psychological factors, including perception, motivation, and decision-making processes. Marketers have long used psychological principles to shape advertising strategies and influence purchasing decisions. One key concept in consumer psychology is the idea of 'social proof,' where individuals look to others' behavior as a guide for their own actions. This can be seen in the popularity of product reviews and testimonials.\n\nAnother influential factor is the scarcity principle, which suggests that people value things more when they perceive them to be in limited supply. This principle is frequently used in marketing to create a sense of urgency, encouraging consumers to make quicker purchasing decisions. By understanding these and other psychological factors, businesses can tailor their marketing strategies to better meet consumer needs and drive sales.",
+        "questions": [
+          {
+            "id": 29,
+            "type": "multiple choice",
+            "sentence": "What is the concept of 'social proof'?",
+            "options": [
+              "People value things more when they are scarce",
+              "Consumers rely on others' behavior to guide their actions",
+              "Marketers create urgency through limited offers",
+              "Consumers make decisions based on personal preference"
+            ],
+            "correctAnswer": "Consumers rely on others' behavior to guide their actions"
+          },
+          {
+            "id": 30,
+            "type": "true/false/not given",
+            "statement": "The scarcity principle makes people value things more when they are abundant.",
+            "correctAnswer": "False"
+          },
+          {
+            "id": 31,
+            "type": "sentence completion",
+            "sentence": "Marketers often use the scarcity principle to create a sense of _____.",
+            "options": ["satisfaction", "quality", "urgency", "trust"],
+            "correctAnswer": "urgency"
+          },
+          {
+            "id": 32,
+            "type": "heading matching",
+            "items": [
+              {
+                "id": "item1",
+                "content": "The Use of Social Proof in Marketing"
+              },
+              {
+                "id": "item2",
+                "content": "The Scarcity Principle in Consumer Behavior"
+              },
+              {
+                "id": "item3",
+                "content": "Psychological Factors Influencing Decision-Making"
+              }
+            ],
+            "headings": ["Social Influences", "Scarcity and Urgency", "Consumer Decision-Making"],
+            "correctPairs": {
+              "item1": "The Use of Social Proof in Marketing",
+              "item2": "The Scarcity Principle in Consumer Behavior",
+              "item3": "Psychological Factors Influencing Decision-Making"
+            }
+          }
+        ]
+      },
+      {
+        "title": "The Role of Technology in Education",
+        "passage": "Technology has become an integral part of modern education, offering new opportunities for learning and engagement. Digital tools such as online courses, educational apps, and virtual classrooms have made education more accessible, particularly for students in remote or underserved areas. Additionally, technology allows for more personalized learning experiences, enabling students to work at their own pace and receive instant feedback on their progress.\n\nHowever, the integration of technology into education also presents challenges. Issues such as digital literacy, unequal access to devices, and the potential for distraction can hinder the effectiveness of technology-based learning. Furthermore, the rapid pace of technological change means that educators must continually adapt their teaching methods to keep up with new tools and platforms. As technology continues to evolve, its role in education will undoubtedly grow, but it will require careful planning to ensure that all students benefit equally.",
+        "questions": [
+          {
+            "id": 33,
+            "type": "multiple choice",
+            "sentence": "What is one benefit of technology in education mentioned in the passage?",
+            "options": [
+              "Increased distraction",
+              "Personalized learning experiences",
+              "Reduced need for teachers",
+              "Limited access to educational resources"
+            ],
+            "correctAnswer": "Personalized learning experiences"
+          },
+          {
+            "id": 34,
+            "type": "yes/no/not given",
+            "statement": "Technology has made education more accessible to students in underserved areas.",
+            "correctAnswer": "Yes"
+          },
+          {
+            "id": 35,
+            "type": "sentence completion",
+            "sentence": "One challenge of integrating technology into education is ensuring equal access to _____.",
+            "options": ["devices", "teachers", "feedback", "learning"],
+            "correctAnswer": "devices"
+          },
+          {
+            "id": 36,
+            "type": "heading matching",
+            "items": [
+              {
+                "id": "item1",
+                "content": "The Benefits of Technology in Education"
+              },
+              {
+                "id": "item2",
+                "content": "Challenges of Using Technology in Classrooms"
+              },
+              {
+                "id": "item3",
+                "content": "The Future of Educational Technology"
+              }
+            ],
+            "headings": ["Technology in Classrooms", "Barriers to Tech-Enhanced Learning", "Educational Opportunities"],
+            "correctPairs": {
+              "item1": "The Benefits of Technology in Education",
+              "item2": "Challenges of Using Technology in Classrooms",
+              "item3": "The Future of Educational Technology"
+            }
+          }
+        ]
+      },
+      {
+        "title": "The Globalization of Food Culture",
+        "passage": "Globalization has had a profound impact on food culture, leading to the exchange of culinary traditions across borders. Foods that were once considered exotic or unfamiliar are now widely available in many parts of the world, thanks to advances in transportation and communication. This cross-cultural exchange has enriched diets and expanded people's culinary experiences.\n\nHowever, globalization has also raised concerns about the loss of traditional food cultures. In some cases, local cuisines are being overshadowed by the global dominance of fast food chains and processed foods, leading to a decline in culinary diversity. Additionally, the global food supply chain can have negative environmental consequences, as transporting food over long distances increases carbon emissions. While the globalization of food culture has many benefits, it also presents challenges that need to be addressed to preserve local food traditions and promote sustainability.",
+        "questions": [
+          {
+            "id": 37,
+            "type": "multiple choice",
+            "sentence": "What is one concern about the globalization of food culture?",
+            "options": [
+              "Improved access to food",
+              "Loss of traditional food cultures",
+              "Increased culinary diversity",
+              "Better transportation methods"
+            ],
+            "correctAnswer": "Loss of traditional food cultures"
+          },
+          {
+            "id": 38,
+            "type": "true/false/not given",
+            "statement": "The globalization of food culture has increased culinary diversity worldwide.",
+            "correctAnswer": "True"
+          },
+          {
+            "id": 39,
+            "type": "sentence completion",
+            "sentence": "One challenge of the global food supply chain is the increase in _____.",
+            "options": ["food prices", "culinary experiences", "carbon emissions", "cultural exchange"],
+            "correctAnswer": "carbon emissions"
+          },
+          {
+            "id": 40,
+            "type": "heading matching",
+            "items": [
+              {
+                "id": "item1",
+                "content": "The Benefits of Global Food Exchange"
+              },
+              {
+                "id": "item2",
+                "content": "Environmental Challenges of Global Food Supply"
+              },
+              {
+                "id": "item3",
+                "content": "The Impact of Fast Food Chains on Local Cultures"
+              }
+            ],
+            "headings": ["Food Supply Challenges", "Culinary Diversity", "Cultural Impact of Global Chains"],
+            "correctPairs": {
+              "item1": "The Benefits of Global Food Exchange",
+              "item2": "Environmental Challenges of Global Food Supply",
+              "item3": "The Impact of Fast Food Chains on Local Cultures"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,165 @@
+{
+    "passages": [
+      {
+        "title": "The Complexities of Climate Change",
+        "passage": "Climate change is a multifaceted issue that impacts ecosystems, economies, and human populations globally. The primary cause is the emission of greenhouse gases, such as carbon dioxide, from burning fossil fuels. The accumulation of these gases in the atmosphere traps heat, leading to a gradual increase in global temperatures. This warming has a cascade of effects, including melting glaciers, rising sea levels, and more extreme weather events.\n\nGovernments and organizations are working to mitigate the effects of climate change by investing in renewable energy sources, improving energy efficiency, and promoting conservation efforts. Despite these efforts, the global demand for energy continues to rise, complicating efforts to reduce emissions. Additionally, climate change disproportionately affects developing countries, which often lack the resources to adapt to these changes.",
+        "questions": [
+          {
+            "id": 1,
+            "type": "multiple choice",
+            "sentence": "What is a key challenge in mitigating climate change?",
+            "options": ["Rising energy demand", "Lack of scientific research", "Low carbon emissions", "Stable weather patterns"],
+            "correctAnswer": "Rising energy demand"
+          },
+          {
+            "id": 2,
+            "type": "true/false/not given",
+            "statement": "Developing countries are more equipped to handle the effects of climate change.",
+            "correctAnswer": "False"
+          },
+          {
+            "id": 3,
+            "type": "sentence completion",
+            "sentence": "Climate change results from the accumulation of _____ in the atmosphere, leading to a rise in global temperatures.",
+            "options": ["greenhouse gases", "oxygen", "solar radiation", "air pollutants"],
+            "correctAnswer": "greenhouse gases"
+          }
+        ]
+      },
+      {
+        "title": "The Evolution of Social Media",
+        "passage": "Social media platforms have transformed how people communicate and consume information. Initially created as tools for personal interaction, platforms like Facebook, Twitter, and Instagram have become powerful tools for businesses, political movements, and content creators. The ability to instantly share information with a global audience has had both positive and negative effects.\n\nOne of the significant concerns surrounding social media is the spread of misinformation. False news can be disseminated rapidly, leading to confusion and influencing public opinion. Additionally, social media algorithms tend to show users content that aligns with their existing beliefs, creating echo chambers that reinforce biases. While social media provides a platform for free speech, it also raises questions about responsibility and regulation.",
+        "questions": [
+          {
+            "id": 4,
+            "type": "heading matching",
+            "items": [
+              {
+                "id": "item1",
+                "content": "The spread of false information on social platforms.",
+                "correctHeading": "The Risks of Misinformation"
+              },
+              {
+                "id": "item2",
+                "content": "Social media algorithms creating echo chambers.",
+                "correctHeading": "Reinforcing Biases"
+              },
+              {
+                "id": "item3",
+                "content": "Businesses using social media as a marketing tool.",
+                "correctHeading": "Commercial Use of Social Media"
+              }
+            ],
+            "headings": ["The Risks of Misinformation", "Reinforcing Biases", "Commercial Use of Social Media", "Political Campaigns"]
+          },
+          {
+            "id": 5,
+            "type": "multiple choice",
+            "sentence": "What is one negative effect of social media algorithms?",
+            "options": ["They encourage open dialogue", "They limit content creators' reach", "They create echo chambers", "They promote balanced viewpoints"],
+            "correctAnswer": "They create echo chambers"
+          }
+        ]
+      },
+      {
+        "title": "The Economics of Renewable Energy",
+        "passage": "Renewable energy, derived from sources like wind, solar, and hydropower, is seen as a key solution to reducing reliance on fossil fuels. However, transitioning to renewable energy is not without its economic challenges. The initial costs of building infrastructure for renewable energy sources can be prohibitively expensive, especially for developing countries. Additionally, renewable energy is not always reliable; for example, solar energy is dependent on weather conditions and daylight hours.\n\nDespite these challenges, the long-term economic benefits of renewable energy are substantial. Once the infrastructure is in place, renewable energy is often cheaper to maintain and operate than fossil fuel-based energy. Additionally, it reduces the economic costs associated with environmental degradation and health issues caused by pollution. Many governments are offering subsidies and incentives to promote the adoption of renewable energy.",
+        "questions": [
+          {
+            "id": 6,
+            "type": "yes/no/not given",
+            "statement": "Renewable energy is always more affordable to implement than fossil fuels.",
+            "correctAnswer": "No"
+          },
+          {
+            "id": 7,
+            "type": "multiple choice",
+            "sentence": "What is one economic challenge of adopting renewable energy?",
+            "options": ["High initial infrastructure costs", "Over-reliance on fossil fuels", "Environmental degradation", "Health issues caused by pollution"],
+            "correctAnswer": "High initial infrastructure costs"
+          },
+          {
+            "id": 8,
+            "type": "sentence completion",
+            "sentence": "One of the long-term benefits of renewable energy is that it reduces the economic costs associated with _____ and health issues.",
+            "options": ["environmental degradation", "fossil fuel production", "taxation", "government spending"],
+            "correctAnswer": "environmental degradation"
+          }
+        ]
+      },
+      {
+        "title": "The Impact of Artificial Intelligence on Jobs",
+        "passage": "The rise of artificial intelligence (AI) has brought about significant changes in the labor market. AI is capable of automating tasks that were once performed by humans, leading to increased productivity and cost efficiency in various industries. However, this automation also raises concerns about job displacement, as machines are taking over roles traditionally filled by human workers.\n\nWhile AI creates new job opportunities in tech-related fields, it also requires workers to acquire new skills to stay relevant. Governments and companies are investing in retraining programs to help workers transition to new roles, but the process is not without challenges. The speed of AI advancement outpaces the ability of many workers to adapt, leading to a potential widening of the skills gap.",
+        "questions": [
+          {
+            "id": 9,
+            "type": "true/false/not given",
+            "statement": "AI advancements are creating more jobs in traditional sectors.",
+            "correctAnswer": "False"
+          },
+          {
+            "id": 10,
+            "type": "multiple choice",
+            "sentence": "What is a major concern associated with AI in the labor market?",
+            "options": ["Increased job opportunities in traditional fields", "Job displacement due to automation", "Decreased productivity in industries", "Higher costs of training workers"],
+            "correctAnswer": "Job displacement due to automation"
+          },
+          {
+            "id": 11,
+            "type": "matching pairs",
+            "pairs": [
+              {
+                "id": "item1",
+                "text": "AI automation"
+              },
+              {
+                "id": "item2",
+                "text": "Retraining programs"
+              },
+              {
+                "id": "item3",
+                "text": "Skills gap"
+              }
+            ],
+            "matchingOptions": [
+              "Helps workers transition to new roles",
+              "Widening due to technological advancements",
+              "Taking over human-performed tasks"
+            ],
+            "correctPairs": {
+              "item1": "Taking over human-performed tasks",
+              "item2": "Helps workers transition to new roles",
+              "item3": "Widening due to technological advancements"
+            }
+          }
+        ]
+      },
+      {
+        "title": "The Decline of Traditional News Media",
+        "passage": "The advent of the internet and digital platforms has drastically transformed how people consume news. Traditional news outlets, such as newspapers and television networks, have seen a sharp decline in readership and viewership as more people turn to online news sources. Digital platforms provide instant access to information, often for free, making it difficult for traditional outlets to compete.\n\nThis shift has also raised concerns about the quality of news. While the internet provides a wealth of information, it has also led to the rise of unverified news sources. Traditional journalism, which adheres to strict ethical standards, is increasingly under threat as budget cuts lead to fewer resources for investigative reporting.",
+        "questions": [
+          {
+            "id": 12,
+            "type": "yes/no/not given",
+            "statement": "Traditional news outlets are thriving due to the rise of digital media.",
+            "correctAnswer": "No"
+          },
+          {
+            "id": 13,
+            "type": "multiple choice",
+            "sentence": "What is one consequence of the rise of digital news platforms?",
+            "options": ["Improved investigative journalism", "Increased viewership for traditional news", "Decline in traditional news media", "More budget for traditional outlets"],
+            "correctAnswer": "Decline in traditional news media"
+          },
+          {
+            "id": 14,
+            "type": "sentence completion",
+            "sentence": "The internet has contributed to the rise of _____, leading to concerns over news quality.",
+            "options": ["unverified news sources", "strict ethical standards", "traditional journalism", "newspaper readership"],
+            "correctAnswer": "unverified news sources"
+          }
+        ]
+      }
+    ]
+  }
+  

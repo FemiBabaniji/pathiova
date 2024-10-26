@@ -1,0 +1,274 @@
+"use client";  // Ensure this component runs on the client-side
+
+import React, { useState, useMemo, useCallback, useEffect } from "react";
+import axios from "axios";
+import Link from "next/link"; // Import Link for navigation
+import questions from "../data/questionswritingtask1.json"; // Ensure the path to your questions file is correct
+import { EyeIcon, ArrowPathIcon } from "@heroicons/react/24/outline"; // Updated import for Heroicons v2
+import { tailspin } from 'ldrs'; // Importing tailspin
+
+// Registering the tailspin loader
+tailspin.register();
+
+// HighlightText Component
+const HighlightText = ({ text, highlights }) => {
+  if (!highlights || highlights.length === 0) return <span>{text}</span>;
+
+  // Create a regex pattern to match all highlight words
+  const regex = new RegExp(`(${highlights.join('|')})`, 'gi');
+  
+  // Split the text based on the regex and map over each part
+  const parts = text.split(regex);
+
+  return (
+    <span>
+      {parts.map((part, index) => 
+        highlights.some(h => h.toLowerCase() === part.toLowerCase()) ? (
+          <span key={index} style={{ backgroundColor: 'lightgreen', padding: '0 4px' }}>
+            {part}
+          </span>
+        ) : (
+          part
+        )
+      )}
+    </span>
+  );
+};
+
+const MCQWritingTaskUN = () => {
+  const [questionIndex, setQuestionIndex] = useState(0); // Current question index
+  const [answer, setAnswer] = useState(""); // Current answer text
+  const [answers, setAnswers] = useState<string[]>([]); // Array of all submitted answers
+  const [loading, setLoading] = useState(false); // Loading state for API requests
+  const [feedbackLoading, setFeedbackLoading] = useState(false); // Loading state for feedback
+  const [feedbackData, setFeedbackData] = useState(null); // State to hold feedback data
+  const [showFeedback, setShowFeedback] = useState(false); // State to control showing feedback page
+  const [isRetryMode, setIsRetryMode] = useState(false); // Track if we are in retry mode
+  const [storedScores, setStoredScores] = useState([]); // Store scores across questions
+
+  // Use useEffect to retrieve stored scores on page load
+  useEffect(() => {
+    const savedScores = JSON.parse(localStorage.getItem("quizScores")) || [];
+    setStoredScores(savedScores);
+  }, []);
+
+  // Memoized current question
+  const currentQuestion = useMemo(() => {
+    return questions[questionIndex];
+  }, [questionIndex]);
+
+  // Function to store scores in local storage
+  const saveScoresToLocalStorage = (newScore) => {
+    const updatedScores = [...storedScores, newScore];
+    setStoredScores(updatedScores);
+    localStorage.setItem("quizScores", JSON.stringify(updatedScores));
+  };
+
+  // Handle the "Mark Answer" click
+  const handleMarkAnswer = useCallback(async () => {
+    if (answer.trim() !== "") {
+      setLoading(true); // Set loading state to true when submitting the answer
+      setFeedbackLoading(true); // Set feedback loading to true
+
+      try {
+        // Call the API to get feedback for the current answer
+        const { data } = await axios.post(
+          "/api/evaluate-answer",
+          {
+            answer: answer, // Send the answer
+            questionId: currentQuestion.id // Send the current question ID
+          },
+          {
+            headers: {
+              "Content-Type": "application/json", // Ensure the content type is set to JSON
+            },
+          }
+        );
+
+        // Store feedback data in the state
+        setFeedbackData({
+          answer: answer,
+          feedback: data.feedback,
+          score: data.score, // Using the actual score from the API response
+          highlights: data.highlights || [], // Extract highlights from the response if available
+          totalQuestions: questions.length,
+        });
+
+        // Save score to local storage
+        saveScoresToLocalStorage(data.score);
+
+        setShowFeedback(true); // Show the feedback section
+        setIsRetryMode(true); // Enable retry mode after feedback is shown
+
+      } catch (error) {
+        console.error("Error evaluating answer:", error);
+        alert("An error occurred while evaluating your answer. Please try again.");
+      } finally {
+        setLoading(false); // Set loading state back to false after the request
+        setFeedbackLoading(false); // Set feedback loading state back to false
+      }
+    }
+  }, [answer, currentQuestion.id]);
+
+  // Handle the "Retry" button click to reset feedback and answer
+  const handleRetry = () => {
+    setAnswer(""); // Clear the answer input
+    setFeedbackData(null); // Clear feedback data
+    setShowFeedback(false); // Hide the feedback section
+    setIsRetryMode(false); // Set back to "Show Solution" mode
+  };
+
+  // Handle the "Next" button click to go to the next question
+  const handleNext = useCallback(() => {
+    if (feedbackData) { // Proceed only if feedback is available
+      setQuestionIndex((prevIndex) => (prevIndex + 1) % questions.length);
+      setAnswer(""); // Reset the answer input
+      setShowFeedback(false); // Hide the feedback section
+      setFeedbackData(null); // Clear feedback data
+      setIsRetryMode(false); // Reset to "Show Solution" mode for the next question
+    }
+  }, [feedbackData, questions.length]);
+
+  // Handle the "Back" button click to go to the previous question
+  const handleBack = useCallback(() => {
+    if (questionIndex > 0) {
+      setQuestionIndex((prevIndex) => prevIndex - 1);
+      setAnswers((prev) => prev.slice(0, -1));
+      setAnswer(answers[questionIndex - 1] || ""); // Restore the previous answer
+      setShowFeedback(false); // Hide the feedback section
+      setFeedbackData(null); // Clear feedback data
+      setIsRetryMode(false); // Reset to "Show Solution" mode
+    }
+  }, [questionIndex, answers]);
+
+  // Determine the color of the score box based on the score value
+  const getScoreColor = (score) => {
+    if (score < 5) return "bg-red-500 text-white"; // Low score (Red)
+    if (score >= 5 && score <= 6.5) return "bg-yellow-500 text-white"; // Medium score (Yellow)
+    return "bg-green-500 text-white"; // High score (Green)
+  };
+
+  return (
+    <div className="flex h-screen w-full bg-gray-50">
+      {/* Left Side for Text Input */}
+      <div className="flex flex-col flex-grow px-10 py-6">
+        <div className="w-full h-full border rounded-md bg-white shadow-sm overflow-y-auto">
+          <div className="p-8">
+            <h2 className="text-xl font-semibold mb-4">Your Response</h2> {/* Slightly increased text size */}
+            <textarea
+              className="w-full h-[70vh] p-4 border-b border-gray-200 text-lg text-gray-800 focus:outline-none"
+              value={answer}
+              onChange={(e) => setAnswer(e.target.value)}
+              placeholder="Provide a detailed response to the question on the left or upload a document." // Updated placeholder
+              disabled={loading} // Disable input while loading
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* Conditional Right Sidebar */}
+      <div className="w-[25%] h-[60%] bg-white border-l border-gray-200 shadow-sm mr-10 mt-10 rounded-lg p-4 flex flex-col justify-between"> {/* Reduced height */}
+        <div>
+          {/* Question Display */}
+          <h2 className="text-lg font-semibold text-gray-800 mb-2">Question</h2> {/* Bold and larger font for 'Question' */}
+          <div className="mb-4">
+            <h3 className="text-base font-normal text-gray-700"> {/* Increased font size for question */}
+              {currentQuestion?.question}
+            </h3>
+          </div>
+
+          <hr className="w-full border-t border-gray-300 mb-2" /> {/* Divider */}
+
+          {/* Close, Back, and Next Buttons in the same row but now below the divider */}
+          <div className="flex justify-between items-center mt-4"> {/* Align buttons horizontally */}
+            <div className="flex space-x-2"> {/* Close and Back buttons side by side */}
+              <Link href="/learning/writing-task-masterclass"> {/* Update the href to your desired page */}
+                <button className="px-4 py-2 font-semibold text-white bg-red-500 rounded-md hover:bg-red-600 text-sm">
+                  Close
+                </button>
+              </Link>
+
+              <button
+                className="px-4 py-2 font-semibold border border-gray-500 rounded-md text-gray-500 hover:bg-gray-100 text-sm"
+                onClick={handleBack}
+                disabled={questionIndex === 0 || loading} // Disable during loading
+              >
+                Back
+              </button>
+            </div>
+
+            <button
+              className="px-4 py-2 font-semibold text-white bg-orange-600 rounded-md hover:bg-orange-700 text-sm"
+              onClick={handleNext} // Go to the next question
+              disabled={!feedbackData || loading} // Disable if feedback is not available or during loading
+            >
+              Next
+            </button>
+          </div>
+
+          {/* Centered Text Below the Buttons */}
+          <div className="mt-6 text-center text-gray-600">
+            <p>Submit your answer for evaluation.</p>
+          </div>
+
+          {/* Show Solution / Retry Button */}
+          <div className="flex justify-center mt-4">
+            {isRetryMode ? (
+              // Retry mode button
+              <div 
+                onClick={handleRetry} 
+                className="cursor-pointer text-blue-500 hover:text-orange-500 flex items-center"
+              >
+                <ArrowPathIcon className="h-6 w-6 mr-2" />
+                <span>Retry</span>
+              </div>
+            ) : (
+              // Initial "Show Solution" button
+              <div 
+                onClick={handleMarkAnswer} 
+                className="cursor-pointer text-blue-500 hover:text-orange-500 flex items-center"
+              >
+                <EyeIcon className="h-6 w-6 mr-2" />
+                <span>Show solution</span>
+              </div>
+            )}
+          </div>
+
+          {/* Feedback Section or Spinner */}
+          {feedbackLoading ? (
+            <div className="flex justify-center mt-4">
+              {/* Orange Loading Spinner */}
+              <l-tailspin
+                size="40"
+                stroke="5"
+                speed="0.9" 
+                color="orange" 
+              ></l-tailspin>
+            </div>
+          ) : (
+            showFeedback && feedbackData && (
+              <div className="mt-4">
+                <div className="flex w-full justify-between items-start">
+                  {/* Score Box */}
+                  <div className={`w-16 h-16 flex items-center justify-center rounded-lg ${getScoreColor(feedbackData.score)}`}>
+                    <span className="text-2xl font-bold">{feedbackData.score}</span> {/* Displaying the actual score */}
+                  </div>
+
+                  {/* Feedback Text */}
+                  <div className="ml-2 flex-1"> {/* Adjusted margin and flex size */}
+                    <h3 className="text-sm font-medium text-gray-700 mb-2">Feedback & Suggestions</h3>
+                    {/* Highlighted Feedback using HighlightText Component */}
+                    <HighlightText text={feedbackData.feedback} highlights={feedbackData.highlights} />
+                  </div>
+                </div>
+              </div>
+            )
+          )}
+
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default MCQWritingTaskUN;

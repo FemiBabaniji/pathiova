@@ -1,0 +1,167 @@
+{
+    "passages": [
+      {
+        "title": "The History of Space Exploration",
+        "passage": "Space exploration began in the mid-20th century with the launch of the first artificial satellite, Sputnik, by the Soviet Union in 1957. This event marked the beginning of a new era in human history, as mankind began its journey into space. Over the following decades, space exploration expanded significantly, with the United States and the Soviet Union leading the charge. The Apollo missions, which culminated in the moon landing in 1969, are perhaps the most well-known achievements of this period.\n\nIn the years since, other nations have developed their own space programs, and private companies have also entered the field. Space exploration has become increasingly focused on long-term goals, such as establishing colonies on the Moon and Mars, and searching for life beyond Earth. However, space exploration remains a costly endeavor, and it continues to raise questions about priorities on Earth.",
+        "questions": [
+          {
+            "id": 1,
+            "type": "multiple choice",
+            "sentence": "When did space exploration begin?",
+            "options": ["1969", "1957", "1972", "1980"],
+            "correctAnswer": "1957"
+          },
+          {
+            "id": 2,
+            "type": "true/false/not given",
+            "statement": "The Apollo missions resulted in a manned landing on Mars.",
+            "correctAnswer": "False"
+          },
+          {
+            "id": 3,
+            "type": "sentence completion",
+            "sentence": "The first artificial satellite launched by the Soviet Union was called _____.",
+            "options": ["Sputnik", "Apollo", "Voyager", "Luna"],
+            "correctAnswer": "Sputnik"
+          }
+        ]
+      },
+      {
+        "title": "The Rise of Social Media",
+        "passage": "Social media platforms have transformed the way people communicate, share information, and consume content. Since the early 2000s, platforms like Facebook, Twitter, Instagram, and LinkedIn have gained billions of users worldwide. These platforms allow individuals to share photos, videos, thoughts, and news in real-time with their networks.\n\nHowever, social media has not come without its share of controversies. Concerns over privacy, data security, and the spread of misinformation have been topics of heated debate. Despite these concerns, social media remains an integral part of daily life for many people, influencing everything from news consumption to social relationships and business strategies.",
+        "questions": [
+          {
+            "id": 4,
+            "type": "heading matching",
+            "items": [
+              {
+                "id": "item1",
+                "content": "Concerns about privacy and data security"
+              },
+              {
+                "id": "item2",
+                "content": "Sharing content with a network of people"
+              },
+              {
+                "id": "item3",
+                "content": "The role of social media in daily life"
+              }
+            ],
+            "headings": ["Sharing Information", "Challenges of Social Media", "Social Media's Influence on Society"],
+            "correctPairs": {
+              "item1": "Challenges of Social Media",
+              "item2": "Sharing Information",
+              "item3": "Social Media's Influence on Society"
+            }
+          },
+          {
+            "id": 5,
+            "type": "multiple choice",
+            "sentence": "What is one major concern associated with social media?",
+            "options": ["Limited content", "Privacy and data security", "High cost", "Slow content sharing"],
+            "correctAnswer": "Privacy and data security"
+          }
+        ]
+      },
+      {
+        "title": "The Benefits of Learning a Second Language",
+        "passage": "In today's globalized world, learning a second language has numerous benefits. Bilingualism is associated with improved cognitive functions, such as better problem-solving skills and enhanced memory. In addition to cognitive advantages, knowing a second language opens up career opportunities in fields like international business, translation, and diplomacy.\n\nBeyond professional advantages, learning another language helps in building cultural understanding and empathy. Individuals who are fluent in more than one language often have a deeper appreciation for different cultures and are better equipped to communicate with people from diverse backgrounds. Though the process of language acquisition can be challenging, the long-term rewards are well worth the effort.",
+        "questions": [
+          {
+            "id": 6,
+            "type": "yes/no/not given",
+            "statement": "Learning a second language can improve cognitive functions.",
+            "correctAnswer": "Yes"
+          },
+          {
+            "id": 7,
+            "type": "multiple choice",
+            "sentence": "What is one career advantage of being bilingual?",
+            "options": ["Increased creativity", "More international career opportunities", "Improved physical fitness", "Better time management"],
+            "correctAnswer": "More international career opportunities"
+          },
+          {
+            "id": 8,
+            "type": "sentence completion",
+            "sentence": "Learning a second language helps build cultural _____ and empathy.",
+            "options": ["insensitivity", "understanding", "preference", "exclusion"],
+            "correctAnswer": "understanding"
+          }
+        ]
+      },
+      {
+        "title": "The Role of Artificial Intelligence in Healthcare",
+        "passage": "Artificial intelligence (AI) is increasingly being applied in the field of healthcare, offering a range of possibilities from diagnostics to treatment. AI systems can analyze large amounts of medical data quickly and accurately, helping doctors make informed decisions. In diagnostics, AI algorithms are used to detect patterns in imaging scans, identifying diseases such as cancer at earlier stages. AI is also being used in the development of personalized treatment plans, where it helps tailor medical recommendations based on an individual’s genetic makeup and health history.\n\nHowever, the use of AI in healthcare is not without challenges. Concerns over the accuracy of AI models, the potential loss of jobs for medical professionals, and the ethical implications of machine-driven healthcare decisions have been raised. As AI continues to evolve, its integration into healthcare systems will require careful management and regulation.",
+        "questions": [
+          {
+            "id": 9,
+            "type": "multiple choice",
+            "sentence": "What is one way AI is being used in healthcare?",
+            "options": ["Treating patients directly", "Diagnosing diseases based on patterns in medical data", "Replacing all doctors", "Prescribing medication without consultation"],
+            "correctAnswer": "Diagnosing diseases based on patterns in medical data"
+          },
+          {
+            "id": 10,
+            "type": "true/false/not given",
+            "statement": "AI in healthcare can help doctors identify diseases earlier than traditional methods.",
+            "correctAnswer": "True"
+          },
+          {
+            "id": 11,
+            "type": "sentence completion",
+            "sentence": "AI can tailor medical recommendations based on an individual’s genetic makeup and _____ history.",
+            "options": ["financial", "travel", "health", "family"],
+            "correctAnswer": "health"
+          }
+        ]
+      },
+      {
+        "title": "The Future of Renewable Energy",
+        "passage": "As the world grapples with the effects of climate change, renewable energy sources such as solar, wind, and hydropower have become central to discussions about sustainable solutions. These forms of energy offer a cleaner alternative to fossil fuels, reducing carbon emissions and mitigating environmental harm. Governments and businesses alike are investing heavily in renewable energy infrastructure to meet growing energy demands while reducing dependence on non-renewable resources.\n\nDespite its benefits, renewable energy also faces several challenges. The intermittent nature of some sources, like solar and wind, can lead to reliability issues. Energy storage technology, necessary to store excess energy for use when renewable sources are not available, is still in development. Nevertheless, renewable energy is seen as a critical component of the global strategy to combat climate change.",
+        "questions": [
+          {
+            "id": 12,
+            "type": "multiple choice",
+            "sentence": "What is one challenge associated with renewable energy?",
+            "options": ["It produces too much energy", "It is too expensive", "Its sources can be intermittent", "It increases carbon emissions"],
+            "correctAnswer": "Its sources can be intermittent"
+          },
+          {
+            "id": 13,
+            "type": "yes/no/not given",
+            "statement": "Renewable energy can reduce carbon emissions.",
+            "correctAnswer": "Yes"
+          },
+          {
+            "id": 14,
+            "type": "matching pairs",
+            "pairs": [
+              {
+                "id": "item1",
+                "text": "Solar energy"
+              },
+              {
+                "id": "item2",
+                "text": "Wind energy"
+              },
+              {
+                "id": "item3",
+                "text": "Hydropower"
+              }
+            ],
+            "matchingOptions": [
+              "Energy generated from water",
+              "Energy from the sun's rays",
+              "Energy produced by air currents"
+            ],
+            "correctPairs": {
+              "item1": "Energy from the sun's rays",
+              "item2": "Energy produced by air currents",
+              "item3": "Energy generated from water"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

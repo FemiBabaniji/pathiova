@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "question": "You have applied for a senior position at a well-known tech firm. Write a letter to the HR manager expressing your enthusiasm for the position and requesting further details on the interview process.",
+        "formality": "Formal"
+    },
+    {
+        "id": 2,
+        "question": "You are hosting a weekend barbecue and want to invite your colleagues. Write a casual message to your team, giving them the details and asking them to RSVP.",
+        "formality": "Informal"
+    },
+    {
+        "id": 3,
+        "question": "You recently bought a new laptop and are experiencing issues with it. Write a letter to the customer support team, explaining the problem and requesting assistance.",
+        "formality": "Formal"
+    },
+    {
+        "id": 4,
+        "question": "You are writing to a former professor to ask for a letter of recommendation for a graduate program. In your letter, remind them of your work and request the recommendation.",
+        "formality": "Semi-Formal"
+    },
+    {
+        "id": 5,
+        "question": "You are throwing a surprise birthday party for your friend. Write a message to a mutual friend, inviting them to the party and giving them the details.",
+        "formality": "Informal"
+    },
+    {
+        "id": 6,
+        "question": "You need to submit a project late due to unforeseen circumstances. Write an email to your professor explaining the situation and requesting an extension.",
+        "formality": "Semi-Formal"
+    },
+    {
+        "id": 7,
+        "question": "You are booking a holiday apartment and want to inquire about the available dates, amenities, and pricing. Write a letter to the property manager to get more information.",
+        "formality": "Formal"
+    },
+    {
+        "id": 8,
+        "question": "Write a letter to your friend thanking them for their hospitality during your stay and inviting them to visit you soon.",
+        "formality": "Informal"
+    },
+    {
+        "id": 9,
+        "question": "You are a team lead working on a project and need to inform your team about some important changes in the project timeline. Write an email to your team explaining the changes and next steps.",
+        "formality": "Semi-Formal"
+    },
+    {
+        "id": 10,
+        "question": "You attended a networking event and met someone who could be a valuable connection for your career. Write a follow-up email thanking them for the conversation and suggesting a future meeting.",
+        "formality": "Formal"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "question": "Some people think that environmental issues should be tackled by governments, while others believe individuals should take more responsibility. Discuss both views and give your opinion."
+    },
+    {
+        "id": 2,
+        "question": "Many people believe that universities should focus on preparing students for the workforce, while others think that education should focus on academic subjects regardless of its direct use for a job. Discuss both views and give your opinion."
+    },
+    {
+        "id": 3,
+        "question": "Some believe that the rise of artificial intelligence will result in job losses, while others think it will create more opportunities. Discuss both sides and give your opinion."
+    },
+    {
+        "id": 4,
+        "question": "Some argue that globalization has had a positive effect on the world, while others believe it has negatively impacted local cultures. Discuss both views and give your opinion."
+    },
+    {
+        "id": 5,
+        "question": "Some people believe that governments should invest in building more public transport systems, while others argue that improving road infrastructure should be prioritized. Discuss both sides and give your opinion."
+    },
+    {
+        "id": 6,
+        "question": "Many think that children should learn a second language as early as possible, while others feel that it should be introduced later in their education. Discuss both views and give your opinion."
+    },
+    {
+        "id": 7,
+        "question": "Some think that physical education is as important as academic subjects and should be part of the school curriculum, while others think it should be optional. Discuss both sides and give your opinion."
+    },
+    {
+        "id": 8,
+        "question": "Some people believe that advertisements manipulate people to buy products they do not need, while others say they are useful for providing information about products. Discuss both views and give your opinion."
+    },
+    {
+        "id": 9,
+        "question": "Some argue that technological advancements in communication have brought people closer, while others feel that it has led to a breakdown of personal relationships. Discuss both sides and give your opinion."
+    },
+    {
+        "id": 10,
+        "question": "Some believe that the death penalty is necessary to maintain law and order, while others think it should be abolished. Discuss both views and give your opinion."
+    }
+]

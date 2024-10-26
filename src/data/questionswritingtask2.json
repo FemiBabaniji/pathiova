@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "question": "You are being sent on a one month work assignment in San Francisco, California. You need a place to stay while you are there. Write a letter to the Maury Samson Real Estate Agency. In your letter: Explain the situation, Describe the kind of accommodation you would like, Provide the dates you will need it."
+    },
+    {
+        "id": 2,
+        "question": "You are studying overseas. You need to return to your country before the end of the semester for a family event. Write a letter to your supervisor. In your letter: Request time off, Explain why you need to leave early, Reassure him / her that your studies will not suffer."
+    },
+    {
+        "id": 3,
+        "question": "You have been living in a rental apartment for the past year. Recently a new neighbour moved in who has loud parties several times a week. Write a letter complaining about this to the landlord. In your letter: Explain the situation, Describe why it bothers you, Suggest a solution."
+    },
+    {
+        "id": 4,
+        "question": "You exercise regularly and recently you joined a new gym. You have noticed that people at this gym do not bother to wipe down the machines after use and often leave dirty towels on the benches in the change rooms. Write to Mr Koto, the manager. In your letter: Explain who you are, Describe the problem exactly, Make suggestions to improve the gym."
+    },
+    {
+        "id": 5,
+        "question": "You are going to take a short holiday in Singapore and you want to rent a holiday apartment while you are there. Write to the tourist information office. In your letter: Explain what you need, Say when you plan to be there, Ask for information about prices."
+    },
+    {
+        "id": 6,
+        "question": "You are having a graduation party next Saturday night. You have invited 50 people to celebrate at an outdoor barbecue evening, which may continue into late into the night. Write a letter to your elderly neighbour. In your letter: Explain what will be happening, Offer your apologies in advance, Invite her to join the celebration."
+    },
+    {
+        "id": 7,
+        "question": "You are supposed to hand in a mid-term project for your psychology class by November 1st. However, your brother is getting married in Hawaii at the same time and the entire family is travelling there for the occasion. You would like an extension on the due date for submitting the project. Write to your professor. In your letter: Explain the situation, Remind the professor of your fine academic record to date, Ask for an extension of the due date."
+    },
+    {
+        "id": 8,
+        "question": "You have received a job offer for a position you have wanted for a long time. You are expected to start on July 1st. However, you can only start a week later due to personal reasons. Write a letter to Mr Jackson, your new boss. In your letter: Show your enthusiasm for the job offer, Explain the problem, Suggest what you can do."
+    },
+    {
+        "id": 9,
+        "question": "You have been volunteering at a local community center for the past year, teaching English classes to new immigrants. Due to a change in your work schedule, you are no longer available to teach on the assigned days. Write a letter to the volunteer coordinator. In your letter: Explain the situation, Mention the days and times you are now available, Offer to help find a replacement teacher."
+    },
+    {
+        "id": 10,
+        "question": "You have been renting a house for the past six months and would like to make some minor modifications, such as installing additional shelves and painting one of the bedrooms. Write a letter to your landlord. In your letter: Describe the changes you want to make, Explain why you think these modifications are necessary, Assure your landlord that you will cover any costs and return the property to its original state if needed."
+    }
+]

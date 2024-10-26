@@ -1,0 +1,204 @@
+{
+    "passages": [
+      {
+        "title": "The Role of Quantum Computing in Modern Technology",
+        "passage": "Quantum computing represents a paradigm shift in how we process information. Unlike classical computers, which use bits to encode data as 0s or 1s, quantum computers use quantum bits, or qubits, which can exist in multiple states simultaneously. This property, known as superposition, allows quantum computers to perform complex calculations at speeds unattainable by classical systems. Another key concept is entanglement, where qubits become interconnected, and the state of one qubit can instantly affect another, regardless of distance.\n\nThe potential applications of quantum computing are vast, ranging from cryptography and material science to solving optimization problems that are intractable for classical systems. However, building a practical quantum computer remains a significant challenge due to issues with qubit stability and error correction. As researchers make strides in overcoming these barriers, quantum computing is poised to revolutionize industries that require massive computational power.",
+        "questions": [
+          {
+            "id": 1,
+            "type": "multiple choice",
+            "sentence": "What is one advantage of quantum computers over classical computers?",
+            "options": [
+              "They are easier to build",
+              "They can process multiple states simultaneously",
+              "They use less energy",
+              "They have no computational errors"
+            ],
+            "correctAnswer": "They can process multiple states simultaneously"
+          },
+          {
+            "id": 2,
+            "type": "true/false/not given",
+            "statement": "Quantum computers use bits to encode data as 0s or 1s.",
+            "correctAnswer": "False"
+          },
+          {
+            "id": 3,
+            "type": "sentence completion",
+            "sentence": "One challenge of quantum computing is the difficulty of maintaining _____.",
+            "options": ["energy efficiency", "qubit stability", "cost-effectiveness", "user interface"],
+            "correctAnswer": "qubit stability"
+          }
+        ]
+      },
+      {
+        "title": "The Global Water Crisis",
+        "passage": "Access to clean water is a fundamental human right, yet millions of people around the world lack sufficient water for drinking, sanitation, and agriculture. The global water crisis is exacerbated by population growth, climate change, and poor management of water resources. In regions where water scarcity is already an issue, such as parts of Africa and the Middle East, these pressures are even more pronounced. Freshwater sources are overexploited, and pollution from industrial and agricultural activities further degrades water quality.\n\nEfforts to address the crisis include developing technologies for desalination and water recycling, as well as implementing more sustainable agricultural practices. However, these solutions require significant investment and political will. On a broader scale, international cooperation is needed to ensure that water resources are shared equitably across borders, particularly in areas where rivers and aquifers span multiple countries. Without urgent action, the global water crisis will worsen, leading to severe social, economic, and environmental consequences.",
+        "questions": [
+          {
+            "id": 4,
+            "type": "multiple choice",
+            "sentence": "What is one major factor contributing to the global water crisis?",
+            "options": [
+              "Increased rainfall",
+              "Overexploitation of freshwater sources",
+              "Better water management",
+              "Improved sanitation technology"
+            ],
+            "correctAnswer": "Overexploitation of freshwater sources"
+          },
+          {
+            "id": 5,
+            "type": "heading matching",
+            "items": [
+              {
+                "id": "item1",
+                "content": "The impact of industrial pollution on water quality"
+              },
+              {
+                "id": "item2",
+                "content": "The role of climate change in water scarcity"
+              },
+              {
+                "id": "item3",
+                "content": "Technological solutions to the water crisis"
+              }
+            ],
+            "headings": [
+              "Challenges of the Global Water Crisis",
+              "Causes of Water Scarcity",
+              "Solutions to Water Scarcity"
+            ],
+            "correctPairs": {
+              "item1": "Challenges of the Global Water Crisis",
+              "item2": "Causes of Water Scarcity",
+              "item3": "Solutions to Water Scarcity"
+            }
+          },
+          {
+            "id": 6,
+            "type": "sentence completion",
+            "sentence": "One solution to the water crisis is the development of _____ technologies.",
+            "options": ["irrigation", "desalination", "transport", "communication"],
+            "correctAnswer": "desalination"
+          }
+        ]
+      },
+      {
+        "title": "The Ethics of Gene Editing",
+        "passage": "Gene editing, particularly through technologies like CRISPR-Cas9, has given scientists the ability to alter the DNA of living organisms with unprecedented precision. This technology holds immense promise for curing genetic diseases, improving crop resilience, and even preventing hereditary conditions. However, it also raises a host of ethical concerns. One of the most debated issues is the potential for 'designer babies,' where parents could choose traits like intelligence or physical appearance for their children. This raises questions about equity and the potential for exacerbating social inequalities.\n\nAnother concern is the unintended consequences of altering the genome. While the technology is incredibly precise, there is always the risk of off-target effects—changes to the DNA that were not intended and could lead to unforeseen health problems. Moreover, altering the DNA of germline cells (which are passed on to future generations) presents ethical dilemmas about consent and the long-term impact on humanity. As gene-editing technologies advance, society will need to carefully weigh the benefits against the risks and moral considerations.",
+        "questions": [
+          {
+            "id": 7,
+            "type": "yes/no/not given",
+            "statement": "CRISPR-Cas9 allows scientists to edit DNA with great accuracy.",
+            "correctAnswer": "Yes"
+          },
+          {
+            "id": 8,
+            "type": "multiple choice",
+            "sentence": "What is one ethical concern about gene editing?",
+            "options": [
+              "It reduces the risk of hereditary diseases",
+              "It leads to overpopulation",
+              "It may result in social inequalities",
+              "It increases crop resilience"
+            ],
+            "correctAnswer": "It may result in social inequalities"
+          },
+          {
+            "id": 9,
+            "type": "sentence completion",
+            "sentence": "Gene editing could lead to unintended consequences due to _____ effects.",
+            "options": ["off-target", "on-target", "adaptive", "corrective"],
+            "correctAnswer": "off-target"
+          }
+        ]
+      },
+      {
+        "title": "The Future of Renewable Energy",
+        "passage": "As the world grapples with the realities of climate change, renewable energy has emerged as a critical solution for reducing carbon emissions and mitigating environmental damage. Solar, wind, hydroelectric, and geothermal energy sources offer cleaner alternatives to fossil fuels, which have been the primary drivers of global warming. The shift towards renewable energy is being driven by advances in technology, falling costs, and increasing public demand for sustainable energy solutions.\n\nDespite the promise of renewable energy, there are challenges to its widespread adoption. Energy storage remains a significant hurdle, as renewable sources like solar and wind are intermittent and dependent on weather conditions. Furthermore, the infrastructure required to support a global renewable energy transition is expensive and requires long-term investment. Nonetheless, the benefits of renewable energy—reduced greenhouse gas emissions, decreased reliance on finite resources, and improved air quality—make it an essential component of future energy strategies.",
+        "questions": [
+          {
+            "id": 10,
+            "type": "true/false/not given",
+            "statement": "Renewable energy sources are primarily responsible for global warming.",
+            "correctAnswer": "False"
+          },
+          {
+            "id": 11,
+            "type": "multiple choice",
+            "sentence": "What is one challenge associated with renewable energy?",
+            "options": [
+              "Increasing greenhouse gas emissions",
+              "Intermittency of energy supply",
+              "High greenhouse gas emissions",
+              "High fossil fuel dependency"
+            ],
+            "correctAnswer": "Intermittency of energy supply"
+          },
+          {
+            "id": 12,
+            "type": "sentence completion",
+            "sentence": "One of the benefits of renewable energy is the reduction of _____ emissions.",
+            "options": ["greenhouse gas", "solar", "nuclear", "water"],
+            "correctAnswer": "greenhouse gas"
+          }
+        ]
+      },
+      {
+        "title": "Artificial Intelligence in Healthcare",
+        "passage": "The integration of artificial intelligence (AI) into healthcare is transforming how we diagnose diseases, develop treatments, and deliver patient care. AI algorithms can analyze vast amounts of medical data, helping doctors detect patterns that would be impossible for humans to recognize. This has led to advances in early disease detection, personalized medicine, and robotic-assisted surgeries. In particular, AI is playing a pivotal role in predicting patient outcomes and improving the accuracy of diagnostics.\n\nDespite these benefits, the use of AI in healthcare also presents significant ethical and practical challenges. One major concern is the issue of data privacy, as AI systems rely on access to large datasets, often containing sensitive patient information. Another challenge is the potential for bias in AI algorithms, which could lead to unequal treatment outcomes. Additionally, there is ongoing debate about the role of human judgment in medical decision-making, as some fear that an overreliance on AI could undermine the doctor-patient relationship.",
+        "questions": [
+          {
+            "id": 13,
+            "type": "heading matching",
+            "items": [
+              {
+                "id": "item1",
+                "content": "AI improves early disease detection."
+              },
+              {
+                "id": "item2",
+                "content": "Concerns about privacy in AI healthcare systems."
+              },
+              {
+                "id": "item3",
+                "content": "AI's role in enhancing surgical precision."
+              }
+            ],
+            "headings": [
+              "Ethical Issues in AI Healthcare",
+              "Benefits of AI in Healthcare",
+              "AI's Contribution to Personalized Medicine"
+            ],
+            "correctPairs": {
+              "item1": "Benefits of AI in Healthcare",
+              "item2": "Ethical Issues in AI Healthcare",
+              "item3": "AI's Contribution to Personalized Medicine"
+            }
+          },
+          {
+            "id": 14,
+            "type": "multiple choice",
+            "sentence": "What is one concern about the use of AI in healthcare?",
+            "options": [
+              "It improves diagnostics",
+              "It enhances patient privacy",
+              "It could lead to data privacy issues",
+              "It reduces treatment accuracy"
+            ],
+            "correctAnswer": "It could lead to data privacy issues"
+          },
+          {
+            "id": 15,
+            "type": "sentence completion",
+            "sentence": "AI systems in healthcare rely on access to large _____ datasets.",
+            "options": ["medical", "financial", "educational", "legal"],
+            "correctAnswer": "medical"
+          }
+        ]
+      }
+    ]
+  }
+  

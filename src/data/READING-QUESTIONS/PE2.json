@@ -1,0 +1,541 @@
+{
+    "passages": [
+      {
+        "title": "The Future of Space Exploration",
+        "passage": "Space exploration has always been a symbol of human curiosity and technological advancement. From the first lunar landing to the development of the International Space Station, space missions have expanded our understanding of the universe. Today, with private companies like SpaceX and Blue Origin entering the space race, the future of space exploration looks more promising than ever. These companies are working towards the ambitious goal of commercial space travel and the colonization of Mars.\n\nHowever, space exploration also poses several challenges. The high cost of launching missions, the dangers posed by cosmic radiation, and the psychological effects of long-term space travel are major concerns. Furthermore, questions about the sustainability of space travel have arisen, especially with regard to the environmental impact of rocket launches. Despite these challenges, many believe that space exploration holds the key to solving some of humanity’s greatest challenges, such as resource scarcity and overpopulation.",
+        "questions": [
+          {
+            "id": 1,
+            "type": "multiple choice",
+            "sentence": "What is one major challenge of space exploration?",
+            "options": [
+              "Increased air travel",
+              "The dangers posed by cosmic radiation",
+              "Limited interest from private companies",
+              "Excessive environmental benefits"
+            ],
+            "correctAnswer": "The dangers posed by cosmic radiation"
+          },
+          {
+            "id": 2,
+            "type": "true/false/not given",
+            "statement": "Space exploration could potentially help solve issues like resource scarcity.",
+            "correctAnswer": "True"
+          },
+          {
+            "id": 3,
+            "type": "sentence completion",
+            "sentence": "Private companies entering the space race are working towards the goal of _____.",
+            "options": ["developing the International Space Station", "colonizing Mars", "increasing air travel", "solving global warming"],
+            "correctAnswer": "colonizing Mars"
+          },
+          {
+            "id": 4,
+            "type": "heading matching",
+            "items": [
+              {
+                "id": "item1",
+                "content": "The Challenges of Long-Term Space Travel"
+              },
+              {
+                "id": "item2",
+                "content": "Benefits of Space Exploration"
+              },
+              {
+                "id": "item3",
+                "content": "Private Companies in Space Exploration"
+              }
+            ],
+            "headings": ["Challenges of Space Exploration", "The Role of Private Companies", "Potential Benefits"],
+            "correctPairs": {
+              "item1": "Challenges of Long-Term Space Travel",
+              "item2": "Benefits of Space Exploration",
+              "item3": "Private Companies in Space Exploration"
+            }
+          }
+        ]
+      },
+      {
+        "title": "The Impact of Artificial Intelligence on Healthcare",
+        "passage": "Artificial intelligence (AI) is transforming healthcare in numerous ways, from improving diagnostics to personalizing treatment plans. AI-powered systems can analyze medical data faster and more accurately than human doctors, leading to quicker diagnoses and more effective treatments. For example, AI is being used to detect early signs of cancer, analyze medical images, and even predict patient outcomes based on historical data.\n\nHowever, the widespread use of AI in healthcare raises ethical and practical concerns. One of the most pressing issues is data privacy, as AI systems require access to large amounts of sensitive patient information. There is also the question of accountability—if an AI system makes an incorrect diagnosis, who is responsible? Additionally, the integration of AI into healthcare systems could exacerbate inequalities, as not all hospitals and clinics have the resources to implement AI technologies. Despite these challenges, many believe that AI will play an increasingly important role in healthcare in the years to come.",
+        "questions": [
+          {
+            "id": 5,
+            "type": "matching information",
+            "items": [
+              {
+                "id": "item1",
+                "content": "AI's role in improving diagnostics."
+              },
+              {
+                "id": "item2",
+                "content": "The ethical concerns surrounding AI in healthcare."
+              },
+              {
+                "id": "item3",
+                "content": "Inequality in AI adoption across hospitals."
+              }
+            ],
+            "information": ["Quick diagnoses", "Data privacy issues", "Not all hospitals can afford AI"],
+            "correctPairs": {
+              "item1": "Quick diagnoses",
+              "item2": "Data privacy issues",
+              "item3": "Not all hospitals can afford AI"
+            }
+          },
+          {
+            "id": 6,
+            "type": "multiple choice",
+            "sentence": "What is one concern about AI in healthcare?",
+            "options": [
+              "It requires minimal data",
+              "It exacerbates inequalities",
+              "It slows down diagnostics",
+              "It only benefits large companies"
+            ],
+            "correctAnswer": "It exacerbates inequalities"
+          },
+          {
+            "id": 7,
+            "type": "yes/no/not given",
+            "statement": "AI is used to detect early signs of cancer.",
+            "correctAnswer": "Yes"
+          },
+          {
+            "id": 8,
+            "type": "sentence completion",
+            "sentence": "One of the challenges of using AI in healthcare is ensuring _____.",
+            "options": ["data privacy", "faster diagnoses", "lower costs", "longer waiting times"],
+            "correctAnswer": "data privacy"
+          }
+        ]
+      },
+      {
+        "title": "Climate Change and Global Food Security",
+        "passage": "Climate change poses a serious threat to global food security. Rising temperatures, changing precipitation patterns, and more frequent extreme weather events are disrupting agricultural production. In many regions, farmers are struggling to adapt to these changes, leading to reduced crop yields and higher food prices. Moreover, climate change is expected to exacerbate water scarcity, which is critical for food production, particularly in already vulnerable areas.\n\nEfforts to address these challenges include the development of drought-resistant crops, improved irrigation techniques, and sustainable farming practices. However, the effectiveness of these solutions depends on political will and investment in agricultural research. Without significant action, climate change could lead to widespread food shortages, particularly in developing countries. The international community must prioritize sustainable agriculture and global cooperation to ensure food security in the face of a changing climate.",
+        "questions": [
+          {
+            "id": 9,
+            "type": "true/false/not given",
+            "statement": "Climate change is reducing agricultural production in many regions.",
+            "correctAnswer": "True"
+          },
+          {
+            "id": 10,
+            "type": "heading matching",
+            "items": [
+              {
+                "id": "item1",
+                "content": "The Effects of Climate Change on Agriculture"
+              },
+              {
+                "id": "item2",
+                "content": "Solutions to Food Security Issues"
+              },
+              {
+                "id": "item3",
+                "content": "Challenges in Developing Drought-Resistant Crops"
+              }
+            ],
+            "headings": ["Impact of Climate Change", "Solutions to Food Insecurity", "Food Security Challenges"],
+            "correctPairs": {
+              "item1": "The Effects of Climate Change on Agriculture",
+              "item2": "Solutions to Food Security Issues",
+              "item3": "Challenges in Developing Drought-Resistant Crops"
+            }
+          },
+          {
+            "id": 11,
+            "type": "multiple choice",
+            "sentence": "What is one proposed solution to food security issues caused by climate change?",
+            "options": [
+              "Reducing precipitation",
+              "Developing drought-resistant crops",
+              "Increasing greenhouse gas emissions",
+              "Relying on fossil fuels for farming"
+            ],
+            "correctAnswer": "Developing drought-resistant crops"
+          },
+          {
+            "id": 12,
+            "type": "matching features",
+            "items": [
+              {
+                "id": "item1",
+                "content": "Water scarcity will worsen."
+              },
+              {
+                "id": "item2",
+                "content": "Farmers are struggling to adapt."
+              },
+              {
+                "id": "item3",
+                "content": "Higher food prices are a consequence."
+              }
+            ],
+            "features": ["Food Security Challenges", "Impact of Climate Change", "Consequences of Rising Temperatures"],
+            "correctPairs": {
+              "item1": "Water scarcity will worsen.",
+              "item2": "Farmers are struggling to adapt.",
+              "item3": "Higher food prices are a consequence."
+            }
+          },
+          {
+            "id": 13,
+            "type": "yes/no/not given",
+            "statement": "Sustainable farming practices can help mitigate the effects of climate change.",
+            "correctAnswer": "Yes"
+          }
+        ]
+      },
+      {
+        "title": "The Economic Impact of Aging Populations",
+        "passage": "As life expectancy increases and birth rates decline, many countries are facing the economic challenges of aging populations. Older populations require more healthcare and social services, which can strain government resources. Additionally, the shrinking workforce can lead to slower economic growth and increased pressure on pension systems. This demographic shift is particularly pronounced in countries like Japan, where nearly 30% of the population is over the age of 65.\n\nTo address these challenges, some governments are implementing policies to encourage higher birth rates, extend working lives, and attract skilled immigrants. Other solutions include increasing the retirement age and promoting automation to counteract the effects of a shrinking labor force. However, these measures may not be enough to fully mitigate the economic impact of aging populations. As more countries experience this demographic shift, it is becoming clear that comprehensive solutions are needed to ensure economic stability.",
+        "questions": [
+          {
+            "id": 14,
+            "type": "multiple choice",
+            "sentence": "What is one economic challenge associated with aging populations?",
+            "options": [
+              "Decreasing healthcare costs",
+              "A shrinking workforce",
+              "Lower demand for social services",
+              "Increasing birth rates"
+            ],
+            "correctAnswer": "A shrinking workforce"
+          },
+          {
+            "id": 15,
+            "type": "true/false/not given",
+            "statement": "Japan is one of the countries most affected by an aging population.",
+            "correctAnswer": "True"
+          },
+          {
+            "id": 16,
+            "type": "heading matching",
+            "items": [
+              {
+                "id": "item1",
+                "content": "Government Solutions to Aging Populations"
+              },
+              {
+                "id": "item2",
+                "content": "Economic Consequences of Aging Populations"
+              },
+              {
+                "id": "item3",
+                "content": "The Importance of Immigration"
+              }
+            ],
+            "headings": ["Government Policies", "Demographic Challenges", "Immigration and Labor Force"],
+            "correctPairs": {
+              "item1": "Government Solutions to Aging Populations",
+              "item2": "Economic Consequences of Aging Populations",
+              "item3": "The Importance of Immigration"
+            }
+          },
+          {
+            "id": 17,
+            "type": "yes/no/not given",
+            "statement": "Some countries are raising the retirement age to address the issue of aging populations.",
+            "correctAnswer": "Yes"
+          },
+          {
+            "id": 18,
+            "type": "sentence completion",
+            "sentence": "One solution to counteract the shrinking workforce is promoting _____.",
+            "options": ["higher healthcare costs", "lower birth rates", "automation", "increased pensions"],
+            "correctAnswer": "automation"
+          }
+        ]
+      },
+      {
+        "title": "The Psychology of Procrastination",
+        "passage": "Procrastination, the act of delaying tasks, is a common phenomenon that affects people of all ages and backgrounds. Psychologists suggest that procrastination is often linked to fear of failure, perfectionism, and a lack of motivation. While some people procrastinate due to poor time management skills, others may delay tasks because they find them overwhelming or unimportant.\n\nResearch shows that procrastination can have negative effects on mental health, leading to increased stress and anxiety. It can also hinder productivity and prevent individuals from reaching their full potential. Strategies to overcome procrastination include setting specific goals, breaking tasks into smaller steps, and managing time more effectively. However, overcoming procrastination requires consistent effort and self-awareness.",
+        "questions": [
+          {
+            "id": 19,
+            "type": "heading matching",
+            "items": [
+              {
+                "id": "item1",
+                "content": "Causes of Procrastination"
+              },
+              {
+                "id": "item2",
+                "content": "The Consequences of Procrastination"
+              },
+              {
+                "id": "item3",
+                "content": "Strategies to Overcome Procrastination"
+              }
+            ],
+            "headings": ["Psychology of Procrastination", "Mental Health Impact", "Improving Time Management"],
+            "correctPairs": {
+              "item1": "Causes of Procrastination",
+              "item2": "The Consequences of Procrastination",
+              "item3": "Strategies to Overcome Procrastination"
+            }
+          },
+          {
+            "id": 20,
+            "type": "multiple choice",
+            "sentence": "What is one suggested strategy to overcome procrastination?",
+            "options": [
+              "Setting specific goals",
+              "Focusing on perfectionism",
+              "Increasing stress",
+              "Avoiding time management"
+            ],
+            "correctAnswer": "Setting specific goals"
+          },
+          {
+            "id": 21,
+            "type": "yes/no/not given",
+            "statement": "Procrastination can negatively affect mental health.",
+            "correctAnswer": "Yes"
+          },
+          {
+            "id": 22,
+            "type": "sentence completion",
+            "sentence": "One way to overcome procrastination is to break tasks into _____.",
+            "options": ["larger steps", "smaller steps", "unmanageable tasks", "important goals"],
+            "correctAnswer": "smaller steps"
+          }
+        ]
+      },
+      {
+        "title": "The Role of Renewable Energy in the Global Economy",
+        "passage": "Renewable energy sources, such as wind, solar, and hydropower, are becoming increasingly important in the global economy. As countries seek to reduce their dependence on fossil fuels and lower carbon emissions, investment in renewable energy has surged. The growth of the renewable energy sector has created new job opportunities and stimulated economic development, particularly in regions with abundant natural resources.\n\nHowever, transitioning to renewable energy presents challenges. The infrastructure required for large-scale renewable energy projects can be expensive, and energy storage remains a critical issue. Additionally, not all regions are equally suited for renewable energy production. Governments play a key role in promoting renewable energy through subsidies, tax incentives, and regulatory frameworks. As the global demand for clean energy grows, the renewable energy sector is expected to continue expanding, contributing to both environmental sustainability and economic growth.",
+        "questions": [
+          {
+            "id": 23,
+            "type": "multiple choice",
+            "sentence": "What is one challenge of transitioning to renewable energy?",
+            "options": [
+              "Overabundance of energy",
+              "High cost of infrastructure",
+              "Decreasing global demand for clean energy",
+              "Lack of job opportunities"
+            ],
+            "correctAnswer": "High cost of infrastructure"
+          },
+          {
+            "id": 24,
+            "type": "true/false/not given",
+            "statement": "Renewable energy is reducing dependence on fossil fuels.",
+            "correctAnswer": "True"
+          },
+          {
+            "id": 25,
+            "type": "heading matching",
+            "items": [
+              {
+                "id": "item1",
+                "content": "Government Support for Renewable Energy"
+              },
+              {
+                "id": "item2",
+                "content": "Challenges of Large-Scale Renewable Energy"
+              },
+              {
+                "id": "item3",
+                "content": "Economic Growth from Renewable Energy"
+              }
+            ],
+            "headings": ["Economic Benefits", "Challenges and Infrastructure", "Government Policies"],
+            "correctPairs": {
+              "item1": "Government Support for Renewable Energy",
+              "item2": "Challenges of Large-Scale Renewable Energy",
+              "item3": "Economic Growth from Renewable Energy"
+            }
+          },
+          {
+            "id": 26,
+            "type": "sentence completion",
+            "sentence": "Governments promote renewable energy by offering _____.",
+            "options": ["subsidies", "penalties", "import tariffs", "low interest rates"],
+            "correctAnswer": "subsidies"
+          }
+        ]
+      },
+      {
+        "title": "The Benefits of Mindfulness Meditation",
+        "passage": "Mindfulness meditation, the practice of focusing on the present moment, has gained popularity in recent years due to its mental health benefits. Research shows that mindfulness can reduce stress, improve concentration, and promote emotional well-being. It involves paying attention to thoughts, emotions, and physical sensations without judgment, which helps individuals develop a greater sense of self-awareness.\n\nMindfulness meditation has been shown to have positive effects on both mental and physical health. Studies suggest that it can lower blood pressure, reduce symptoms of anxiety and depression, and enhance overall quality of life. Many schools, businesses, and healthcare providers are incorporating mindfulness practices into their programs to improve well-being and productivity. Despite these benefits, mindfulness meditation is not a cure-all, and it requires consistent practice to achieve lasting results.",
+        "questions": [
+          {
+            "id": 27,
+            "type": "multiple choice",
+            "sentence": "What is one benefit of mindfulness meditation?",
+            "options": [
+              "Increased stress levels",
+              "Reduced symptoms of depression",
+              "Higher blood pressure",
+              "Increased judgment of emotions"
+            ],
+            "correctAnswer": "Reduced symptoms of depression"
+          },
+          {
+            "id": 28,
+            "type": "yes/no/not given",
+            "statement": "Mindfulness meditation helps individuals focus on the present moment.",
+            "correctAnswer": "Yes"
+          },
+          {
+            "id": 29,
+            "type": "heading matching",
+            "items": [
+              {
+                "id": "item1",
+                "content": "Mental Health Benefits of Mindfulness"
+              },
+              {
+                "id": "item2",
+                "content": "Physical Health Benefits of Mindfulness"
+              },
+              {
+                "id": "item3",
+                "content": "Applications of Mindfulness in Various Sectors"
+              }
+            ],
+            "headings": ["Mental Health Impact", "Physical Health Benefits", "Applications in Daily Life"],
+            "correctPairs": {
+              "item1": "Mental Health Benefits of Mindfulness",
+              "item2": "Physical Health Benefits of Mindfulness",
+              "item3": "Applications of Mindfulness in Various Sectors"
+            }
+          },
+          {
+            "id": 30,
+            "type": "true/false/not given",
+            "statement": "Mindfulness meditation increases blood pressure.",
+            "correctAnswer": "False"
+          },
+          {
+            "id": 31,
+            "type": "sentence completion",
+            "sentence": "One of the key components of mindfulness is developing _____.",
+            "options": ["self-awareness", "higher stress", "judgmental attitudes", "reduced focus"],
+            "correctAnswer": "self-awareness"
+          }
+        ]
+      },
+      {
+        "title": "The History of Urbanization",
+        "passage": "Urbanization, the process of people moving from rural areas to cities, has been a defining trend of the modern world. It began during the Industrial Revolution, when advances in technology and transportation made it easier for people to live and work in urban areas. As cities grew, they became hubs of economic activity, cultural exchange, and technological innovation. Today, more than half of the world’s population lives in cities, and this trend is expected to continue.\n\nHowever, rapid urbanization has also created challenges, including overcrowding, traffic congestion, and pollution. In many cities, the infrastructure has not kept pace with the growing population, leading to inadequate housing and strained public services. To address these challenges, urban planners are focusing on sustainable development, which includes creating green spaces, improving public transportation, and reducing carbon emissions. As cities continue to grow, finding solutions to these challenges will be critical to ensuring that urban areas remain livable and sustainable.",
+        "questions": [
+          {
+            "id": 32,
+            "type": "multiple choice",
+            "sentence": "What is one challenge associated with rapid urbanization?",
+            "options": [
+              "Improved public transportation",
+              "Overcrowding",
+              "Increased green spaces",
+              "Reduced traffic congestion"
+            ],
+            "correctAnswer": "Overcrowding"
+          },
+          {
+            "id": 33,
+            "type": "true/false/not given",
+            "statement": "Urbanization began during the Industrial Revolution.",
+            "correctAnswer": "True"
+          },
+          {
+            "id": 34,
+            "type": "heading matching",
+            "items": [
+              {
+                "id": "item1",
+                "content": "Challenges of Urbanization"
+              },
+              {
+                "id": "item2",
+                "content": "Sustainable Solutions for Urban Areas"
+              },
+              {
+                "id": "item3",
+                "content": "The History of Urban Growth"
+              }
+            ],
+            "headings": ["Urban Challenges", "Urban Planning Solutions", "Historical Context"],
+            "correctPairs": {
+              "item1": "Challenges of Urbanization",
+              "item2": "Sustainable Solutions for Urban Areas",
+              "item3": "The History of Urban Growth"
+            }
+          },
+          {
+            "id": 35,
+            "type": "yes/no/not given",
+            "statement": "Urban planners are focusing on reducing carbon emissions to address urban challenges.",
+            "correctAnswer": "Yes"
+          },
+          {
+            "id": 36,
+            "type": "sentence completion",
+            "sentence": "One way to address urbanization challenges is to improve _____.",
+            "options": ["economic activity", "public transportation", "carbon emissions", "overcrowding"],
+            "correctAnswer": "public transportation"
+          }
+        ]
+      },
+      {
+        "title": "The Evolution of Cryptocurrencies",
+        "passage": "Cryptocurrencies, digital currencies that use blockchain technology, have gained significant attention in recent years. Bitcoin, the first cryptocurrency, was introduced in 2009 as an alternative to traditional financial systems. Since then, numerous other cryptocurrencies, such as Ethereum and Ripple, have been developed. Cryptocurrencies offer several advantages, including decentralization, security, and transparency. However, they are also associated with risks, such as volatility and the potential for illegal activities.\n\nThe rise of cryptocurrencies has prompted governments and financial institutions to explore the possibility of creating their own digital currencies. Central bank digital currencies (CBDCs) could offer the benefits of cryptocurrencies while maintaining regulatory oversight. As cryptocurrencies continue to evolve, they are likely to play an increasingly important role in the global economy, particularly in regions with limited access to traditional banking services.",
+        "questions": [
+          {
+            "id": 37,
+            "type": "multiple choice",
+            "sentence": "What is one advantage of cryptocurrencies?",
+            "options": [
+              "Volatility",
+              "Transparency",
+              "Government regulation",
+              "Lack of security"
+            ],
+            "correctAnswer": "Transparency"
+          },
+          {
+            "id": 38,
+            "type": "true/false/not given",
+            "statement": "Bitcoin was the first cryptocurrency introduced.",
+            "correctAnswer": "True"
+          },
+          {
+            "id": 39,
+            "type": "heading matching",
+            "items": [
+              {
+                "id": "item1",
+                "content": "Risks of Cryptocurrencies"
+              },
+              {
+                "id": "item2",
+                "content": "The Development of Cryptocurrencies"
+              },
+              {
+                "id": "item3",
+                "content": "Central Bank Digital Currencies"
+              }
+            ],
+            "headings": ["Risks and Challenges", "Historical Development", "Government Regulation"],
+            "correctPairs": {
+              "item1": "Risks of Cryptocurrencies",
+              "item2": "The Development of Cryptocurrencies",
+              "item3": "Central Bank Digital Currencies"
+            }
+          },
+          {
+            "id": 40,
+            "type": "sentence completion",
+            "sentence": "Cryptocurrencies offer security and _____.",
+            "options": ["volatility", "decentralization", "inflation", "regulation"],
+            "correctAnswer": "decentralization"
+          }
+        ]
+      }
+    ]
+  }
+  

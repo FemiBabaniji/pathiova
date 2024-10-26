@@ -1,0 +1,177 @@
+{
+  "passages": [
+    {
+      "title": "The Importance of Recycling",
+      "passage": "Recycling has become an essential practice in modern society as we work towards reducing waste and conserving natural resources. Recycling involves processing used materials such as paper, glass, and plastic so that they can be used again. This reduces the amount of waste sent to landfills, conserves energy, and helps reduce pollution.\n\nOne of the major benefits of recycling is the conservation of resources. By recycling paper, for example, we can reduce the number of trees that need to be cut down. Similarly, recycling metal reduces the need for mining, which is often harmful to the environment. Additionally, recycling saves energy because it usually takes less energy to produce products from recycled materials than from raw materials.",
+      "questions": [
+        {
+          "id": 1,
+          "type": "multiple choice",
+          "sentence": "What is one major benefit of recycling?",
+          "options": ["Conserving water", "Conserving resources", "Increasing costs", "Increasing mining"],
+          "correctAnswer": "Conserving resources"
+        },
+        {
+          "id": 2,
+          "type": "true/false/not given",
+          "statement": "Recycling reduces the need for mining.",
+          "correctAnswer": "True"
+        },
+        {
+          "id": 3,
+          "type": "sentence completion",
+          "sentence": "Recycling helps to conserve energy because it usually takes less energy to produce products from _____ materials.",
+          "options": ["recycled", "fresh", "natural", "raw"],
+          "correctAnswer": "recycled"
+        }
+      ]
+    },
+    {
+      "title": "Public Libraries in the Digital Age",
+      "passage": "Public libraries have been an important part of communities for decades, offering free access to books, educational resources, and community programs. However, in recent years, the rise of the internet and digital media has challenged the traditional role of libraries. Many libraries have adapted by offering digital services such as e-books, audiobooks, and online databases. This shift has allowed libraries to remain relevant, providing access to information in both physical and digital formats.\n\nIn addition to digital resources, libraries continue to serve as community hubs, hosting events, workshops, and educational programs. They provide a quiet space for study and access to technology for those who may not have internet access at home. Libraries are evolving to meet the needs of the digital age, and their role in providing free access to information remains crucial.",
+      "questions": [
+        {
+          "id": 4,
+          "type": "heading matching",
+          "items": [
+            { 
+              "id": "item1",
+              "content": "Libraries offer digital resources like e-books and audiobooks.",
+              "correctHeading": "Adapting to Digital Media"
+            },
+            {
+              "id": "item2",
+              "content": "Libraries provide spaces for community events and programs.",
+              "correctHeading": "Libraries as Community Hubs"
+            },
+            {
+              "id": "item3",
+              "content": "Libraries continue to offer free access to information and educational resources.",
+              "correctHeading": "The Role of Libraries in the Community"
+            }
+          ],
+          "headings": ["Adapting to Digital Media", "Libraries as Community Hubs", "The Role of Libraries in the Community", "Challenges Facing Libraries"]
+        },
+        {
+          "id": 5,
+          "type": "multiple choice",
+          "sentence": "How have libraries adapted to the rise of digital media?",
+          "options": ["By closing down physical locations", "By offering more books", "By providing digital services like e-books", "By increasing physical book inventory"],
+          "correctAnswer": "By providing digital services like e-books"
+        }
+      ]
+    },
+    {
+      "title": "The Role of Supermarkets in Modern Society",
+      "passage": "Supermarkets have changed the way people shop, offering a wide range of goods in one location. This convenience has allowed customers to purchase groceries, household items, and more in one place, often at lower prices than small independent stores. However, the growth of supermarkets has also led to the decline of smaller businesses, as many cannot compete with the low prices and variety that large chains offer.\n\nSupermarkets have also been criticized for contributing to food waste and for promoting the sale of processed, unhealthy foods. Despite these criticisms, supermarkets continue to dominate the retail sector, and their impact on both consumers and the economy is significant.",
+      "questions": [
+        {
+          "id": 6,
+          "type": "yes/no/not given",
+          "statement": "Supermarkets have contributed to the decline of small independent stores.",
+          "correctAnswer": "Yes"
+        },
+        {
+          "id": 7,
+          "type": "multiple choice",
+          "sentence": "What is one criticism of supermarkets?",
+          "options": ["They offer too many organic products", "They contribute to food waste", "They are too expensive", "They sell too much fresh produce"],
+          "correctAnswer": "They contribute to food waste"
+        },
+        {
+          "id": 8,
+          "type": "sentence completion",
+          "sentence": "Supermarkets often offer _____ prices than smaller stores.",
+          "options": ["lower", "higher", "similar", "the same"],
+          "correctAnswer": "lower"
+        }
+      ]
+    },
+    {
+      "title": "The Rise of Online Shopping",
+      "passage": "Online shopping has transformed the retail industry, allowing customers to buy goods from the comfort of their own homes. E-commerce platforms offer a wide range of products, often at competitive prices, with the convenience of home delivery. However, some consumers still prefer shopping in physical stores, where they can see and touch the products before purchasing them.\n\nOne of the challenges of online shopping is the issue of returns, as customers are often unable to return items as easily as they would in a physical store. Despite this, the popularity of online shopping continues to grow, with many consumers opting for the convenience and speed of delivery.",
+      "questions": [
+        {
+          "id": 9,
+          "type": "true/false/not given",
+          "statement": "Online shopping allows customers to buy goods from their homes.",
+          "correctAnswer": "True"
+        },
+        {
+          "id": 10,
+          "type": "multiple choice",
+          "sentence": "What is one of the challenges of online shopping?",
+          "options": ["Lack of product selection", "Inability to see and touch items", "Limited delivery options", "Higher prices"],
+          "correctAnswer": "Inability to see and touch items"
+        }
+      ]
+    },
+    {
+      "title": "The Benefits of Regular Exercise",
+      "passage": "Regular exercise is essential for maintaining good health. It helps control weight, reduces the risk of chronic diseases like heart disease and diabetes, and improves mental health by releasing endorphins that promote a positive mood. Health experts recommend at least 150 minutes of moderate-intensity exercise per week for adults.\n\nDespite the well-known benefits of exercise, many people find it difficult to incorporate physical activity into their daily routines due to busy schedules. However, even small amounts of exercise, such as walking or cycling to work, can have a positive impact on health.",
+      "questions": [
+        {
+          "id": 11,
+          "type": "multiple choice",
+          "sentence": "What is one of the recommended benefits of regular exercise?",
+          "options": ["Increased weight gain", "Improved mental health", "Increased risk of disease", "Lower energy levels"],
+          "correctAnswer": "Improved mental health"
+        },
+        {
+          "id": 12,
+          "type": "yes/no/not given",
+          "statement": "Small amounts of exercise can still have health benefits.",
+          "correctAnswer": "Yes"
+        },
+        {
+          "id": 13,
+          "type": "sentence completion",
+          "sentence": "Health experts recommend at least _____ minutes of moderate-intensity exercise per week.",
+          "options": ["100", "150", "200", "300"],
+          "correctAnswer": "150"
+        }
+      ]
+    },
+    {
+      "title": "The Impact of Technology on Education",
+      "passage": "Technology has revolutionized education, making information more accessible than ever before. Online courses, educational apps, and digital textbooks are just a few examples of how technology has transformed learning. These tools allow students to study at their own pace and access educational resources from anywhere in the world.\n\nDespite these advancements, there are concerns that technology may lead to reduced face-to-face interaction and a loss of traditional learning methods. However, many educators believe that technology, when used appropriately, can complement traditional teaching and enhance the learning experience.",
+      "questions": [
+        {
+          "id": 14,
+          "type": "matching pairs",
+          "pairs": [
+            {
+              "id": "item1",
+              "text": "Online courses"
+            },
+            {
+              "id": "item2",
+              "text": "Digital textbooks"
+            },
+            {
+              "id": "item3",
+              "text": "Educational apps"
+            }
+          ],
+          "matchingOptions": [
+            "Courses that can be taken over the internet",
+            "Textbooks available in electronic form",
+            "Applications designed to support learning",
+            "Traditional classroom teaching methods"
+          ],
+          "correctPairs": {
+            "item1": "Courses that can be taken over the internet",
+            "item2": "Textbooks available in electronic form",
+            "item3": "Applications designed to support learning"
+          }
+        },
+        {
+          "id": 15,
+          "type": "true/false/not given",
+          "statement": "Technology allows students to study at their own pace.",
+          "correctAnswer": "True"
+        }
+      ]
+    }
+  ]
+}

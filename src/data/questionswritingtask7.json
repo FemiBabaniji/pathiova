@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "question": "Some people think that environmental issues should be tackled by governments, while others believe individuals should take more responsibility. Discuss both views and give your opinion."
+    },
+    {
+        "id": 2,
+        "question": "Many people believe that universities should focus on preparing students for the workforce, while others think that education should focus on academic subjects regardless of its direct use for a job. Discuss both views and give your opinion."
+    },
+    {
+        "id": 3,
+        "question": "The working week should be shorter and workers should have a longer weekend. Do you agree or disagree?"
+    },
+    {
+        "id": 4,
+        "question": "Some people feel that the private lives of celebrities should not be openly shared by the media. To what extent do you agree or disagree?"
+    },
+    {
+        "id": 5,
+        "question": "Some believe that the rise of artificial intelligence will result in job losses, while others think it will create more opportunities. Discuss both sides and give your opinion."
+    },
+    {
+        "id": 6,
+        "question": "Financial education should be included as a mandatory subject in schools to prepare students for managing money effectively. To what extent do you agree or disagree?"
+    },
+    {
+        "id": 7,
+        "question": "Some argue that technological advancements in communication have brought people closer, while others feel that it has led to a breakdown of personal relationships. Discuss both sides and give your opinion."
+    },
+    {
+        "id": 8,
+        "question": "Friendships that take place online are not as meaningful as those where people meet each other face to face. To what extent do you agree or disagree?"
+    },
+    {
+        "id": 9,
+        "question": "Some argue that globalization has had a positive effect on the world, while others believe it has negatively impacted local cultures. Discuss both views and give your opinion."
+    },
+    {
+        "id": 10,
+        "question": "The most important aim of science ought to be to improve people’s lives. To what extent do you agree or disagree?"
+    }
+]

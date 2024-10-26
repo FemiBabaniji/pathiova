@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "question": "The working week should be shorter and workers should have a longer weekend. Do you agree or disagree?"
+    },
+    {
+        "id": 2,
+        "question": "Some people believe that social media platforms should be held accountable for the content shared on them. To what extent do you agree or disagree?"
+    },
+    {
+        "id": 3,
+        "question": "Some people feel that the private lives of celebrities should not be openly shared by the media. To what extent do you agree or disagree?"
+    },
+    {
+        "id": 4,
+        "question": "Everybody should donate a fixed amount of their income to support charity. To what extent do you agree or disagree?"
+    },
+    {
+        "id": 5,
+        "question": "In today’s digital age, anyone with a smartphone can capture and share photographs. This accessibility to photography diminishes the value of professional photographers. To what extent do you agree or disagree?"
+    },
+    {
+        "id": 6,
+        "question": "Financial education should be included as a mandatory subject in schools to prepare students for managing money effectively. To what extent do you agree or disagree?"
+    },
+    {
+        "id": 7,
+        "question": "Some argue that music mainly serves as a way for individuals to reduce their stress and anxiety. To what extent do you agree or disagree?"
+    },
+    {
+        "id": 8,
+        "question": "Schools should focus on academic success and passing examinations. Skills such as cookery, dressmaking, and woodworking should not be taught at school. To what extent do you agree or disagree?"
+    },
+    {
+        "id": 9,
+        "question": "Friendships that take place online are not as meaningful as those where people meet each other face to face. To what extent do you agree or disagree?"
+    },
+    {
+        "id": 10,
+        "question": "The most important aim of science ought to be to improve people’s lives. To what extent do you agree or disagree?"
+    }
+]

@@ -1,0 +1,177 @@
+{
+    "passages": [
+      {
+        "title": "The Global Water Crisis",
+        "passage": "Water scarcity is one of the most pressing challenges of the 21st century. Around 2.2 billion people worldwide lack access to safe drinking water, and this number is expected to rise due to population growth, climate change, and industrial pollution. Water scarcity is particularly acute in arid regions, where rainfall is scarce and groundwater resources are rapidly depleting.\n\nAgriculture accounts for about 70% of global freshwater use, placing tremendous pressure on water resources. In many parts of the world, inefficient irrigation practices lead to significant water waste. Furthermore, industries such as mining and manufacturing contribute to water pollution, making it more difficult to provide clean water to growing populations. Solutions to the global water crisis include investing in water conservation technologies, improving water management, and implementing stricter regulations on industrial water use.",
+        "questions": [
+          {
+            "id": 1,
+            "type": "multiple choice",
+            "sentence": "What is the primary cause of water scarcity in arid regions?",
+            "options": ["Inefficient irrigation", "Climate change", "Groundwater depletion", "Lack of rainfall"],
+            "correctAnswer": "Lack of rainfall"
+          },
+          {
+            "id": 2,
+            "type": "true/false/not given",
+            "statement": "Agriculture is responsible for less than half of global freshwater use.",
+            "correctAnswer": "False"
+          },
+          {
+            "id": 3,
+            "type": "matching pairs",
+            "pairs": [
+              {
+                "id": "item1",
+                "text": "Industrial pollution"
+              },
+              {
+                "id": "item2",
+                "text": "Inefficient irrigation"
+              },
+              {
+                "id": "item3",
+                "text": "Groundwater depletion"
+              }
+            ],
+            "matchingOptions": [
+              "A major cause of water pollution",
+              "A source of water waste in agriculture",
+              "Occurs in arid regions due to overuse"
+            ],
+            "correctPairs": {
+              "item1": "A major cause of water pollution",
+              "item2": "A source of water waste in agriculture",
+              "item3": "Occurs in arid regions due to overuse"
+            }
+          }
+        ]
+      },
+      {
+        "title": "The Future of Space Exploration",
+        "passage": "In the past decade, private companies have revolutionized space exploration. While space programs were once dominated by government agencies such as NASA and Roscosmos, companies like SpaceX and Blue Origin have developed innovative technologies that drastically reduce the cost of space travel. This has led to renewed interest in space exploration, with plans to establish colonies on the Moon and Mars within the next few decades.\n\nHowever, space exploration is not without its challenges. The physical and psychological effects of long-term space travel on astronauts are still not fully understood, and the cost of developing technologies capable of sustaining life on other planets remains prohibitively high. Furthermore, ethical questions have been raised about the environmental impact of space colonization and the potential exploitation of extraterrestrial resources.",
+        "questions": [
+          {
+            "id": 4,
+            "type": "multiple choice",
+            "sentence": "What has contributed most to the resurgence of interest in space exploration?",
+            "options": ["Government investments", "Advancements in communication technologies", "Private company innovations", "Increased astronaut recruitment"],
+            "correctAnswer": "Private company innovations"
+          },
+          {
+            "id": 5,
+            "type": "yes/no/not given",
+            "statement": "The cost of space exploration has decreased significantly due to technological advancements by private companies.",
+            "correctAnswer": "Yes"
+          },
+          {
+            "id": 6,
+            "type": "sentence completion",
+            "sentence": "Ethical concerns regarding space exploration include the potential _____ of extraterrestrial resources and the environmental impact of space colonization.",
+            "options": ["exploration", "discovery", "exploitation", "preservation"],
+            "correctAnswer": "exploitation"
+          }
+        ]
+      },
+      {
+        "title": "The Ethics of Genetic Engineering",
+        "passage": "Genetic engineering, the direct manipulation of an organism's DNA, has sparked ethical debates worldwide. On one hand, advancements in genetic engineering hold the promise of eradicating genetic diseases, improving agricultural yields, and even extending human lifespans. On the other hand, many fear that genetic engineering could lead to unforeseen consequences, such as the creation of 'designer babies,' where parents select specific traits for their children, leading to social inequality and ethical dilemmas.\n\nOne of the most controversial aspects of genetic engineering is the editing of the human germline, which involves making changes to human DNA that are heritable. While this technology could eliminate inherited diseases, critics argue that altering the human genome in this way could have unpredictable effects on future generations. Additionally, the commercialization of genetic engineering raises concerns about access and equity, as only those who can afford it may benefit from these advancements.",
+        "questions": [
+          {
+            "id": 7,
+            "type": "multiple choice",
+            "sentence": "What is one of the ethical concerns related to genetic engineering?",
+            "options": ["Increased agricultural yields", "Creation of 'designer babies'", "Eradication of genetic diseases", "Extended human lifespans"],
+            "correctAnswer": "Creation of 'designer babies'"
+          },
+          {
+            "id": 8,
+            "type": "true/false/not given",
+            "statement": "The editing of the human germline is irreversible.",
+            "correctAnswer": "True"
+          },
+          {
+            "id": 9,
+            "type": "matching pairs",
+            "pairs": [
+              {
+                "id": "item1",
+                "text": "Commercialization of genetic engineering"
+              },
+              {
+                "id": "item2",
+                "text": "Human germline editing"
+              },
+              {
+                "id": "item3",
+                "text": "Genetic disease eradication"
+              }
+            ],
+            "matchingOptions": [
+              "Raises concerns about equity and access",
+              "Altering heritable DNA in humans",
+              "One of the main benefits of genetic manipulation"
+            ],
+            "correctPairs": {
+              "item1": "Raises concerns about equity and access",
+              "item2": "Altering heritable DNA in humans",
+              "item3": "One of the main benefits of genetic manipulation"
+            }
+          }
+        ]
+      },
+      {
+        "title": "The Psychological Impact of Social Isolation",
+        "passage": "Recent global events have brought social isolation to the forefront of public discussion, as millions of people around the world were forced into lockdowns or quarantine. Social isolation can have profound psychological effects, particularly for individuals who live alone or lack a strong support network. Prolonged isolation has been linked to increased rates of anxiety, depression, and cognitive decline, particularly among the elderly.\n\nTo combat these effects, psychologists recommend maintaining social connections through technology, such as video calls and social media. However, these virtual interactions cannot fully replicate the benefits of face-to-face communication. Additionally, there is evidence that excessive use of social media can exacerbate feelings of loneliness and isolation, creating a paradox where individuals are both more connected and more isolated than ever before.",
+        "questions": [
+          {
+            "id": 10,
+            "type": "multiple choice",
+            "sentence": "What is one recommendation to mitigate the effects of social isolation?",
+            "options": ["Increasing time spent alone", "Maintaining social connections via technology", "Reducing all forms of communication", "Engaging in social media debates"],
+            "correctAnswer": "Maintaining social connections via technology"
+          },
+          {
+            "id": 11,
+            "type": "yes/no/not given",
+            "statement": "Excessive use of social media can worsen feelings of loneliness.",
+            "correctAnswer": "Yes"
+          },
+          {
+            "id": 12,
+            "type": "sentence completion",
+            "sentence": "Prolonged social isolation has been linked to increased rates of _____, particularly among the elderly.",
+            "options": ["happiness", "anxiety and depression", "cognitive improvement", "physical strength"],
+            "correctAnswer": "anxiety and depression"
+          }
+        ]
+      },
+      {
+        "title": "The Future of Food Security",
+        "passage": "As the global population approaches 9 billion, ensuring food security has become a critical issue for policymakers and scientists. One potential solution is the development of genetically modified organisms (GMOs), which can be engineered to be more resistant to pests, diseases, and extreme weather conditions. Proponents argue that GMOs could significantly increase food production and reduce the need for chemical pesticides, benefiting both the environment and human health.\n\nHowever, opponents of GMOs raise concerns about their long-term effects on biodiversity and ecosystem balance. They also argue that the introduction of GMOs could lead to corporate monopolies on food production, further exacerbating global inequalities. Despite these concerns, many countries have begun to adopt GMOs as part of their agricultural policies, while others have imposed strict regulations on their use.",
+        "questions": [
+          {
+            "id": 13,
+            "type": "multiple choice",
+            "sentence": "What is one potential benefit of GMOs?",
+            "options": ["Increased use of chemical pesticides", "Increased biodiversity", "Greater resistance to pests", "Corporate control of food production"],
+            "correctAnswer": "Greater resistance to pests"
+          },
+          {
+            "id": 14,
+            "type": "true/false/not given",
+            "statement": "GMOs are banned in all countries due to concerns about ecosystem balance.",
+            "correctAnswer": "False"
+          },
+          {
+            "id": 15,
+            "type": "sentence completion",
+            "sentence": "Critics argue that GMOs could lead to _____ monopolies on food production and exacerbate global inequalities.",
+            "options": ["government", "corporate", "farmer", "scientific"],
+            "correctAnswer": "corporate"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,167 @@
+{
+    "passages": [
+      {
+        "title": "The Economics of Globalization",
+        "passage": "Globalization refers to the interconnectedness of economies and societies across the world. Over the past few decades, the rise of international trade, technology, and the ease of travel have led to an increasingly global economy. Supporters of globalization argue that it promotes economic growth, increases market efficiency, and allows for the transfer of technology and knowledge across borders. Developing countries, in particular, have seen improvements in infrastructure and reductions in poverty as a result of increased foreign investment.\n\nHowever, globalization has also sparked criticism. Opponents argue that it leads to the exploitation of workers in poorer countries, widening the gap between rich and poor, and eroding local cultures. Additionally, multinational corporations often relocate operations to countries with lower labor costs, leading to job losses in their home countries. The debate over globalization remains complex, with its benefits and drawbacks continuing to shape global politics and economic policy.",
+        "questions": [
+          {
+            "id": 1,
+            "type": "multiple choice",
+            "sentence": "What is one criticism of globalization?",
+            "options": ["It decreases economic growth", "It widens the gap between rich and poor", "It reduces international trade", "It increases job opportunities in all countries"],
+            "correctAnswer": "It widens the gap between rich and poor"
+          },
+          {
+            "id": 2,
+            "type": "yes/no/not given",
+            "statement": "Globalization has led to reduced poverty in developing countries.",
+            "correctAnswer": "Yes"
+          },
+          {
+            "id": 3,
+            "type": "sentence completion",
+            "sentence": "One benefit of globalization is the increased transfer of _____ across borders.",
+            "options": ["culture", "labor", "technology", "money"],
+            "correctAnswer": "technology"
+          }
+        ]
+      },
+      {
+        "title": "The Complexity of Climate Change",
+        "passage": "Climate change refers to long-term changes in temperature, precipitation, and weather patterns, primarily driven by human activities such as burning fossil fuels and deforestation. The overwhelming majority of scientists agree that climate change poses significant risks to ecosystems, human health, and the global economy. Rising sea levels, more frequent extreme weather events, and disruptions to food production are just some of the consequences of a warming planet.\n\nMitigating climate change requires collective action on a global scale. Governments are encouraged to implement policies that reduce carbon emissions, invest in renewable energy, and promote sustainable practices. However, political and economic interests often complicate efforts to combat climate change, with some industries resistant to change due to the short-term costs associated with reducing emissions. Despite these challenges, global efforts like the Paris Agreement aim to limit global warming to well below 2°C compared to pre-industrial levels.",
+        "questions": [
+          {
+            "id": 4,
+            "type": "true/false/not given",
+            "statement": "The majority of scientists agree that climate change is primarily driven by natural factors.",
+            "correctAnswer": "False"
+          },
+          {
+            "id": 5,
+            "type": "multiple choice",
+            "sentence": "What is one major consequence of climate change?",
+            "options": ["Lower sea levels", "Increased economic growth", "More frequent extreme weather events", "Decreased global temperatures"],
+            "correctAnswer": "More frequent extreme weather events"
+          },
+          {
+            "id": 6,
+            "type": "sentence completion",
+            "sentence": "The Paris Agreement aims to limit global warming to well below _____ compared to pre-industrial levels.",
+            "options": ["1°C", "1.5°C", "2°C", "3°C"],
+            "correctAnswer": "2°C"
+          }
+        ]
+      },
+      {
+        "title": "The Future of Automation",
+        "passage": "Automation refers to the use of technology to perform tasks with minimal human intervention. From manufacturing robots to self-checkout machines, automation is rapidly transforming industries across the globe. Proponents argue that automation can increase productivity, reduce human error, and free workers from repetitive tasks. However, there are concerns that automation could lead to widespread unemployment, as machines and artificial intelligence (AI) replace human workers in various sectors.\n\nAs automation technology becomes more advanced, it is likely that its impact on employment will intensify. While some jobs will disappear, new roles in fields like AI development, robotics, and data analysis are expected to emerge. Governments and industries face the challenge of ensuring that workers have the necessary skills to adapt to this changing landscape. This includes investing in education, retraining programs, and social safety nets to mitigate the disruptive effects of automation.",
+        "questions": [
+          {
+            "id": 7,
+            "type": "heading matching",
+            "items": [
+              {
+                "id": "item1",
+                "content": "Automation may lead to job displacement."
+              },
+              {
+                "id": "item2",
+                "content": "Automation increases productivity and reduces errors."
+              },
+              {
+                "id": "item3",
+                "content": "Automation creates demand for new roles in emerging sectors."
+              }
+            ],
+            "headings": ["Benefits of Automation", "Job Creation in the Age of Automation", "Challenges of Automation"],
+            "correctPairs": {
+              "item1": "Challenges of Automation",
+              "item2": "Benefits of Automation",
+              "item3": "Job Creation in the Age of Automation"
+            }
+          },
+          {
+            "id": 8,
+            "type": "multiple choice",
+            "sentence": "What is one potential benefit of automation?",
+            "options": ["Increased human error", "Job displacement", "Increased productivity", "Higher labor costs"],
+            "correctAnswer": "Increased productivity"
+          }
+        ]
+      },
+      {
+        "title": "The Ethics of Artificial Intelligence",
+        "passage": "Artificial intelligence (AI) has the potential to revolutionize industries ranging from healthcare to finance. However, it also raises a number of ethical concerns. One of the primary issues is bias in AI algorithms, which can lead to unfair outcomes in areas like hiring, lending, and criminal justice. AI systems trained on biased data may perpetuate or even exacerbate existing inequalities.\n\nAnother ethical concern is the potential for AI to be used in surveillance and control, leading to violations of privacy and civil liberties. Governments and companies are increasingly using AI to monitor people’s behavior, raising fears of an Orwellian future where every action is tracked. Furthermore, there are concerns about the potential misuse of AI in warfare, where autonomous weapons could make decisions about life and death without human oversight. Addressing these ethical challenges will require a combination of regulation, transparency, and international cooperation.",
+        "questions": [
+          {
+            "id": 9,
+            "type": "yes/no/not given",
+            "statement": "AI can lead to biased outcomes in decision-making processes like hiring and criminal justice.",
+            "correctAnswer": "Yes"
+          },
+          {
+            "id": 10,
+            "type": "multiple choice",
+            "sentence": "What is one ethical concern about AI?",
+            "options": ["It improves privacy", "It decreases inequality", "It can be used in surveillance", "It eliminates all jobs"],
+            "correctAnswer": "It can be used in surveillance"
+          },
+          {
+            "id": 11,
+            "type": "sentence completion",
+            "sentence": "AI systems trained on biased data can _____ existing inequalities.",
+            "options": ["reduce", "ignore", "perpetuate", "disregard"],
+            "correctAnswer": "perpetuate"
+          }
+        ]
+      },
+      {
+        "title": "The Evolution of Digital Currencies",
+        "passage": "Digital currencies, such as Bitcoin and Ethereum, have emerged as an alternative to traditional financial systems. Unlike conventional currencies, which are issued by governments and regulated by central banks, digital currencies are decentralized and rely on blockchain technology. Proponents argue that digital currencies provide greater security, transparency, and financial freedom, particularly in regions where traditional banking systems are unstable or inaccessible.\n\nHowever, digital currencies are also highly volatile and have been associated with illegal activities, such as money laundering and tax evasion. Additionally, the environmental impact of cryptocurrency mining, which requires vast amounts of energy, has come under scrutiny. Despite these challenges, digital currencies continue to gain popularity, with some countries exploring the possibility of creating their own state-backed digital currencies.",
+        "questions": [
+          {
+            "id": 12,
+            "type": "true/false/not given",
+            "statement": "Digital currencies are regulated by central banks.",
+            "correctAnswer": "False"
+          },
+          {
+            "id": 13,
+            "type": "multiple choice",
+            "sentence": "What is one criticism of digital currencies?",
+            "options": ["They are stable", "They rely on blockchain technology", "They are associated with illegal activities", "They provide financial freedom"],
+            "correctAnswer": "They are associated with illegal activities"
+          },
+          {
+            "id": 14,
+            "type": "matching pairs",
+            "pairs": [
+              {
+                "id": "item1",
+                "text": "Bitcoin"
+              },
+              {
+                "id": "item2",
+                "text": "Ethereum"
+              },
+              {
+                "id": "item3",
+                "text": "Blockchain"
+              }
+            ],
+            "matchingOptions": [
+              "A technology used to secure digital currencies",
+              "A decentralized digital currency",
+              "A platform for decentralized applications"
+            ],
+            "correctPairs": {
+              "item1": "A decentralized digital currency",
+              "item2": "A platform for decentralized applications",
+              "item3": "A technology used to secure digital currencies"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "question": "What is your age?",
+      "options": ["Under 18", "18-35", "36-50", "Over 50"],
+      "scores": [0, 10, 5, 0]
+    },
+    {
+      "id": 2,
+      "question": "What is your highest level of education?",
+      "options": ["High School", "Bachelor's Degree", "Master's Degree", "PhD"],
+      "scores": [5, 10, 15, 20]
+    },
+    {
+      "id": 3,
+      "question": "Do you have a valid job offer in Canada?",
+      "options": ["Yes", "No"],
+      "scores": [10, 0]
+    },
+    {
+      "id": 4,
+      "question": "How many years of work experience do you have?",
+      "options": ["Less than 1 year", "1-3 years", "4-5 years", "More than 5 years"],
+      "scores": [0, 5, 10, 15]
+    },
+    {
+      "id": 5,
+      "question": "What is your level of proficiency in English or French?",
+      "options": ["Beginner", "Intermediate", "Advanced", "Fluent"],
+      "scores": [5, 10, 15, 20]
+    }
+  ]
+  

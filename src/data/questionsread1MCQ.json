@@ -1,0 +1,201 @@
+{
+    "sections": [
+      {
+        "passage": "Recycling has become an important part of waste management in many countries. Households are encouraged to separate their waste into different categories, such as glass, paper, and plastic, to make it easier for recycling plants to process the materials. The goal is to reduce the amount of waste sent to landfills, which are becoming increasingly full. Recycling not only conserves resources but also reduces the energy needed to produce new products from raw materials.\n\nDespite its benefits, not all materials can be recycled efficiently. Plastic, for example, is one of the most challenging materials to recycle. Many types of plastic cannot be processed by standard recycling facilities, and often end up in landfills or the ocean, causing environmental damage. Moreover, not all households participate in recycling schemes, either due to lack of knowledge or convenience. Governments and local councils have introduced programs to educate the public on how to recycle effectively and have placed recycling bins in public areas to encourage better waste disposal habits.\n\nIn addition to recycling, reducing the amount of waste we produce in the first place is crucial. Many businesses have started to adopt sustainable practices, such as using less packaging and offering products in reusable containers. Consumers are also encouraged to bring their own bags when shopping, use refillable water bottles, and avoid single-use items like plastic straws and cutlery. These small changes can collectively make a big difference in reducing the overall environmental impact.",
+        "questions": [
+          {
+            "id": 1,
+            "question": "What is one goal of recycling, according to the passage?",
+            "options": [
+              "To reduce the amount of energy used in households",
+              "To conserve landfill space",
+              "To make waste disposal more expensive",
+              "To encourage people to buy more products"
+            ],
+            "correct_answer": "To conserve landfill space"
+          },
+          {
+            "id": 2,
+            "question": "What challenge does the passage mention about recycling plastic?",
+            "options": [
+              "Plastic is the most valuable material for recycling plants.",
+              "All plastic can easily be recycled.",
+              "Many types of plastic are difficult to recycle.",
+              "Plastic recycling is more common than paper recycling."
+            ],
+            "correct_answer": "Many types of plastic are difficult to recycle."
+          },
+          {
+            "id": 3,
+            "question": "What have governments done to improve recycling habits?",
+            "options": [
+              "Banned all non-recyclable materials",
+              "Placed recycling bins in public areas",
+              "Required businesses to reduce waste",
+              "Increased the cost of recycling services"
+            ],
+            "correct_answer": "Placed recycling bins in public areas"
+          },
+          {
+            "id": 4,
+            "question": "What suggestion is made to help reduce waste?",
+            "options": [
+              "Using more plastic straws",
+              "Shopping less frequently",
+              "Bringing reusable bags when shopping",
+              "Using single-use items regularly"
+            ],
+            "correct_answer": "Bringing reusable bags when shopping"
+          }
+        ]
+      },
+      {
+        "passage": "Online shopping has revolutionized the way consumers purchase goods and services. With just a few clicks, people can browse products, compare prices, and make purchases from the comfort of their own homes. This convenience is one of the key reasons why online shopping has grown so rapidly over the past decade. Consumers no longer have to travel to physical stores or wait in long lines, making shopping faster and easier.\n\nHowever, online shopping also presents some challenges. One of the most common issues is the inability to physically inspect items before purchasing them. This can lead to dissatisfaction when the product received does not meet expectations. Additionally, delivery times can vary, and there may be concerns about the security of personal and payment information when shopping online.\n\nDespite these drawbacks, online retailers continue to improve their services. Many companies now offer free returns, making it easier for consumers to send back unwanted items. They also provide detailed product descriptions, customer reviews, and enhanced security measures to ensure a safe shopping experience. As a result, more and more consumers are choosing to shop online, and the trend shows no signs of slowing down.",
+        "questions": [
+          {
+            "id": 1,
+            "question": "What is one reason for the growth of online shopping?",
+            "options": [
+              "It offers better quality products.",
+              "It allows consumers to shop from home.",
+              "It has lower prices than physical stores.",
+              "It provides faster delivery than in-store shopping."
+            ],
+            "correct_answer": "It allows consumers to shop from home."
+          },
+          {
+            "id": 2,
+            "question": "What is one of the challenges mentioned about online shopping?",
+            "options": [
+              "The inability to inspect products before purchasing.",
+              "Limited payment methods available online.",
+              "Fewer product choices compared to stores.",
+              "Higher delivery costs for all items."
+            ],
+            "correct_answer": "The inability to inspect products before purchasing."
+          },
+          {
+            "id": 3,
+            "question": "What improvement have online retailers made to address customer concerns?",
+            "options": [
+              "Offering discounts on all products.",
+              "Providing free returns for unwanted items.",
+              "Shortening delivery times to one day.",
+              "Increasing the variety of products available."
+            ],
+            "correct_answer": "Providing free returns for unwanted items."
+          },
+          {
+            "id": 4,
+            "question": "What can consumers use to ensure they are making the right purchase?",
+            "options": [
+              "Discount codes and promotional offers.",
+              "Customer reviews and product descriptions.",
+              "Loyalty programs for frequent shoppers.",
+              "In-store consultation with sales staff."
+            ],
+            "correct_answer": "Customer reviews and product descriptions."
+          }
+        ]
+      },
+      {
+        "passage": "Public transportation plays a critical role in the daily lives of city dwellers. Buses, trains, and subways are among the most commonly used forms of transport, providing an affordable and convenient way to get around congested urban areas. In many cities, using public transport is not only cheaper than driving a personal vehicle but also helps reduce traffic congestion and air pollution.\n\nHowever, despite its benefits, public transportation systems are not without their issues. During peak hours, buses and trains can become overcrowded, making commuting an uncomfortable experience. Additionally, delays and cancellations are common, particularly during inclement weather. These issues often lead to frustration among commuters, who sometimes have no alternative but to wait for the next available service.\n\nTo address these problems, many cities have invested in improving their public transportation infrastructure. Some have introduced bus lanes to speed up travel times, while others have upgraded trains and buses to make them more energy-efficient. There has also been a push toward using electric buses and trains to reduce the environmental impact of public transport systems. These measures aim to encourage more people to use public transport, further reducing reliance on personal vehicles and contributing to a cleaner, greener environment.",
+        "questions": [
+          {
+            "id": 1,
+            "question": "What is one of the main benefits of public transportation mentioned in the passage?",
+            "options": [
+              "It is always faster than driving a car.",
+              "It helps reduce traffic congestion and air pollution.",
+              "It is free in most cities.",
+              "It requires no schedule planning."
+            ],
+            "correct_answer": "It helps reduce traffic congestion and air pollution."
+          },
+          {
+            "id": 2,
+            "question": "What problem with public transportation is highlighted in the passage?",
+            "options": [
+              "It is too expensive for most people.",
+              "It can be overcrowded during peak hours.",
+              "It operates only during limited hours.",
+              "It is not available in large cities."
+            ],
+            "correct_answer": "It can be overcrowded during peak hours."
+          },
+          {
+            "id": 3,
+            "question": "What solutions have cities introduced to improve public transportation?",
+            "options": [
+              "Increasing public transportation fares.",
+              "Building more parking spaces for cars.",
+              "Introducing bus lanes to speed up travel times.",
+              "Limiting the number of buses and trains."
+            ],
+            "correct_answer": "Introducing bus lanes to speed up travel times."
+          },
+          {
+            "id": 4,
+            "question": "How are cities making public transportation more environmentally friendly?",
+            "options": [
+              "By encouraging people to walk instead.",
+              "By upgrading to electric buses and trains.",
+              "By limiting the number of passengers per trip.",
+              "By reducing the cost of public transportation."
+            ],
+            "correct_answer": "By upgrading to electric buses and trains."
+          }
+        ]
+      },
+      {
+        "passage": "In recent years, working from home has become an increasingly popular option for employees around the world. Advances in technology, such as high-speed internet and video conferencing tools, have made it easier than ever for people to complete their tasks remotely. For many, working from home offers several advantages, including the flexibility to manage their own schedules and the elimination of long commutes. This has led to a better work-life balance for many employees, allowing them to spend more time with their families or pursue personal interests.\n\nHowever, working from home is not without its challenges. One major issue is the difficulty in separating work life from personal life, as both occur in the same space. Distractions such as household chores, family members, or even the temptation to watch TV can reduce productivity. Additionally, some employees may feel isolated without the social interaction that comes with working in an office, which can impact their mental well-being over time.\n\nTo make remote work more effective, experts recommend creating a dedicated workspace at home and setting strict working hours to maintain boundaries between work and personal life. Regular check-ins with colleagues and virtual team meetings can also help to maintain a sense of connection and accountability, ensuring that employees stay productive and engaged.",
+        "questions": [
+          {
+            "id": 1,
+            "question": "What is one advantage of working from home mentioned in the passage?",
+            "options": [
+              "Increased social interaction.",
+              "More flexible schedules.",
+              "Higher salaries.",
+              "Longer working hours."
+            ],
+            "correct_answer": "More flexible schedules."
+          },
+          {
+            "id": 2,
+            "question": "What is a challenge associated with working from home?",
+            "options": [
+              "Lack of reliable internet.",
+              "Too many meetings with colleagues.",
+              "Difficulty in separating work life from personal life.",
+              "Not enough work to do."
+            ],
+            "correct_answer": "Difficulty in separating work life from personal life."
+          },
+          {
+            "id": 3,
+            "question": "How can employees stay productive while working from home?",
+            "options": [
+              "By avoiding virtual meetings.",
+              "By checking in with colleagues regularly.",
+              "By working in multiple locations.",
+              "By avoiding a set work schedule."
+            ],
+            "correct_answer": "By checking in with colleagues regularly."
+          },
+          {
+            "id": 4,
+            "question": "What recommendation is given for maintaining boundaries between work and personal life?",
+            "options": [
+              "Working longer hours each day.",
+              "Creating a dedicated workspace at home.",
+              "Avoiding contact with colleagues.",
+              "Changing work locations frequently."
+            ],
+            "correct_answer": "Creating a dedicated workspace at home."
+          }
+        ]
+      }
+    ]
+  }
+  

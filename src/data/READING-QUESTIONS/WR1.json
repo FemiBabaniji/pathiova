@@ -1,0 +1,177 @@
+{
+    "passages": [
+      {
+        "title": "Remote Work: Challenges and Opportunities",
+        "passage": "The rise of remote work has brought about a significant shift in the traditional workplace environment. Companies have increasingly adopted flexible work-from-home policies, especially after the COVID-19 pandemic. While remote work offers numerous benefits, such as reduced commuting time and better work-life balance, it also presents challenges.\n\nOne major challenge is the feeling of isolation that employees may experience. Without the daily interaction with colleagues, remote workers may feel disconnected from their teams, which can affect morale and productivity. Additionally, managing work-life boundaries becomes more difficult when home becomes the workplace. Distractions at home, such as household chores or family responsibilities, can reduce focus and efficiency. However, with the right tools, such as video conferencing software and project management platforms, many companies have successfully transitioned to remote work models.",
+        "questions": [
+          {
+            "id": 1,
+            "type": "multiple choice",
+            "sentence": "What is one benefit of remote work?",
+            "options": ["Increased commuting time", "Improved work-life balance", "Reduced productivity", "More workplace distractions"],
+            "correctAnswer": "Improved work-life balance"
+          },
+          {
+            "id": 2,
+            "type": "true/false/not given",
+            "statement": "Remote work has eliminated the need for workplace communication.",
+            "correctAnswer": "False"
+          },
+          {
+            "id": 3,
+            "type": "matching pairs",
+            "pairs": [
+              {
+                "id": "item1",
+                "text": "Isolation"
+              },
+              {
+                "id": "item2",
+                "text": "Work-life balance"
+              },
+              {
+                "id": "item3",
+                "text": "Project management tools"
+              }
+            ],
+            "matchingOptions": [
+              "A challenge remote workers face",
+              "One of the benefits of remote work",
+              "Helps manage tasks in a remote setting"
+            ],
+            "correctPairs": {
+              "item1": "A challenge remote workers face",
+              "item2": "One of the benefits of remote work",
+              "item3": "Helps manage tasks in a remote setting"
+            }
+          }
+        ]
+      },
+      {
+        "title": "The Gig Economy",
+        "passage": "The gig economy, characterized by short-term contracts and freelance work, has grown rapidly over the past decade. This shift has been fueled by technological platforms like Uber, Airbnb, and Fiverr, which connect workers with customers. For many individuals, the gig economy offers flexibility and the ability to work independently. However, it also lacks the job security and benefits that traditional employment provides.\n\nOne of the main criticisms of the gig economy is the lack of protections for workers. Gig workers are often classified as independent contractors, meaning they are not entitled to benefits such as health insurance, paid leave, or retirement contributions. While some workers value the autonomy that comes with gig work, others struggle with the uncertainty and financial instability it creates.",
+        "questions": [
+          {
+            "id": 4,
+            "type": "multiple choice",
+            "sentence": "Which of the following is a characteristic of the gig economy?",
+            "options": ["Long-term job contracts", "Freelance work", "Employee benefits", "Guaranteed job security"],
+            "correctAnswer": "Freelance work"
+          },
+          {
+            "id": 5,
+            "type": "true/false/not given",
+            "statement": "Gig workers are entitled to health insurance and retirement benefits.",
+            "correctAnswer": "False"
+          },
+          {
+            "id": 6,
+            "type": "sentence completion",
+            "sentence": "The gig economy offers workers _____ but lacks job security and benefits.",
+            "options": ["autonomy", "stability", "high pay", "dependability"],
+            "correctAnswer": "autonomy"
+          }
+        ]
+      },
+      {
+        "title": "Workplace Automation",
+        "passage": "Automation has rapidly changed the landscape of many industries. From manufacturing to customer service, machines and software systems have replaced numerous tasks once performed by humans. This trend has led to concerns about job displacement, as many fear that automation will reduce the number of available jobs, particularly in sectors that rely heavily on manual labor or repetitive tasks.\n\nHowever, proponents argue that automation can also create new opportunities. By automating routine tasks, businesses can shift their workforce towards higher-value work that requires creativity, critical thinking, and interpersonal skills. For instance, while automated checkout systems may reduce the need for cashiers, they also create demand for technicians to maintain the machines and developers to improve the software. The key to successfully navigating workplace automation lies in reskilling the workforce to adapt to new roles.",
+        "questions": [
+          {
+            "id": 7,
+            "type": "multiple choice",
+            "sentence": "What is one potential positive impact of automation?",
+            "options": ["Increased job displacement", "Creation of new high-value roles", "Elimination of all manual jobs", "Reduction in job training needs"],
+            "correctAnswer": "Creation of new high-value roles"
+          },
+          {
+            "id": 8,
+            "type": "yes/no/not given",
+            "statement": "Automation will eliminate all jobs in the service sector.",
+            "correctAnswer": "No"
+          },
+          {
+            "id": 9,
+            "type": "sentence completion",
+            "sentence": "Automation can shift workers towards roles that require _____ and interpersonal skills.",
+            "options": ["repetitive tasks", "physical labor", "critical thinking", "manual dexterity"],
+            "correctAnswer": "critical thinking"
+          }
+        ]
+      },
+      {
+        "title": "Corporate Social Responsibility",
+        "passage": "Corporate social responsibility (CSR) has become a key focus for many businesses in recent years. CSR refers to the initiatives companies take to address their impact on society and the environment. These efforts can range from reducing carbon footprints and minimizing waste to improving labor practices and engaging in philanthropy. Many businesses see CSR as a way to enhance their reputation and attract socially conscious consumers.\n\nHowever, CSR initiatives are not without their critics. Some argue that companies use CSR as a form of 'greenwashing'—a way to appear environmentally friendly without making meaningful changes to their business practices. Others believe that CSR is a distraction from the real issue of holding companies accountable for their actions. Despite these criticisms, CSR remains a growing trend in the business world, with more companies adopting sustainability and ethical practices as part of their core values.",
+        "questions": [
+          {
+            "id": 10,
+            "type": "multiple choice",
+            "sentence": "What is one criticism of corporate social responsibility?",
+            "options": ["It reduces waste", "It is used as greenwashing", "It enhances company reputation", "It helps improve labor practices"],
+            "correctAnswer": "It is used as greenwashing"
+          },
+          {
+            "id": 11,
+            "type": "yes/no/not given",
+            "statement": "Corporate social responsibility is seen by some as a distraction from holding companies accountable for their actions.",
+            "correctAnswer": "Yes"
+          },
+          {
+            "id": 12,
+            "type": "matching pairs",
+            "pairs": [
+              {
+                "id": "item1",
+                "text": "Philanthropy"
+              },
+              {
+                "id": "item2",
+                "text": "Greenwashing"
+              },
+              {
+                "id": "item3",
+                "text": "Sustainability"
+              }
+            ],
+            "matchingOptions": [
+              "A form of CSR that involves donating to charities",
+              "Making superficial environmental efforts",
+              "The practice of maintaining ecological balance"
+            ],
+            "correctPairs": {
+              "item1": "A form of CSR that involves donating to charities",
+              "item2": "Making superficial environmental efforts",
+              "item3": "The practice of maintaining ecological balance"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Leadership Styles in the Modern Workplace",
+        "passage": "Leadership in the modern workplace has evolved from traditional top-down approaches to more collaborative and adaptive styles. One of the most popular leadership models today is transformational leadership, which emphasizes inspiring and motivating employees to achieve their full potential. Transformational leaders focus on creating a positive work environment, fostering innovation, and supporting the professional growth of their teams.\n\nIn contrast, transactional leadership focuses more on structure and clear directives. Transactional leaders often use rewards and punishments to achieve compliance and maintain order. While this leadership style can be effective in certain situations, it may stifle creativity and limit long-term employee engagement. Ultimately, the best leadership approach depends on the specific needs of the organization and the individuals being led.",
+        "questions": [
+          {
+            "id": 13,
+            "type": "multiple choice",
+            "sentence": "Which leadership style focuses on inspiring and motivating employees?",
+            "options": ["Transactional leadership", "Micromanagement", "Transformational leadership", "Autocratic leadership"],
+            "correctAnswer": "Transformational leadership"
+          },
+          {
+            "id": 14,
+            "type": "true/false/not given",
+            "statement": "Transactional leadership often relies on rewards and punishments to achieve compliance.",
+            "correctAnswer": "True"
+          },
+          {
+            "id": 15,
+            "type": "sentence completion",
+            "sentence": "Transformational leadership is known for fostering innovation and supporting employees' _____.",
+            "options": ["financial goals", "professional growth", "productivity", "work-life balance"],
+            "correctAnswer": "professional growth"
+          }
+        ]
+      }
+    ]
+  }
+  
