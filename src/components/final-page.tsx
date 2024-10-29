@@ -116,7 +116,7 @@ export default function FinalPage({ onStartJourney }: FinalPageProps) {
                   Sign up
                 </Button>
                 <p className="mt-4  text-center text-gray-500">
-                  By clicking Sign up, I agree to Brilliant's{" "}
+                  By clicking Sign up, I agree to Pathova's{" "}
                   <a href="#" className="underline">
                     Terms
                   </a>{" "}

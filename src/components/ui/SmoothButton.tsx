@@ -10,7 +10,7 @@ export default function SmoothButton({ className, children, ...props }: SmoothBu
   return (
     <button
       className={cn(
-        "relative px-6 py-3 bg-orange-500 text-white font-bold uppercase tracking-wider rounded-xl shadow-[0_5px_0_#58a700] active:shadow-none active:translate-y-[5px] transition-all duration-150 ease-in-out",
+        "relative px-6 py-3 bg-[#58cc02] text-white font-bold uppercase tracking-wider rounded-xl shadow-[0_5px_0_#58a700] active:shadow-none active:translate-y-[5px] transition-all duration-150 ease-in-out",
         className
       )}
       {...props}
