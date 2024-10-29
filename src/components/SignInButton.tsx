@@ -1,19 +1,29 @@
-"use client";
 import React from "react";
-import { Button } from "./ui/button";
 import { signIn } from "next-auth/react";
+import { cn } from "@/lib/utils"; // Ensure utils are correctly imported
 
-type Props = { text: string };
+interface SignInButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  className?: string;
+  children: React.ReactNode;
+}
 
-const SignInButton = ({ text }: Props) => {
+const SignInButton = ({ className, children, ...props }: SignInButtonProps) => {
   return (
-    <Button
+    <button
+      className={cn(
+        "relative px-6 py-3 font-bold uppercase tracking-wider rounded-full",
+        "bg-gray-500 hover:bg-gray-600 text-white", // Grey background and hover states
+        "shadow-[0_8px_0_#4B5563] active:shadow-none active:translate-y-[8px]", // Grey shadow and active effect
+        "transition-all duration-150 ease-in-out shimmer-btn-light-grey overflow-hidden", // Grey shimmer effect
+        className
+      )}
+      {...props}
       onClick={() => {
-        signIn("google", { callbackUrl: "/dashboard" }).catch(console.error);
+        signIn("google", { callbackUrl: "/dashboard" }).catch(console.error); // Sign in with Google
       }}
     >
-      {text}
-    </Button>
+      <span className="relative z-10">{children}</span>
+    </button>
   );
 };
 

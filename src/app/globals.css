@@ -85,3 +85,35 @@
 .dashboard-container {
   @apply flex-1 bg-gray-50 p-10 shadow-lg;
 }
+
+/* Shimmer effect styles */
+.shimmer-btn {
+  background-color: #FF7A00;
+  background-image: linear-gradient(
+    -60deg,
+    transparent,
+    transparent 40%,
+    rgba(255, 255, 255, 0.5) 45%,
+    rgba(255, 255, 255, 0.5) 55%,
+    transparent 60%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  background-repeat: no-repeat;
+  background-position-x: 150%;
+  transition: background-color 300ms, background-position-x 600ms;
+}
+
+.shimmer-btn:hover {
+  background-color: #FF8C1A; /* Slightly lighter orange */
+  background-image: linear-gradient(
+    -60deg,
+    transparent,
+    transparent 40%,
+    rgba(255, 255, 255, 0.6) 45%, /* Increased opacity */
+    rgba(255, 255, 255, 0.6) 55%, /* Increased opacity */
+    transparent 60%,
+    transparent 100%
+  );
+  background-position-x: -150%;
+}
